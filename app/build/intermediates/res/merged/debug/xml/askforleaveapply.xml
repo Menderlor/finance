@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormDEF Type="报销申请单" RowCount="18" ColumnCount="6">
+	<MasterArea Name="表头" RowCount="3" ColumnCount="6">
+        <Text Text="总金额" Grid.Row="14" Grid.Column="3" ColumnSpan="1" />
+        <Data Style="Double" Binding="总金额" Expression="SUM(金额)" Grid.Row="14" 
+          	  Grid.Column="4" ColumnSpan="2" />
+        <Text Text="申请时间" Grid.Row="15" Grid.Column="0" ColumnSpan="1" />
+        <Data DataType="Date" Style="DatePicker" Binding="时间" DefaultValue="[Now]" 
+        	  Grid.Row="15" Grid.Column="1" ColumnSpan="5" />
+        <Text Text="备注" Grid.Row="16" Grid.Column="0" RowSpan="2" ColumnSpan="1" />
+        <Data Style="String" Binding="备注" RowSpan="2" Grid.Row="16" Grid.Column="1" 
+              ColumnSpan="5" />
+        <Text Text="客户" Grid.Row="2" Grid.Column="0" ColumnSpan="1" />
+        <Data Style="ComboBox" DisplayMemberPath="名称" ValueMemberPath="编号" 
+			  Grid.Row="2" Grid.Column="1" Dict="客户" ColumnSpan="5" Binding="客户" />
+	</MasterArea>
+</FormDEF>

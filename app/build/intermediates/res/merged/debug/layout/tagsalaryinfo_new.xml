@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="考勤详情" />
+
+        <ImageView
+            android:id="@+id/imageViewNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/new_item"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="@dimen/marginTop_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签到时间" />
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签到位置" />
+
+                <TextView
+                    android:id="@+id/textViewContent"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签到图片" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/addImageView_tagsalary"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="迟到原因" />
+
+                <TextView
+                    android:id="@+id/tv_reason_late_tag_info"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <!-- 签退信息 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/bg_list" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签退时间" />
+
+                <TextView
+                    android:id="@+id/textViewTime_signOut"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签退位置" />
+
+                <TextView
+                    android:id="@+id/tv_signOut_address_info"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="签退图片" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/addImageView_tagsalary_signout"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="早退原因" />
+
+                <TextView
+                    android:id="@+id/tv_reason_earlyLeave_tag_info"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

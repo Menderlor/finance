@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/little_gray"
+        android:paddingLeft="15dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/zmy_layout_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alpha"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/fl_photo_userSelect"
+            android:layout_width="65dp"
+            android:layout_height="65dp" >
+
+            <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                android:id="@+id/iv_photo_userSelect_zmy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tx"
+                app:siShape="@drawable/shape_rounded_rectangle"
+                app:siSquare="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/avatar_layer"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageView1_userSelect_zmy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/flag_no" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name_userSelect_zmy"
+        style="@style/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zmy_layout_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="123"
+        android:textSize="15sp" />
+
+</RelativeLayout>

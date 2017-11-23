@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 项目详情的新布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_header_project_info"
+        style="@style/style_header_layout">
+
+        <ImageView
+            android:id="@+id/iv_back_project_inofo"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_notice_info_title"
+            style="@style/title_common"
+            android:text="项目详情" />
+
+        <ImageView
+            android:id="@+id/iv_save_project_inofo"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_addnotice"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView_content_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_root_publish_discuss_project_info"
+        android:layout_below="@+id/rl_header_project_info"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/zl_back"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginTop_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_title_notice_info"
+                    style="@style/task_style_ll_info" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="项目" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_name_project_ifno"
+                        style="@style/style_text_right_info"
+                        android:text="名称" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_line_id1"
+                    style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_title_notice_info1"
+                    style="@style/task_style_ll_info" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="参与人" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_paticipant_project_info"
+                        style="@style/style_text_right_info"
+                        android:text="参与人姓名" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_line_id"
+                    style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_publiser"
+                    style="@style/task_style_ll_info"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="进度" />
+
+                    <ProgressBar
+                        android:id="@+id/pbar_project_info"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="10dp"
+                        android:layout_weight="3"
+                        android:max="100"
+                        android:paddingRight="8dp"
+                        android:progress="70"
+                        android:progressDrawable="@drawable/progress_horizontal" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_attachImg_noticeinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_attach"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <View style="@style/style_line_horizontal" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pbar_upload_attach_project_info"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:max="100"
+                android:progress="70"
+                android:progressDrawable="@drawable/progress_horizontal" 
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/ll_attchment_project_info"
+                style="@style/style_list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="附件数量"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_attach_count_project_info"
+                    style="@style/style_text_right_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:text="0"
+                    android:textSize="13sp" />
+
+                <View style="@style/style_line_vertical" />
+
+                <ImageView
+                    android:id="@+id/iv_add_attach_project_info"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.2"
+                    android:clickable="true"
+                    android:src="@drawable/attachment_add_icon" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="8dp" >
+
+                <com.cedarhd.control.BoeryunNoScrollGridView
+                    android:id="@+id/gv_project_info_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:cacheColorHint="@null"
+                    android:gravity="center"
+                    android:horizontalSpacing="3dp"
+                    android:listSelector="@null"
+                    android:numColumns="3"
+                    android:verticalSpacing="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_root_comment_project_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:minHeight="100dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_hot_comment_worklog"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:orientation="horizontal" >
+
+                    <!-- 热门评论 -->
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/theme_new" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="讨论区"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_commentlist_project_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/rl_root_publish_discuss_project_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <!-- 发表评论区域 -->
+
+        <EditText
+            android:id="@+id/et_project_info_discuss"
+            android:layout_width="220dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:background="@drawable/shape_searchview_bg"
+            android:gravity="left|center_vertical"
+            android:hint="我也说两句"
+            android:paddingLeft="5dp"
+            android:textSize="15sp" />
+
+        <TextView
+            style="@style/style_button_blue"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="发表"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

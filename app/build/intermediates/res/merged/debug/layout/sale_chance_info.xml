@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 销售机会详情、新建页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_salechance"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/ivCance_salechanceinfo2"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_title_sale_chance_info2"
+            style="@style/title_common"
+            android:text="销售机会详情" />
+
+        <ImageView
+            android:id="@+id/ivDone_salechanceinfo2"
+            android:layout_alignParentRight="true"
+            style="@style/style_header_button"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_addconstact"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title_salechance" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp" >
+                
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="客户" />
+					
+                    
+					<EditText
+						android:layout_width="0.1dp"
+						android:layout_height="wrap_content"
+						android:visibility="gone"/>                    
+                    <EditText
+                        android:id="@+id/etClientName_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:focusable="false"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="联系人" />
+
+                    <EditText
+                        android:id="@+id/etContactName_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:focusable="false"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    style="@style/task_style_ll_info"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="计划联系" />
+
+                    <EditText
+                        android:id="@+id/etPlanTime_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="业务员" />
+
+                    <EditText
+                        android:id="@+id/et_saler_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:focusable="false"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="电话" />
+
+                    <EditText
+                        android:id="@+id/et_phone_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" 
+                    android:visibility="gone" />
+
+                <LinearLayout style="@style/task_style_ll_info"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="地址" />
+
+                    <EditText
+                        android:id="@+id/et_address_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="预计金额" />
+
+                    <EditText
+                        android:id="@+id/et_estimatedamount_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:numeric="decimal"
+                        android:ems="10" 
+                        android:text="0">
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="实际金额" />
+
+                    <EditText
+                        android:id="@+id/et_totalamount_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:numeric="decimal"
+                        android:text="0"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" 
+                    android:visibility="gone"/>
+
+                <LinearLayout style="@style/task_style_ll_info" 
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="阶段" />
+
+                    <EditText
+                        android:id="@+id/et_stage_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:focusable="false"
+                        android:ems="10" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    style="@style/task_style_ll_info"
+                    android:layout_height="125dp" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="内容" />
+
+                    <EditText
+                        android:id="@+id/et_content_salechanceinfo2"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:height="125dp" />
+                    <requestFocus />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_keybord2_salechance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:src="@drawable/chatting_keyboard_btn_normal" />
+
+                    <Button
+                        android:id="@+id/btn_speek2_salechance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/chatting_btn_bg"
+                        android:text="点击说话" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/iv_contact_list_salechance2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_contact_list" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="联系记录"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_contact_add_salechance2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_contacts_new" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建联系"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_workplan_list_salechance2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="工作计划"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_workplan_new_salechance2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan_new" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建计划"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

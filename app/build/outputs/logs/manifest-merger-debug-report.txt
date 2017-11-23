@@ -1,0 +1,2080 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:2:1-1183:12
+	package
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:3:5-26
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:6:5-32
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:4:5-43
+uses-sdk
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:10:5-12:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/ernesto/.android/build-cache/1db458323965fdc0e40b1f91c2d8d21ba30da831/output/AndroidManifest.xml:20:5-43
+MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:12:9-38
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:11:9-35
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:17:22-67
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:24:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:26:5-92
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:26:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:27:5-95
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:28:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:30:5-95
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:32:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:43:5-97
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:43:22-78
+uses-permission#android.permission.ACCES_MOCK_LOCATION
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:44:5-94
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:44:22-75
+uses-permission#android.permission.ACCESS_GPS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:45:5-69
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:45:22-66
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:46:5-75
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:46:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:48:5-97
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:48:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:49:5-100
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:49:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:50:5-84
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:50:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:51:5-80
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:51:22-77
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:53:5-88
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:53:22-85
+uses-permission#android.permission.CAMERA
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:54:5-81
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:54:22-62
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:55:5-68
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:55:22-65
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:57:5-91
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:57:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:59:5-68
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:59:22-65
+uses-feature#android.hardware.camera
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:61:5-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:61:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:62:5-70
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:62:19-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:64:5-72
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:64:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:65:5-73
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:65:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:68:5-78
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:68:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:71:5-81
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:71:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:72:5-73
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:72:22-70
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:73:5-79
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:73:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:74:5-84
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:74:22-81
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:77:5-68
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:77:22-65
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:78:5-72
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:78:22-69
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:79:5-69
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:79:22-66
+application
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:81:5-1171:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/ernesto/.android/build-cache/1db458323965fdc0e40b1f91c2d8d21ba30da831/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:84:9-41
+	android:icon
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:83:9-38
+	android:persistent
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:85:9-34
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:82:9-46
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:102:9-104:56
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:104:13-53
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:103:13-52
+uses-library#android.test.runner
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:106:9-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:106:23-57
+activity#com.cedarhd.GuideActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:108:9-111:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:111:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:109:13-53
+activity#com.cedarhd.NavActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:112:9-122:20
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:114:13-45
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:115:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:117:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:113:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:118:13-121:29
+action#android.intent.action.MAIN
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:119:17-69
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:119:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:120:17-77
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:120:27-74
+activity#com.cedarhd.LoginActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:123:9-128:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:125:13-45
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:126:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:128:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:124:13-53
+activity#com.cedarhd.InviteDownloadActivity02
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:129:9-132:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:131:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:132:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:130:13-64
+activity#com.cedarhd.MenuActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:133:9-137:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:136:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:135:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:137:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:134:13-52
+activity#com.cedarhd.SpaceFragmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:138:9-141:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:140:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:141:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:139:13-61
+activity#com.cedarhd.MenuNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:142:9-146:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:145:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:144:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:146:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:143:13-55
+activity#com.cedarhd.TabMainActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:147:9-151:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:150:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:149:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:151:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:148:13-55
+activity#com.cedarhd.SettingAvatarActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:152:9-155:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:154:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:155:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:153:13-61
+activity#com.cedarhd.SetPasswordActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:156:9-159:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:159:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:157:13-59
+activity#com.cedarhd.SettingUserInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:160:9-163:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:162:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:163:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:161:13-63
+activity#com.cedarhd.TagActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:164:9-169:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:168:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:167:13-44
+	android:configChanges
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:166:13-74
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:169:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:165:13-51
+activity#com.cedarhd.NoticeListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:170:9-174:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:173:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:172:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:174:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:171:13-58
+activity#com.viewpagerindicator.samples.SampleTabsDefaultActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:175:9-177:61
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:176:13-84
+activity#com.viewpagerindicator.samples.SampleTabsStyled
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:178:9-180:61
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:179:13-75
+activity#com.cedarhd.NoticeActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:181:9-185:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:184:13-49
+	android:configChanges
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:183:13-63
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:185:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:182:13-54
+activity#com.cedarhd.NoticeNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:186:9-189:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:188:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:189:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:187:13-57
+activity#com.cedarhd.WorkLogActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:190:9-193:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:192:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:193:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:191:13-55
+activity#com.cedarhd.WorkLogSearchActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:194:9-197:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:196:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:197:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:195:13-61
+activity#com.cedarhd.CustomerListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:198:9-202:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:201:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:200:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:202:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:199:13-60
+activity#com.cedarhd.CustomerDetailActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:203:9-206:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:205:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:206:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:204:13-62
+activity#com.cedarhd.SalesManagementListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:207:9-210:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:209:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:210:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:208:13-67
+activity#com.cedarhd.SalesChanceListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:211:9-214:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:213:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:214:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:212:13-63
+activity#com.cedarhd.CustomerNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:215:9-218:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:217:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:218:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:216:13-59
+activity#com.cedarhd.SalesChanceDetailActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:219:9-222:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:221:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:222:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:220:13-65
+activity#com.cedarhd.ContactHistoryActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:229:9-232:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:231:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:232:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:230:13-62
+activity#com.cedarhd.SignListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:233:9-236:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:235:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:236:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:234:13-56
+activity#com.cedarhd.SignActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:237:9-240:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:239:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:240:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:238:13-52
+activity#com.cedarhd.User_SelectActivityNew
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:241:9-244:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:243:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:244:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:242:13-62
+activity#com.cedarhd.CheckBoxListViewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:245:9-248:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:247:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:248:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:246:13-64
+activity#com.cedarhd.Common_Sort_SelectActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:249:9-252:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:251:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:252:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:250:13-66
+activity#com.cedarhd.ScheduleManagementActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:253:9-256:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:255:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:256:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:254:13-66
+activity#com.cedarhd.ScheduleListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:257:9-260:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:259:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:260:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:258:13-60
+activity#com.cedarhd.TagSalaryListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:261:9-264:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:263:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:264:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:262:13-61
+activity#com.cedarhd.TagSalaryInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:265:9-268:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:267:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:268:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:266:13-61
+activity#com.cedarhd.TagMapActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:269:9-272:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:271:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:272:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:270:13-54
+activity#com.cedarhd.AskForLeaveListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:273:9-276:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:276:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:274:13-63
+activity#com.cedarhd.AskForLeaveInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:277:9-280:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:279:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:280:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:278:13-63
+activity#com.cedarhd.CreateVmDetailsFormActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:283:9-285:72
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:285:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:284:13-67
+activity#com.cedarhd.CreateVmDetailsFormAddRowActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:286:9-289:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:288:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:289:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:287:13-73
+activity#com.cedarhd.CreateVmFormActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:290:9-293:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:292:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:293:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:291:13-60
+activity#com.cedarhd.SmsActity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:294:9-297:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:296:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:297:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:295:13-49
+activity#com.cedarhd.InvitationActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:298:9-301:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:300:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:301:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:299:13-58
+activity#com.cedarhd.Invitation_infoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:302:9-305:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:304:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:305:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:303:13-63
+activity#com.cedarhd.RecordActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:306:9-309:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:308:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:309:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:307:13-54
+activity#com.cedarhd.DiamondDetailsActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:310:9-313:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:312:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:313:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:311:13-62
+activity#com.cedarhd.AlarmActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:314:9-317:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:316:13-57
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:317:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:315:13-53
+service#com.cedarhd.services.DynamicRemindService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:321:9-77
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:321:18-74
+service#com.cedarhd.services.PhoneService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:322:9-69
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:322:18-66
+service#com.cedarhd.services.TaskAlarmService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:323:9-73
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:323:18-70
+service#com.cedarhd.helpers.DownloadIntentService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:324:9-77
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:324:18-74
+service#com.baidu.location.f
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:326:9-329:49
+	android:enabled
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:328:13-35
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:329:13-38
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:327:13-48
+activity#com.cedarhd.OrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:331:9-334:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:333:13-57
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:334:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:332:13-57
+activity#com.cedarhd.OrderActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:335:9-338:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:337:13-57
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:338:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:336:13-53
+activity#com.cedarhd.TaskListActivityNew
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:339:9-343:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:342:13-49
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:341:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:343:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:340:13-59
+activity#com.cedarhd.TaskInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:344:9-347:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:346:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:347:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:345:13-56
+activity#com.cedarhd.TaskNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:348:9-351:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:350:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:351:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:349:13-55
+activity#com.cedarhd.ErpOrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:352:9-355:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:354:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:355:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:353:13-60
+activity#com.cedarhd.ClientListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:356:9-359:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:358:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:359:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:357:13-58
+activity#com.cedarhd.ClientConstactListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:360:9-363:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:362:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:363:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:361:13-66
+activity#com.cedarhd.ClientInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:364:9-367:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:366:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:367:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:365:13-58
+activity#com.cedarhd.DepartmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:368:9-371:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:370:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:371:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:369:13-58
+activity#com.cedarhd.SelectDepartmnetActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:372:9-375:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:374:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:375:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:373:13-64
+activity#com.cedarhd.DepartmentActivity1
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:376:9-379:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:378:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:379:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:377:13-59
+activity#com.cedarhd.ClientConstactNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:380:9-383:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:382:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:383:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:381:13-65
+activity#com.cedarhd.SaleChanceListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:384:9-387:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:386:13-63
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:387:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:385:13-62
+activity#com.cedarhd.SaleChanceInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:388:9-391:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:390:13-68
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:391:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:389:13-62
+activity#com.cedarhd.AdvertisementActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:392:9-395:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:394:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:395:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:393:13-61
+activity#com.cedarhd.SettingActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:396:9-399:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:398:13-59
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:399:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:397:13-55
+activity#com.cedarhd.ClientConstactInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:400:9-403:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:402:13-72
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:403:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:401:13-66
+activity#com.cedarhd.Approval_Opinion
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:405:9-408:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:407:13-72
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:408:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:406:13-56
+activity#com.cedarhd.TestActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:409:9-412:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:411:13-56
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:412:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:410:13-52
+activity#com.cedarhd.TestListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:413:9-416:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:415:13-61
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:416:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:414:13-56
+activity#com.cedarhd.TestInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:417:9-420:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:419:13-61
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:420:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:418:13-56
+activity#com.cedarhd.TestNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:421:9-424:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:423:13-61
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:424:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:422:13-55
+activity#com.cedarhd.MeasureListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:425:9-428:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:427:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:428:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:426:13-59
+activity#com.cedarhd.SettingNoticeActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:429:9-432:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:431:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:432:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:430:13-61
+activity#com.cedarhd.FindPasswordActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:433:9-436:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:435:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:436:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:434:13-60
+activity#com.cedarhd.NoticeActivity1
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:437:9-440:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:439:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:440:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:438:13-55
+activity#com.cedarhd.AskForLeaveMoreFormFragmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:441:9-444:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:443:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:444:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:442:13-75
+activity#com.cedarhd.ApplyListFragmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:445:9-448:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:447:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:448:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:446:13-65
+activity#com.cedarhd.ApplyInStockListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:449:9-452:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:451:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:452:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:450:13-64
+activity#com.cedarhd.ApplyOutStockListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:453:9-456:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:455:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:456:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:454:13-65
+activity#com.cedarhd.NewFormWebviewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:457:9-460:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:459:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:460:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:458:13-62
+activity#com.cedarhd.NoticeListActivitynew
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:461:9-464:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:463:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:464:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:462:13-61
+activity#com.cedarhd.FeedbackListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:465:9-468:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:467:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:468:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:466:13-60
+activity#com.cedarhd.FeedbackInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:469:9-472:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:471:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:472:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:470:13-60
+activity#com.cedarhd.FeedbackNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:473:9-476:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:475:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:476:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:474:13-59
+activity#com.cedarhd.RegisterActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:477:9-480:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:479:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:480:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:478:13-56
+activity#com.cedarhd.WebviewNormalActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:482:9-484:84
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:484:13-72
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:483:13-61
+receiver#com.cedarhd.receiver.AlarmReceiver
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:488:9-490:50
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:490:13-38
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:489:13-62
+receiver#com.cedarhd.receiver.TaskNotificaitionReceiver
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:491:9-493:50
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:493:13-38
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:492:13-74
+activity#com.cedarhd.AuditFormActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:495:9-498:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:497:13-62
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:498:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:496:13-57
+activity#com.cedarhd.CommunicationListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:499:9-502:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:501:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:502:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:500:13-65
+activity#com.cedarhd.CompanySpaceActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:503:9-506:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:505:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:506:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:504:13-60
+activity#com.cedarhd.CompanySpaceListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:507:9-510:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:509:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:510:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:508:13-64
+activity#com.cedarhd.CompanyShareSpaceActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:511:9-514:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:513:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:514:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:512:13-65
+activity#com.cedarhd.CompanySpaceInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:515:9-518:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:517:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:518:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:516:13-64
+activity#com.cedarhd.CompanySpaceNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:519:9-522:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:521:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:522:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:520:13-63
+activity#com.cedarhd.ShareInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:523:9-526:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:525:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:526:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:524:13-57
+activity#com.cedarhd.SuggestListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:527:9-530:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:529:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:530:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:528:13-59
+activity#com.cedarhd.SuggestActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:531:9-534:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:533:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:534:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:532:13-55
+activity#com.cedarhd.ProfitCaculatorActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:535:9-538:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:537:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:538:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:536:13-63
+activity#com.cedarhd.ProfitCaculatorInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:539:9-542:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:541:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:542:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:540:13-67
+activity#com.cedarhd.SuggestNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:543:9-546:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:545:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:546:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:544:13-58
+activity#com.cedarhd.ClientContactDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:547:9-550:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:549:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:550:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:548:13-68
+activity#com.cedarhd.WorkLogDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:551:9-554:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:553:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:554:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:552:13-62
+activity#com.cedarhd.DepartmentSpaceListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:555:9-558:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:557:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:558:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:556:13-67
+activity#com.cedarhd.DepartmentSpaceNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:559:9-562:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:561:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:562:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:560:13-66
+activity#com.cedarhd.WorkOrderActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:563:9-566:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:565:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:566:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:564:13-57
+activity#com.cedarhd.WorkorderinfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:567:9-570:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:569:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:570:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:568:13-61
+activity#com.cedarhd.WorkOrderXiaoQuActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:571:9-574:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:573:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:574:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:572:13-63
+activity#com.cedarhd.WorkOrderXiaoQuInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:575:9-578:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:577:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:578:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:576:13-67
+activity#com.cedarhd.WorkOrderYesActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:579:9-582:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:581:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:582:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:580:13-60
+activity#com.cedarhd.WorkOrderNoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:583:9-586:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:585:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:586:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:584:13-59
+activity#com.cedarhd.TaskDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:587:9-590:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:589:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:590:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:588:13-59
+activity#com.cedarhd.InviteDownloadActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:591:9-600:20
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:593:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:594:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:592:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:595:13-599:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:598:17-86
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:598:27-83
+activity#com.cedarhd.PlayerActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:601:9-603:74
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:603:13-71
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:602:13-54
+activity#com.cedarhd.DetailsActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:604:9-64
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:604:19-61
+activity#com.cedarhd.WorkLogWeekListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:605:9-608:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:607:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:608:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:606:13-63
+activity#com.cedarhd.WorkLogWeekNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:609:9-612:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:611:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:612:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:610:13-62
+activity#com.cedarhd.WorkLogWeekInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:613:9-616:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:615:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:616:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:614:13-63
+activity#com.cedarhd.WorkLogMonthNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:617:9-620:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:619:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:620:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:618:13-63
+activity#com.cedarhd.WorkLogMonthInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:621:9-624:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:623:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:624:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:622:13-64
+activity#com.cedarhd.TaskContentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:625:9-629:76
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:627:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:629:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:628:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:626:13-59
+activity#com.cedarhd.DiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:630:9-633:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:632:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:633:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:631:13-55
+activity#com.cedarhd.ClientConstactDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:634:9-637:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:636:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:637:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:635:13-69
+activity#com.cedarhd.SignListFragmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:638:9-641:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:640:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:641:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:639:13-64
+activity#com.cedarhd.WorkLogListFragmentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:642:9-645:57
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:644:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:645:13-45
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:643:13-67
+activity#com.cedarhd.DynamicNewsActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:646:9-649:63
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:648:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:649:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:647:13-59
+activity#com.cedarhd.WorkLogContentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:650:9-653:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:652:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:653:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:651:13-62
+activity#com.cedarhd.ClientConstactContentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:654:9-657:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:656:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:657:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:655:13-69
+activity#com.cedarhd.SuggestContentActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:658:9-661:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:660:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:661:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:659:13-62
+activity#com.cedarhd.CompanySpaceDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:662:9-665:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:664:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:665:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:663:13-67
+activity#com.cedarhd.CompanySpaceInputDiscussActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:666:9-670:76
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:668:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:670:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:669:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:667:13-72
+activity#com.cedarhd.RemindDialogActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:671:9-674:59
+	android:launchMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:673:13-44
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:674:13-47
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:672:13-60
+activity#com.cedarhd.ClientInfoNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:675:9-678:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:677:13-62
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:678:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:676:13-61
+activity#com.cedarhd.ClientNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:679:9-682:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:681:13-62
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:682:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:680:13-57
+activity#com.cedarhd.CommunicationAddActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:683:9-686:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:685:13-69
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:686:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:684:13-64
+activity#com.cedarhd.TaskTabListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:687:9-691:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:690:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:689:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:691:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:688:13-59
+activity#com.cedarhd.DiamondListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:692:9-695:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:694:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:695:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:693:13-59
+activity#com.cedarhd.RemindActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:696:9-699:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:698:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:699:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:697:13-54
+activity#com.cedarhd.GiveSuggestionActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:700:9-703:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:702:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:703:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:701:13-62
+receiver#com.tencent.android.tpush.XGPushReceiver
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:705:9-721:20
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:707:13-45
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:706:13-68
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED+android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE+com.tencent.android.tpush.action.SDK
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:708:13-720:29
+	android:priority
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:708:28-57
+action#com.tencent.android.tpush.action.SDK
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:711:17-79
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:711:25-76
+action#com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:712:17-97
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:712:25-94
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:714:17-77
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:714:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:715:17-79
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:715:25-76
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:717:17-89
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:717:25-86
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:718:17-87
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:718:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:719:17-90
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:719:25-87
+receiver#com.cedarhd.receiver.XGMessagePushReceiver
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:722:9-731:20
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:722:19-76
+intent-filter#com.tencent.android.tpush.action.FEEDBACK+com.tencent.android.tpush.action.PUSH_MESSAGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:723:13-730:29
+action#com.tencent.android.tpush.action.PUSH_MESSAGE
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:727:17-88
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:727:25-85
+action#com.tencent.android.tpush.action.FEEDBACK
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:729:17-84
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:729:25-81
+activity#com.tencent.android.tpush.XGPushActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:735:9-743:20
+	android:exported
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:737:13-36
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:736:13-68
+intent-filter#android.intent.action
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:738:13-742:29
+action#android.intent.action
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:741:17-64
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:741:25-61
+activity#com.cedarhd.User_SelectActivityNew_zmy
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:744:9-748:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:746:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:748:13-60
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:747:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:745:13-66
+activity#com.cedarhd.SelectPhotoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:749:9-753:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:751:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:753:13-60
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:752:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:750:13-59
+activity#com.cedarhd.WeekLogInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:754:9-757:72
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:756:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:757:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:755:13-59
+activity#com.cedarhd.TaskMoreActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:758:9-761:57
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:760:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:761:13-45
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:759:13-56
+activity#com.cedarhd.TaskListActivity_zmy
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:762:9-765:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:764:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:765:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:763:13-60
+activity#com.cedarhd.TaskCalenderActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:766:9-770:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:769:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:768:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:770:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:767:13-60
+activity#com.cedarhd.CommunicationInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:771:9-774:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:773:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:774:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:772:13-65
+activity#com.cedarhd.CommunicatioNew_zmy_AddActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:775:9-778:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:777:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:778:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:776:13-71
+activity#com.cedarhd.ProjectListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:779:9-782:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:781:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:782:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:780:13-59
+activity#com.cedarhd.ProjectAddActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:783:9-786:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:785:13-63
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:786:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:784:13-58
+activity#com.cedarhd.ProjectInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:787:9-790:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:789:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:790:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:788:13-59
+activity#com.cedarhd.AttachListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:791:9-794:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:793:13-63
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:794:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:792:13-58
+activity#com.cedarhd.ProductListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:795:9-798:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:797:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:798:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:796:13-59
+activity#com.cedarhd.ProductAddActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:799:9-802:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:801:13-63
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:802:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:800:13-58
+activity#com.cedarhd.ProductSelectListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:803:9-808:72
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:806:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:805:13-71
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:808:13-60
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:807:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:804:13-65
+activity#com.cedarhd.ShopOrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:809:9-812:69
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:811:13-64
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:812:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:810:13-61
+activity#com.cedarhd.ImagePagerActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:813:9-816:78
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:815:13-62
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:816:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:814:13-58
+activity#com.cedarhd.CaptureActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:819:9-822:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:821:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:822:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:820:13-55
+activity#com.cedarhd.LocationListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:825:9-828:78
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:827:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:828:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:826:13-60
+activity#com.cedarhd.crm.SaleFunnelActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:830:9-833:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:832:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:833:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:831:13-62
+activity#com.cedarhd.crm.SalerSummaryActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:836:9-839:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:838:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:839:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:837:13-64
+activity#com.cedarhd.crm.SaleChanceSummaryInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:841:9-844:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:843:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:844:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:842:13-73
+activity#com.cedarhd.crm.CRMAddSaleChanceActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:847:9-850:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:849:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:850:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:848:13-68
+activity#com.cedarhd.crm.CRMSelectConpactCategoryActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:853:9-856:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:855:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:856:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:854:13-76
+activity#com.cedarhd.crm.CrmAddClientContactsActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:859:9-862:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:861:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:862:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:860:13-72
+activity#com.cedarhd.crm.CRMAddXiansuoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:865:9-868:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:867:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:868:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:866:13-65
+activity#com.cedarhd.crm.CRMSelectConpactListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:870:9-873:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:872:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:873:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:871:13-72
+activity#com.cedarhd.crm.CRMAddWorkplanActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:875:9-878:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:877:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:878:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:876:13-66
+activity#com.cedarhd.crm.CRMClewListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:881:9-884:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:883:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:884:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:882:13-63
+activity#com.cedarhd.crm.CRMReceiptListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:887:9-890:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:889:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:890:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:888:13-66
+activity#com.cedarhd.crm.CRMExpenseListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:893:9-896:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:895:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:896:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:894:13-66
+activity#com.cedarhd.rad.RadProductListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:899:9-902:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:901:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:902:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:900:13-66
+activity#com.cedarhd.rad.RadShopCarListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:905:9-908:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:907:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:908:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:906:13-66
+activity#com.cedarhd.rad.RadShopOrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:911:9-914:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:913:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:914:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:912:13-68
+activity#com.cedarhd.rad.RadProductInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:917:9-920:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:919:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:920:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:918:13-66
+activity#com.cedarhd.slt.SltCaculateListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:923:9-926:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:925:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:926:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:924:13-67
+activity#com.cedarhd.slt.RadRoomListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:929:9-933:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:932:13-49
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:931:13-65
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:933:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:930:13-63
+activity#com.cedarhd.slt.RadRoomInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:936:9-939:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:938:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:939:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:937:13-63
+activity#com.cedarhd.rad.RadReportListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:942:9-945:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:944:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:945:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:943:13-65
+activity#com.cedarhd.rad.RadReportInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:947:9-950:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:949:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:950:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:948:13-65
+activity#com.cedarhd.SpeechMenuActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:951:9-954:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:953:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:954:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:952:13-58
+activity#com.cedarhd.slt.SltScanCodeActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:957:9-960:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:959:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:960:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:958:13-63
+activity#com.cedarhd.slt.SltProductTypeListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:963:9-966:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:965:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:966:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:964:13-70
+activity#com.cedarhd.slt.SltProductInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:969:9-972:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:971:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:972:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:970:13-66
+activity#com.cedarhd.slt.SltShopOrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:975:9-978:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:977:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:978:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:976:13-68
+activity#com.cedarhd.slt.SltShopCarListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:981:9-984:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:983:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:984:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:982:13-66
+activity#com.cedarhd.slt.SltScanRecordListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:987:9-990:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:989:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:990:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:988:13-69
+activity#com.cedarhd.slt.SltApproveOrderListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:993:9-996:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:995:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:996:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:994:13-71
+activity#com.cedarhd.slt.SltSaleTargetActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:999:9-1003:55
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1001:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1003:13-52
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1002:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1000:13-65
+activity#com.cedarhd.changhui.ChWorkPlanListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1006:9-1009:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1008:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1009:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1007:13-71
+activity#com.cedarhd.changhui.ChCustomWorkPlanListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1012:9-1015:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1014:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1015:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1013:13-77
+activity#com.cedarhd.changhui.ChWorkPlanInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1019:9-1022:75
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1021:13-69
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1022:13-72
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1020:13-71
+activity#com.cedarhd.changhui.ChProductListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1025:9-1028:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1027:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1028:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1026:13-70
+activity#com.cedarhd.changhui.ChContactListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1031:9-1034:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1033:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1034:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1032:13-70
+activity#com.cedarhd.changhui.ChContactInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1036:9-1039:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1038:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1039:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1037:13-70
+activity#com.cedarhd.ProfitInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1040:9-1043:63
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1042:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1043:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1041:13-58
+activity#com.cedarhd.ProfitInfoNewActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1044:9-1047:63
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1046:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1047:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1045:13-61
+activity#com.cedarhd.ProductInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1049:9-1052:63
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1051:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1052:13-60
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1050:13-59
+activity#com.cedarhd.changhui.ChBespokeListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1055:9-1058:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1057:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1058:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1056:13-70
+activity#com.cedarhd.changhui.ChBespokeInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1061:9-1064:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1063:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1064:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1062:13-70
+activity#com.cedarhd.changhui.ChAddBespokeInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1067:9-1070:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1069:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1070:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1068:13-73
+activity#com.cedarhd.changhui.ChAddBespokeMoneyActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1073:9-1076:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1075:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1076:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1074:13-74
+activity#com.cedarhd.changhui.ChAddContactActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1079:9-1082:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1081:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1082:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1080:13-69
+activity#com.cedarhd.changhui.ChQualificationActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1085:9-1088:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1087:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1088:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1086:13-72
+activity#com.cedarhd.changhui.ChClientListActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1091:9-1094:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1093:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1094:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1092:13-69
+activity#com.cedarhd.changhui.ChClientInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1096:9-1099:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1098:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1099:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1097:13-69
+activity#com.cedarhd.changhui.ChProductInfoActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1101:9-1104:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1103:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1104:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1102:13-70
+activity#com.cedarhd.SelectCityActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1106:9-1109:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1108:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1109:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1107:13-58
+activity#com.cedarhd.TaskAlarmRemindActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1110:9-1113:69
+	android:screenOrientation
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1112:13-49
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1113:13-66
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1111:13-63
+service#com.tencent.android.tpush.service.XGPushService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1115:9-1119:48
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1119:13-45
+	android:exported
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1117:13-36
+	android:persistent
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1118:13-38
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1116:13-75
+service#com.tencent.android.tpush.rpc.XGRemoteService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1122:9-1128:19
+	android:exported
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1124:13-36
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1123:13-73
+intent-filter#com.changhui.PUSH_ACTION
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1125:13-1127:29
+action#com.changhui.PUSH_ACTION
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1126:17-67
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1126:25-64
+meta-data#XG_V2_ACCESS_ID
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1131:9-1133:42
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1133:13-39
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1132:13-43
+meta-data#XG_V2_ACCESS_KEY
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1136:9-1138:44
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1138:13-41
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1137:13-44
+meta-data#TA_APPKEY
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1142:9-1144:45
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1144:13-42
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1143:13-37
+meta-data#InstallChannel
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1146:9-1148:36
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1148:13-33
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1147:13-42
+meta-data#UMENG_APPKEY
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1151:9-1153:56
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1153:13-53
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1152:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1154:9-1156:37
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1156:13-34
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1155:13-41
+meta-data#PGYER_APPID
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1159:9-1161:74
+	android:value
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1161:13-61
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1160:13-39
+service#com.umeng.update.net.DownloadingService
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1163:9-1165:61
+	android:process
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1165:13-50
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1164:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1167:9-1169:84
+	android:theme
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1169:13-72
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1168:13-65
+instrumentation
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1174:5-1177:47
+	android:label
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1176:9-41
+	android:targetPackage
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1177:9-44
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1175:9-62
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1179:5-1181:36
+	android:required
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1181:9-33
+	android:name
+		ADDED from /Users/ernesto/Downloads/xuesong_studio/app/src/main/AndroidManifest.xml:1180:9-52

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/xml/askforleaveapply.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/xml/askforleaveapply.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/xml/email_searchable.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/xml/email_searchable.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/xml/askforleavelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/xml/askforleavelist.xml"
+    }
+]

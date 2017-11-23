@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_client_new"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back" >
+
+    <LinearLayout
+        android:id="@+id/rl_title_client_new"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_cancel_client_new"
+            style="@style/style_header_button"
+            android:onClick="back"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:text="新建客户" />
+
+        <ImageView
+            android:id="@+id/iv_save_client_new"
+            style="@style/style_header_button"
+            android:onClick="save"
+            android:src="@drawable/check" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title_client_new"
+        android:background="@color/zl_back" >
+
+        <LinearLayout
+            android:id="@+id/ll_client_new"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

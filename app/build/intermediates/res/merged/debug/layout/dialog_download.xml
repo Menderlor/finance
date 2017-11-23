@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_dialog_download"
+        style="@style/style_header_layout" >
+        <TextView
+            android:id="@+id/title_dialog_download"
+            style="@style/title_common"
+            android:text="下载" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title_dialog_download"
+        android:background="@color/white"
+        android:padding="20dp" >
+        <TextView
+            android:id="@+id/tv_file_sumary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ssssssssss" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_content"
+        android:padding="20dp" >
+        <Button
+            android:id="@+id/btn_dwonload_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_selector"
+            android:gravity="center"
+            android:text="立即下载"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_cancel_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button_selector"
+            android:gravity="center"
+            android:text="稍后再说"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

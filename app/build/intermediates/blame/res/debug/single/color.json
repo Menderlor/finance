@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/mail_read_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/mail_read_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/tabhost_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/tabhost_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/title_color.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/title_color.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/mail_unread_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/mail_unread_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/listviewlayout_text_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/listviewlayout_text_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/color/vpi__light_theme.xml"
+    }
+]

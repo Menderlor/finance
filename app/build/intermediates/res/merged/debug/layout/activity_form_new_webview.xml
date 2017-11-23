@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout style="@style/style_header_layout">
+	<ImageView 
+	    android:layout_width="wrap_content"
+		android:padding="5dip" 
+		android:layout_marginLeft="5dip"
+		android:layout_centerVertical="true" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/back" 
+		android:id="@+id/iv_cancle_form_new" />
+        <TextView
+            android:id="@+id/tv_title_form_new"
+            style="@style/title_common"
+            android:text="标题" />
+
+        <ImageView
+            android:id="@+id/iv_sumit_form_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView 
+	        android:id="@+id/webView_form_new"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/pb_form_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"></com.cedarhd.control.MyProgressBar>
+    </RelativeLayout>
+    
+    
+</LinearLayout>

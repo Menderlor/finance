@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/mid-sdk-2.20.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5bfd1257d56cde77a94f3678426119eb11ebb165">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/mid-sdk-2.20_44ff71621bc9a509030feed86d0ac39418143d36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/okhttp-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/okhttp-2.4.0_b2c65a3da7a32862382308af438483eba06d9dcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/jackson-core-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ad1c5f92f6dcc6291f5c46ebacb975eaa844de">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-core-2.1.1_56f0fcf8ee006c56ba9fea7b6ca1826fa3430462/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/okio-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/okio-1.4.0_283cebb98bcddc6faa39f9ac7fa9fffe43dbe7ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/testinagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d3d2139cfcfed2bea4bb0240568df1009092a4">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/testinagent_3b17ca496b5d0d2919dc9d019719dc5bb9a19a63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/wup-1.0.0-SNAPSHOT_0ae5d586f5b6d296b4cbecb36822da47d4439af0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/spring-android-rest-template-1.0.1.RELEASE_fa4ce355fbd9f2395dbc37034bef9737d3d6a223/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/locSDK_6.03.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f97b00e2e5a384be96ab4d668fa3e2ff62cdbbb7">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.03_b9e25547e8d73f22bffde4c9a5274e8af80615dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/jackson-databind-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38d2b3c0c89af5b937fd98c3e558bf6b58c14aa2">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-databind-2.1.1_c50468d89e96daa5abac73938c4ca02b0d84012d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bb71d6cfe5166741a0a99e85471a8b90e97f5228">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/BaiduLBS_Android_6f71662fb1ca43412d10c7cb63271a97210d0bc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/mta-sdk-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="17d09a188815ed4597b0107bbd4fa5e7b8404ee7">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/mta-sdk-2.2.0_df7ee1833a408e8fea2e38b571a62f1e1c56e7b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e12f2fe518229364615ac08b0aec6796c192093">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/Msc_088006113614bed6b37786cbcc399c2fd08bebe1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_bad56c294fa77009313ab0ffe8e65d94331ecd4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/pgyer_sdk_2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d257f78eb7f532da7850ccaf1b14555221ab8b0">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/pgyer_sdk_2.2.2_01666eed0f59238829e16993436c2f892933e009/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/jackson-annotations-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b01cc83e745fc4425a3968fafbf8e5b8254a6dd">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-annotations-2.1.1_682647534b0157252ebc1b2c728ee63b9d2c2d65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/parsii.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b13f4be0ce1b037691deae52ee701984f2eb6458">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/parsii_035ac7672a792057fd91c94e53d83981cb2a1cd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.2_4c5a195d109d76054e74c5779032b3a121153d05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/httpclient-4.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.5_afa89e491bad272f486d09b04c7297aa5e5b071f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/ormlite-core-4.45.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3db7b73aecea723803e10b068777cf09ed42d4be">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-core-4.45_599e7038402a4f9a89da7fb87d00587f835763f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/lib_jsoup.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ab81d46fb140f15bfb96893a78679b8f0bc839a9">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/lib_jsoup_59227405dfcfb64d024727da0caa266eb5bff0e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_dadfc85ee54d363dde6ed0cc4463bbaa1fbf2770/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/ormlite-android-4.45.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ff8c21e8d0162333559f35cafd6a2238a33e5ba">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-android-4.45_5736ec0b87d7e68b1ac8d3c0c9147555f861d3b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/spring-android-core-1.0.1.RELEASE_6e80400b3ff31213c1270d40e369ffff3f599c40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/umeng-update-v2.6.0.1_5cf58122b610d985b388dffad41642c11aa8264e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/httpcore-4.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.2_2ddefbb3d7780254c6975905e620cd25fd204902/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/hanvoncloudapi_android_v1.0.140520.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3722c8c781be80c416922c088739fe45106dc3d6">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/hanvoncloudapi_android_v1.0.140520_b3aafe10855fd999a6439836407a56681c213f75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/Xg_sdk_v2.37.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6940d6feadfabcd0c5f269ac16fbed9fb596ba9">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/Xg_sdk_v2.37_f13a88ae7b231f2e785e342486d593821d0ca4d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ernesto/Downloads/xuesong_studio/app/libs/ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccebb2cae2c177d6dd91409a7007806d9aa269b4">
+        <dex dex="/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2-android-assembly-2.5.2-jar-with-dependencies_1e85654bdb7e43d6e45ae38fd1f9ab87f6205a9d/classes.dex" />
+    </item>
+
+</items>

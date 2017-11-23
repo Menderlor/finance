@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout"
+        android:layout_weight="0" >
+
+        <ImageView
+            android:id="@+id/communication_zmy_back"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="联系人详情" />
+
+        <ImageView
+            android:id="@+id/communication_zmy_save"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check"
+             />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/zl_back"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/communication_newInfo_zmy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_call_cummunication_info"
+        android:layout_weight="0"
+        style="@style/task_style_ll_info"
+        android:layout_height="70dp"
+        >
+
+        <TextView
+            style="@style/style_edit_info_yusheng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="拨 号"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

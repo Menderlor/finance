@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/in_lefttoright.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/in_lefttoright.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_bottom_out.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/tran_enter.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/tran_enter.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_bottom_in_1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_bottom_in_1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/loading.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/loading.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_top_out.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_top_out.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_left_in.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_left_in.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_right_out.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_right_out.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_top_in.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_top_in.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/out_righttoleft.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/out_righttoleft.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_right_in.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_right_in.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/push_left_out.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/push_left_out.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/tran_exit.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/anim/tran_exit.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/anim/abc_slide_out_top.xml"
+    }
+]

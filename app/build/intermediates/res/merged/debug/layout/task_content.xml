@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"    android:orientation="vertical"
+    android:background="@color/white" >
+      <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/ivCancel_taskinfo_content"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_title_taskinfo_content"
+            style="@style/title_common"
+            android:text="请输入" />
+
+        <ImageView
+            android:id="@+id/ivSubmit_taskinfo_content"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+   <RelativeLayout android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+          >
+      <LinearLayout      android:id="@+id/ll_task_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:minHeight="200dp"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp" 
+                        android:layout_weight="3"
+                        >
+
+                        <EditText
+                            android:id="@+id/etContent_taskinfo_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:gravity="top|left"
+                            android:minHeight="200dp"
+                            android:scrollbars="vertical"
+                            android:singleLine="false"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            />
+                    </LinearLayout>
+   
+      
+    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/ll_task_content"
+                         >
+
+
+                        <Button
+                            android:id="@+id/btn_speek2_taskinfo_content"
+                            android:gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yuyin"
+                           />
+                    </LinearLayout>
+                    </RelativeLayout>
+</LinearLayout>

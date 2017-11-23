@@ -1,0 +1,2210 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_work_plan_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_work_plan_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ch_product.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ch_product.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sale_summary_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sale_summary_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/findpassword.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/findpassword.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_head.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pull_to_refresh_head.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_speech.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_speech.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_log_month_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_log_month_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/customer_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/customer_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/customerlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/customerlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_process_content_tablel.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_process_content_tablel.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_listview_textview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_listview_textview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_work_plan_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_work_plan_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_log_week_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_log_week_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_boeryun.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_boeryun.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ask_more_form_categray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ask_more_form_categray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_setting_alarm_task.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_setting_alarm_task.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_list_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_list_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ll_control.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ll_control.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_search_pop_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_search_pop_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_profit_caculator_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_profit_caculator_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/calendar_item_week.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/calendar_item_week.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_product_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_product_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/personalspace_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/personalspace_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_room_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_room_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentspace_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentspace_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select_listviewlayout_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select_listviewlayout_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/askforleaveapprove.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/askforleaveapprove.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/shangkan_site_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/shangkan_site_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_record.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_record.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sales_management_listview_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sales_management_listview_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_invitation.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_invitation.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_custom_work_plan_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_custom_work_plan_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_share_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_share_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_conpact_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_conpact_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/loglist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/loglist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentspace_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentspace_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/discuss_constact.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/discuss_constact.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_photo_gridview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_photo_gridview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/empty_view_lv.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/empty_view_lv.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_list_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_list_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_time_day.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_time_day.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_room_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_room_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/all_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/all_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ch_contact.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ch_contact.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_client_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_client_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_new_group_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_new_group_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_caculate_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_caculate_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_menu_add.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_menu_add.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/orderlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/orderlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pager2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pager2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/date_picker_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_all_form.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_all_form.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_room_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_room_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sale_chance_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sale_chance_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_remind_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_remind_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_companyspace_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_companyspace_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_rad_room_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_rad_room_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_salechance_summary_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_salechance_summary_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/noticelist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/noticelist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/themed_titles.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/themed_titles.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tabmini.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tabmini.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/login_new2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/login_new2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_customer_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_customer_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/install_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/install_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sales_chance_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sales_chance_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_slt_product_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_slt_product_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_comman_header.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_comman_header.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_avatart_settings.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_avatart_settings.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/checkboxlistview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/checkboxlistview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_product_profit_rate.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_product_profit_rate.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_slt_orderlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_slt_orderlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_add_contact_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_add_contact_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/themed_lines.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/themed_lines.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/apply_in_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/apply_in_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/communitysignlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/communitysignlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_lines.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_lines.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_tag_flowlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_tag_flowlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/myprogress.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/myprogress.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_week_log_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_week_log_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/all_askform_fragment.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/all_askform_fragment.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_comment.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_comment.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_caculate_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_caculate_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_table_content.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_table_content.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/oldclientsign_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/oldclientsign_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_select_distance.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_select_distance.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_process_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_process_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/clientsignlist_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/clientsignlist_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_scan_code.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_scan_code.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/test_listview_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/test_listview_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_constact_info_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_constact_info_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/companyspacelist02.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/companyspacelist02.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/apply_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/apply_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_order_details_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_order_details_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/askforleavelist_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/askforleavelist_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_categray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_categray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_listview_pull_to_refresh_and_loadmore.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_listview_pull_to_refresh_and_loadmore.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/order_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/order_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contacthistorylist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contacthistorylist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/all.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/all.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_gttask_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_gttask_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sales_chance_listview_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sales_chance_listview_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_tagsalarylist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_tagsalarylist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_weektask.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_weektask.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_shopcar_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_shopcar_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_out_stock.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_out_stock.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_clientcontact_filter.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_clientcontact_filter.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_notice_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_notice_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ch_upload_attach.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ch_upload_attach.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/listview_attach_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/listview_attach_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tb_munion_aditem.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tb_munion_aditem.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_dynamic_no_read_news.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_dynamic_no_read_news.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_calendar_task.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_calendar_task.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_load_more_listview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_load_more_listview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/log_content_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/log_content_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_shopcar_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_shopcar_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_give_suggestions.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_give_suggestions.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_audit_form.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_audit_form.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_worklog_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_worklog_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_work_plan_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_work_plan_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/common_sort_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/common_sort_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_notice_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_notice_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/feedback_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/feedback_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/customer_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/customer_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tag_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tag_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_test_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_test_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_task_list_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_task_list_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_sortlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_sortlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_capture.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_capture.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_order_details_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_order_details_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_dict_picker.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_dict_picker.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_log_month_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_log_month_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/choose_customer_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/choose_customer_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_section_workplan_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_section_workplan_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_senderlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_senderlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/advertisement_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/advertisement_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_contact_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_contact_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_e.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_e.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_common02.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_common02.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/menu_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/menu_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_listview_old_style.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_listview_old_style.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dynamic_listviewitem.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dynamic_listviewitem.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_attachinfo_grid.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_attachinfo_grid.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_rad_add_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_rad_add_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_dict_whell.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_dict_whell.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_select_photo.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_select_photo.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/askforleaveinfo.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/askforleaveinfo.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_comman_listview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_comman_listview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_constract_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_constract_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_menu_grid.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_menu_grid.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_custom_work_plan.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_custom_work_plan.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_bottom_discuss.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_bottom_discuss.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_productlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_productlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_task_week.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_task_week.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_invite_download.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_invite_download.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/select_count_view.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/select_count_view.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_grid_menu.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_grid_menu.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/date_time_picker.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/date_time_picker.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/latest.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/latest.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_product_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_product_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_task_tab_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_task_tab_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/oldclientlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/oldclientlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_lv.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_lv.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_new_child_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_new_child_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tagsalaryinfo_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tagsalaryinfo_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_taskmore.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_taskmore.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_select_search_dict.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_select_search_dict.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_speech_menu.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_speech_menu.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_qualification_qualificate_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_qualification_qualificate_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/wheel_text_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/wheel_text_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sale_chance_listview_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sale_chance_listview_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_update.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_update.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_nav.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_nav.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/textview_empty.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/textview_empty.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_attach_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_attach_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/main_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/main_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/salechance_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/salechance_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/diamondl_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/diamondl_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_order_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_order_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/askforleavelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/askforleavelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/product_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/product_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_slt_shopcarlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_slt_shopcarlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/suggestlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/suggestlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_contact_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_contact_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/newcommunitysign_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/newcommunitysign_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/boeryun_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/boeryun_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/erp_order_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/erp_order_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_location_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_location_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_client_sale_summary.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_client_sale_summary.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_imagepager.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_imagepager.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_custom_work_plan_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_custom_work_plan_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/griditem.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/griditem.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_test_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_test_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/window_phone.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/window_phone.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_share_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_share_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_selectlatest_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_selectlatest_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_create_vm_details_form_add_row.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_create_vm_details_form_add_row.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/createform.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/createform.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_expenselist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_expenselist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_task_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_task_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_progress.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_add_work_plan.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_add_work_plan.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_orderlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_orderlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_worksummary.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_worksummary.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_loading.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_profit_calculator.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_profit_calculator.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/noticelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/noticelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/feedback_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/feedback_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_constact_new_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_constact_new_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_sortlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_sortlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pager3.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pager3.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_filter_tabtasklist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_filter_tabtasklist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_filter_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_filter_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_signure.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_signure.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_invite_download_02.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_invite_download_02.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/record_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/record_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_communication.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_communication.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/apply_out_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/apply_out_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_caiji_point_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_caiji_point_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/suggest_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/suggest_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/check_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/check_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/headerview_boeryun.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/headerview_boeryun.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_my_calendar.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_my_calendar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_titles_bottom.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_titles_bottom.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_log_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_log_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentactivity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentactivity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_add_sale_chance.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_add_sale_chance.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_publish.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_publish.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_contact_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_contact_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ch_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ch_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sales_management_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sales_management_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_setting_notice.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_setting_notice.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_tabs.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_tabs.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_attchment_download.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_attchment_download.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentspacelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentspacelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/signlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/signlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/section_view.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/section_view.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_contact_history_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_contact_history_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_circles.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_circles.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_project_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_project_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_audit_form.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_audit_form.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_select_point_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_select_point_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/webview_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/webview_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_in_stock.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_in_stock.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_contact_history_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_contact_history_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_titles.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_titles.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/measure_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/measure_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/common_letter_overlay.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/common_letter_overlay.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_select_department.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_select_department.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sign_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sign_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/umeng_update_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/umeng_update_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_info_new_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_info_new_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/test_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/test_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_communication_add_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_communication_add_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_target.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_target.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_communication_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_communication_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_project_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_project_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/week_calendar.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/week_calendar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/communitysignlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/communitysignlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_workplan_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_workplan_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_add_new_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_add_new_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_task_mode_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_task_mode_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_order_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_order_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_dict_ios.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_dict_ios.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/suggestlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/suggestlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_apply_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_apply_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_senderlist2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_senderlist2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_download.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_download.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_alarmtask_remind.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_alarmtask_remind.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_lv_drawer_client_categray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_lv_drawer_client_categray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tab_item_view.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tab_item_view.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/companyspacelist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/companyspacelist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/department_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/department_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/guide_three.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/guide_three.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_shoporder_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_shoporder_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_invite_download.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_invite_download.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/newclientsign_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/newclientsign_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/personalspacelist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/personalspacelist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select4.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select4.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_plan_listview_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_plan_listview_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/discuss_task.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/discuss_task.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_productlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_productlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_filter_tasklist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_filter_tasklist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_select_conpact.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_select_conpact.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_select_count.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_select_count.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_order_details_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_order_details_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/erro_network_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/erro_network_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/common_sort_select_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/common_sort_select_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tagsalarylist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tagsalarylist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_worklog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_worklog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/communication_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/communication_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_diamond.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_diamond.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_senderlist_listviewlayout2.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_senderlist_listviewlayout2.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_listview_normal_style.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_listview_normal_style.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_city_picker.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_city_picker.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_saler_summay.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_saler_summay.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_set_password.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_set_password.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/shangkan_community_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/shangkan_community_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_bespoke_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_bespoke_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_info_activity_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_info_activity_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_lv_caculator_select_product.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_lv_caculator_select_product.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/themed_circles.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/themed_circles.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/popup_profit_caculator_select_product.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/popup_profit_caculator_select_product.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_tasklist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_tasklist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/taskclassifydialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/taskclassifydialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/popupwindows.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/popupwindows.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_dict_ios_picker.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_dict_ios_picker.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tasklist_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tasklist_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_dialog_new_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_dialog_new_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_dict_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_dict_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_plan_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_plan_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_scan_code.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_scan_code.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_slt_productlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_slt_productlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_guide.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_discuss.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_discuss.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/latest_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/latest_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tagsalaryinfo.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tagsalaryinfo.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_dynamic_all_news.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_dynamic_all_news.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_select_department.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_select_department.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_profit_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_profit_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pager1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pager1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/askforlevemorefragmentform.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/askforlevemorefragmentform.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/feedback_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/feedback_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/worklog_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/worklog_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_input_window.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_input_window.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_plan_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_plan_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_attchment.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_attchment.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_speech_info1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_speech_info1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/personalspacelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/personalspacelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/list_dir_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/list_dir_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_shopcarlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_shopcarlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ask_more_form.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ask_more_form.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_task_calender.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_task_calender.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_report_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_report_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_product_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_product_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tag_text.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tag_text.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tasksort.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tasksort.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_filter_bespokelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_filter_bespokelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_searchview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_searchview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_icons.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_icons.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_baiduplace.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_baiduplace.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/diamondl_details.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/diamondl_details.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_filter_log.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_filter_log.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_select_product_type_pop.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_select_product_type_pop.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_avartar_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_avartar_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_client_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_client_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_listview_pull_to_refresh_header.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_listview_pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_underlines.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_underlines.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sales_chance_deatil_function.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sales_chance_deatil_function.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_project_add.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_project_add.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_clewlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_clewlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/new_sales_chance_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/new_sales_chance_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentspacelist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentspacelist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_log.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_log.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/project_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/project_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_customer_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_customer_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/guide_two.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/guide_two.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/list_dir.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/list_dir.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_select_point_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_select_point_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_otherlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_otherlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_add_client_contacts_crm.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_add_client_contacts_crm.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_bespoke_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_bespoke_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_product_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_product_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_chart_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_chart_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/merge_date_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/merge_date_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_otherlist_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_otherlist_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_sale_summary.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_sale_summary.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contact_history.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contact_history.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_gttask_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_gttask_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/common_listview_loadmore.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/common_listview_loadmore.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/companyspace_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/companyspace_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_shopcar.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_shopcar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contact_history_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contact_history_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sales_chance_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sales_chance_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_control_ch_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_control_ch_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_email_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_email_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sign.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sign.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_expenselist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_expenselist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_scan_code_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_scan_code_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/control_horizal_scrollview_add_image.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/control_horizal_scrollview_add_image.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/orderlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/orderlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_select_product_type.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_select_product_type.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contact_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contact_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/discuss_worklog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/discuss_worklog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/install_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/install_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/guide_four.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/guide_four.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/process_e_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/process_e_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_setting_userinfo.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_setting_userinfo.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/emailpop.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/emailpop.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/suggest_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/suggest_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/orderinfo.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/orderinfo.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_dynamic_news.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_dynamic_news.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_new_product.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_new_product.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_info_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_info_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/customer_deatil_function.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/customer_deatil_function.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/work_log_week_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/work_log_week_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_advertisement.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_advertisement.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_weeklog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_weeklog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/companyspace_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/companyspace_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_shopcar_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_shopcar_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/collapsible_textview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/collapsible_textview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_client_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_client_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_report_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_report_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_weektasklist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_weektasklist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop_dict_ios_multi_picker.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop_dict_ios_multi_picker.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_tag_map.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_tag_map.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_select_conpactlist_crm.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_select_conpactlist_crm.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/log_search.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/log_search.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sms_send.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sms_send.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_clientname_newconstact.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_clientname_newconstact.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/approval_opinion_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/approval_opinion_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_listviewlayout_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_listviewlayout_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/simple_circles_vertical.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/simple_circles_vertical.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_select_user_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_select_user_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select_layout_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select_layout_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/departmentactivity1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/departmentactivity1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sales_chance_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sales_chance_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tb_munion_adview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tb_munion_adview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/calendar_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_product_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_product_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/department.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/department.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_shop_orderlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_shop_orderlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_new_client_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_new_client_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/client_list_activity.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/client_list_activity.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/checkboxlistviewitem.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/checkboxlistviewitem.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_textview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_textview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_rad_order_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_rad_order_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_add.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_add.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_createdepart.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_createdepart.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_add_bespoke_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_add_bespoke_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_add_xiansuo_crm.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_add_xiansuo_crm.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_caculator_info_profit.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_caculator_info_profit.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_performance_sumary_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_performance_sumary_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_diaolog_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_diaolog_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_image_details.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_image_details.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_receipt_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_receipt_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_customer_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_customer_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contact_history_detail_list_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contact_history_detail_list_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_weeklog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_weeklog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_project_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_project_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_measure_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_measure_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_listview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_listview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_create_details_form.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_create_details_form.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/themed_underlines.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/themed_underlines.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_product_select_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_product_select_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_work_plan_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_work_plan_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_common_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_common_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/signlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/signlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_companyspacelist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_companyspacelist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_tag_single_flowlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_tag_single_flowlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/searchview_header.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/searchview_header.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/country_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/country_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/taskclassify.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/taskclassify.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select3.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select3.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/communication_select_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/communication_select_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/user_select_listviewlayout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/user_select_listviewlayout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_form_new_webview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_form_new_webview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/show_dialog1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/show_dialog1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/order_content_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/order_content_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice_info_new1.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice_info_new1.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_slt_sale_target.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_slt_sale_target.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sign_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sign_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/notice_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/notice_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_categray_lv.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_categray_lv.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/personalspace_info_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/personalspace_info_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_profit_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_profit_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sale_chance_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sale_chance_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_crm_add_salechance.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_crm_add_salechance.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/fragment_tab_ch_client.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/fragment_tab_ch_client.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/title_sales_chance_detail.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/title_sales_chance_detail.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_remind.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_remind.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/contro_select_user.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/contro_select_user.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_ch_add_bespoke_money.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_ch_add_bespoke_money.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/guide_one.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/guide_one.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_sign_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_sign_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/sign_menu_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/sign_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/workloglist_fragment.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/workloglist_fragment.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/tag.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/tag.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_slt_product_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_slt_product_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/pop.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/pop.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_clewlist.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_clewlist.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/popup.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/popup.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/dialog_zhuizong_work_plan.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/dialog_zhuizong_work_plan.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/discuss.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/discuss.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_rad_report_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_rad_report_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_ch_bespoke.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_ch_bespoke.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_communication_add.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_communication_add.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_photoselect_grid.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_photoselect_grid.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_worklog_day_week_month.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_worklog_day_week_month.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/login_new.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/login_new.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/workloglist_week.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/workloglist_week.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/task_content.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/task_content.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_add_workplan_crm.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_add_workplan_crm.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/activity_product_info.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/activity_product_info.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/item_salechance_childview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/item_salechance_childview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/layout/date_pick_wheel.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/layout/date_pick_wheel.xml"
+    }
+]

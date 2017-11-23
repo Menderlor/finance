@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <!-- 日志详情页面 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_header_log"
+         style="@style/style_header_layout" >
+        <ImageView
+            android:id="@+id/iv_back_weeklog"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_title_weeklog"
+            style="@style/title_common"
+            android:text="工作总结报告" />
+        <ImageView
+            android:id="@+id/iv_save_weeklog"
+            android:layout_alignParentRight="true"
+            style="@style/style_header_button"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:layout_below="@+id/rl_header_log"
+        android:layout_above="@+id/rl_root_publish_comment_weeklog"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_content"
+            android:orientation="vertical" >
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/absoluteLayout1"
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="姓名" />
+
+                <EditText
+                    android:id="@+id/tv_name_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:focusable="false"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="负责区域" />
+
+                <EditText
+                    android:id="@+id/tv_area_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="开始时间" />
+
+                <EditText
+                    android:id="@+id/tv_start_weeklog_info"
+                    style="@style/style_text_right_info"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="结束时间" />
+
+                <EditText
+                    android:id="@+id/tv_end_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:focusable="false"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="已完成工作" />
+
+                <EditText
+                    android:id="@+id/tv_complete_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:minHeight="100dp"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="未完成工作" />
+
+                <EditText
+                    android:id="@+id/tv_unComplete_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:minHeight="100dp"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="计划完成工作" 
+                    android:minHeight="100dp"/>
+
+                <EditText
+                    android:id="@+id/tv_next_week_plan_weeklog_info"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="自我总结" />
+
+                <EditText
+                    android:id="@+id/tv_summary_weeklog_info"
+                    style="@style/style_text_right_info" 
+                    android:minHeight="100dp"/>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+            
+            <LinearLayout
+                android:id="@+id/ll_root_comment_weeklog"
+                style="@style/task_style_ll_info"
+                android:background="@null"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- 评论内容显示区 -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	
+    <LinearLayout
+        android:id="@+id/rl_root_publish_comment_weeklog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+        <!-- 发表评论区域 -->
+
+        <EditText
+            android:id="@+id/et_weeklog_discuss"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/shape_searchview_bg"
+            android:gravity="left|center_vertical"
+            android:hint="我也说两句"
+            android:paddingLeft="5dp"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_weeklog_publish_comment"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="发表"
+                style="@style/style_button_blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

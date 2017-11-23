@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_tag"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="考勤" />
+
+        <ImageView
+            android:id="@+id/imageViewNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/new_item"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_showupload"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageViewNew"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title_tag" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="时间" />
+
+                    <TextView
+                        android:id="@+id/textViewTime"
+                        style="@style/style_text_right_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="2" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="50dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="地点" 
+                        android:hint="点击可选择地址"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_location_pick"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+                        <TextView
+                            android:id="@+id/tv_location_tag"
+                            style="@style/style_text_normal_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:gravity="right|center_vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="5dp"
+                            android:textColorHighlight="@color/lightgray"
+                            android:text="(定位中..)" />
+                    </LinearLayout>
+                </LinearLayout>
+				
+                <View style="@style/style_line_horizontal"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_map_location_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_marka" />
+
+                    <TextView
+                        style="@style/style_text_normal_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:text="查看地图" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_attach"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="添加照片" />
+
+                    <ImageView
+                        android:id="@+id/AddImage_imageViewCamera"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/camera" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonTag"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:background="@drawable/selector_button_blue"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="签 到"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/buttonTag2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/tag2"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="签 退"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        style="@style/style_line_horizontal"
+        android:layout_above="@+id/ll_bottom_tag" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_tag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/taglist" />
+
+        <TextView
+            android:id="@+id/tag_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="考勤记录"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

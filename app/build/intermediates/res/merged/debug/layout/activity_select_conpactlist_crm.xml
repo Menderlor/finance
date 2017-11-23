@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+        
+    <RelativeLayout style="@style/style_header_layout" >
+        <ImageView
+            android:id="@+id/iv_back_select_conpact"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            style="@style/title_common"
+            android:text="选择合同"/>
+        
+        <ImageView
+            android:id="@+id/iv_filter_conpactlist"
+            android:layout_toLeftOf="@+id/iv_add_conpactlist"
+            style="@style/style_header_button"
+            android:src="@drawable/ico_filter"/>
+        
+        <ImageView
+            android:id="@+id/iv_add_conpactlist"
+            android:layout_alignParentRight="true"
+            style="@style/style_header_button"
+            android:src="@drawable/new_item" />
+    </RelativeLayout>
+    <View style="@style/style_line_horizontal"/>
+    
+    <include layout="@layout/merge_comman_listview"/>
+
+</LinearLayout>

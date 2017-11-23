@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl" >
+
+    <!-- <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/zl_back"
+        android:width="1dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/zl_back"
+        android:height="1dp" /> -->
+
+    <ImageView
+        android:id="@+id/ivNewOutStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivListStats"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon15"/>
+    
+    <TextView
+        android:id="@+id/tvNewOutStockCount"
+        style="@style/style_menu_badge_textview"
+       	android:visibility="invisible"/>
+    
+    <TextView
+        android:id="@+id/tvOutStock"
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListStats"
+        android:text="出库" />
+
+</RelativeLayout>

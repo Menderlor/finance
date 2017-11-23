@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical"
+    tools:context=".TaskCalenderActivity" >
+
+    <RelativeLayout
+        style="@style/style_header_layout"
+        android:layout_height="55dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_back_task_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/tv_month_task_calendar"
+                style="@style/title_common"
+                android:layout_toRightOf="@+id/iv_back_task_calendar"
+                android:paddingRight="2dp"
+                android:text="5月"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_month_task_calendar"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_week_task_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="周三"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_year_task_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:text="2015年"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_select_user_task_calendar"
+            style="@style/title_common"
+            android:background="@drawable/selector_header_button"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ico_user"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=" 我的" />
+
+        <ImageView
+            android:id="@+id/iv_add_task_calendar"
+            style="@style/style_header_button"
+            android:layout_toLeftOf="@+id/tv_more_task_calendar"
+            android:src="@drawable/new_item" />
+
+        <TextView
+            android:id="@+id/tv_more_task_calendar"
+            style="@style/title_common"
+            android:layout_alignParentRight="true"
+            android:text="更多"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="#ffffffff" >
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周一" />
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周二" />
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周三" />
+        <TextView
+            style="@style/style_weekName"
+            android:text="周四" />
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周五" />
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周六"
+            android:textColor="#177ed6" />
+
+        <TextView
+            style="@style/style_weekName"
+            android:text="周日"
+            android:textColor="#177ed6" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_calendar_task_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ViewFlipper
+                android:id="@+id/test_flipper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/ll_arrow_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:background="@color/bg_list"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_arrow_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:src="@drawable/shang_04" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+	            android:background="@color/bg_list"
+                android:orientation="horizontal">
+	            <TextView
+	                android:id="@+id/tv_date_task_calendar"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="5"
+	                android:padding="8dp"
+	                android:layout_gravity="center_vertical"
+	                android:text="今日任务"
+	                android:textColor="@color/text_info"
+	                android:textSize="16sp" />
+            	
+	            <ImageView 
+	                android:id="@+id/iv_task_list_calender"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:layout_gravity="center_vertical|right"
+	                android:src="@drawable/ico_order_list"/>
+            
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_task_calendar"
+            style="@style/style_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_save_task_calendar"
+            android:layout_below="@+id/ll_calendar_task_calendar"
+            android:divider="@color/line_splite"
+            android:dividerHeight="@dimen/height_line" />
+
+        <View
+            style="@style/style_line_horizontal"
+            android:layout_above="@+id/rl_save_task_calendar" />
+
+        <RelativeLayout
+            android:id="@+id/rl_save_task_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:minHeight="50dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" >
+
+            <ImageView
+                android:id="@+id/iv_talking_task_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/selector_taking_btn" />
+
+            <EditText
+                android:id="@+id/et_content_task_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@+id/iv_save_task_calendar"
+                android:layout_toRightOf="@+id/iv_talking_task_calendar"
+                android:background="@drawable/shape_edittext_bg_yusheng"
+                android:hint="给自己发条任务.."
+                android:padding="5dp" />
+
+            <ImageView
+                android:id="@+id/iv_save_task_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/selector_create_btn" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

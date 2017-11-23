@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_pentagon.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_pentagon.svg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_diamond.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_diamond.svg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/alarmtask.mp3",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/raw/alarmtask.mp3"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/zlphonedata.db",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/raw/zlphonedata.db"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/collect_diamonds_02.ogg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/raw/collect_diamonds_02.ogg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_octogon.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_octogon.svg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_hexagon.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_hexagon.svg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_heart.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_heart.svg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/raw/imgview_star.svg",
+        "source": "/Users/ernesto/.android/build-cache/63811b1fcbe46ce60c2a064a68a3016a4f9d951d/output/res/raw/imgview_star.svg"
+    }
+]

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+      
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+              android:layout_weight="1" >
+
+            <!--
+             <TextView 
+		    android:layout_height="wrap_content"
+			android:layout_marginTop="10dip" 
+			android:textSize="25sp"
+			android:text="" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/textViewTitle"
+			style="@style/textview_title" />
+            -->
+
+            <TextView
+                android:id="@+id/communityname"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_clock"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/clock" />
+
+                    <TextView
+                        android:id="@+id/tv_signIn_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_clock"
+                        android:gravity="center_vertical"
+                        android:text="111111"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_postion"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/position" />
+
+                <TextView
+                    android:id="@+id/tv_signIn_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_postion"
+                    android:gravity="center_vertical"
+                    android:text="地址"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:src="@drawable/notice_icon01" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

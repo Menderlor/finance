@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+	android:orientation="vertical"  
+	android:gravity="center" 
+	android:layout_width="wrap_content"   
+	android:layout_height="wrap_content"   
+	android:background="@color/goldenrod">
+	   
+    <LinearLayout 
+        android:id="@+id/email_new"
+        android:layout_width="match_parent"   
+		android:layout_height="wrap_content"
+		android:background="#64be10"
+		android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="45dip" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+			android:layout_height="45dip" 
+			android:src="@drawable/email_menu_01"
+			/>
+        
+		<TextView
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		   	android:layout_margin="10dp"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:text="新建"
+		    android:textColor="@color/white"
+		    android:textSize="20sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/email_drafts" 
+        android:layout_width="wrap_content"   
+		android:layout_height="wrap_content"
+		android:background="#e2a219"
+		android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="45dip" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+			android:layout_height="45dip" 
+			android:src="@drawable/email_menu_02"
+			/>
+        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_margin="10dp"
+		    android:gravity="center"
+		    android:text="草稿箱"
+		    android:textColor="@color/white"
+		    android:textSize="20sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/email_outbox"   
+        android:layout_width="wrap_content"   
+		android:layout_height="wrap_content"
+		android:background="#b21e39"
+		android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="45dip" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+			android:layout_height="45dip" 
+			android:src="@drawable/email_menu_03"
+			/>
+        
+		<TextView 
+			android:layout_width="wrap_content"   
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"
+			android:textSize="20sp"
+			android:textColor="@color/white"
+			android:gravity="center"
+			android:text="发件箱"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/email_deleted"  
+        android:layout_width="wrap_content"   
+		android:layout_height="wrap_content"
+		android:background="#525252"
+		android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="45dip" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+			android:layout_height="45dip" 
+			android:src="@drawable/email_menu_04"
+			/>
+        
+		<TextView   
+			android:layout_width="wrap_content"   
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"
+			android:textSize="20sp"
+			android:textColor="@color/white"
+			android:gravity="center"
+			android:text="已删除"/>
+        
+    </LinearLayout>
+		
+</LinearLayout>  

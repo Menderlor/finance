@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="3dip" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="horizontal"
+	android:background="#FFFFFF">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:focusable="true" android:focusableInTouchMode="true">
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<EditText android:textSize="15sp"
+				android:layout_marginRight="5dip" android:hint="选择员工"
+				android:singleLine="true" android:text="" android:id="@+id/editTextReceiverName"
+				android:layout_height="50dip" android:layout_width="230dip" />
+
+			<Button style="@style/button_style2" android:layout_gravity="center_vertical"
+				android:id="@+id/buttonSelectPerson" android:text="选择"
+				android:textColor="#FFFFFF" android:background="#ff8604"
+				android:layout_width="70dip" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<EditText android:layout_gravity="center_vertical"
+				android:textSize="15sp" android:layout_marginRight="5dip"
+				android:singleLine="true" android:text="" android:id="@+id/showdateFrom"
+				android:layout_height="50dip" android:layout_width="230dip" />
+
+			<Button style="@style/button_style2" android:text="起始时间"
+				android:textColor="@color/white" android:layout_gravity="center_vertical"
+				android:background="#555555" android:layout_width="70dip"
+				android:id="@+id/pickdateFrom" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<EditText android:layout_gravity="center_vertical"
+				android:textSize="15sp" android:layout_marginRight="5dip"
+				android:singleLine="true" android:text="" android:id="@+id/showdateTo"
+				android:layout_height="50dip" android:layout_width="230dip" />
+
+			<Button style="@style/button_style2" android:text="结束时间"
+				android:textColor="@color/white" android:layout_gravity="center_vertical"
+				android:background="#555555" android:layout_width="70dip"
+				android:id="@+id/pickdateTo" />
+		</LinearLayout>
+
+		<LinearLayout android:layout_marginBottom="5dip" android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<EditText android:layout_gravity="center_vertical"
+				android:text="" android:textSize="15sp" android:hint="输入日志内容"
+				android:layout_width="fill_parent" android:maxHeight="200dip"
+				android:minHeight="100dip" android:layout_height="wrap_content"
+				android:id="@+id/editTextContent" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<Button style="@style/button_style1" android:text="查询"
+				android:textColor="@color/white" android:layout_width="70dip"
+				android:background="#ff8604" android:id="@+id/buttonSend"
+				android:layout_marginRight="5dip" />
+
+			<Button style="@style/button_style1" android:text="取消"
+				android:textColor="@color/white" android:background="#555555"
+				android:layout_width="70dip" android:id="@+id/buttonCancel"
+				android:layout_marginRight="5dip" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>  

@@ -1,0 +1,898 @@
+[
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/unit_ico.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/unit_ico.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/alarm_list.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/alarm_list.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/color_white_radiobutton.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/color_white_radiobutton.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bg_selected.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bg_selected.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_04.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_04.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/position.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/position.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_create_btn.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_create_btn.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_bg_gray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_bg_gray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_close_bg_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/textview_right.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/textview_right.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/email.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/email.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/loading_bg.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/loading_bg.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_green.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_share_menu.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_share_menu.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/telephone.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/telephone.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_bg_selcct_count.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_bg_selcct_count.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background_focus.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background_focus.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/perm_group_camera.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/perm_group_camera.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_button_little_press.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_button_little_press.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/taglist.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/taglist.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/avatar_dotline_add_bg_pressed.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/avatar_dotline_add_bg_pressed.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background_pressed.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background_pressed.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/control_listview_pull_to_refresh_header_background.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/control_listview_pull_to_refresh_header_background.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar02.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar02.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_02.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_02.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/chat_button_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/chat_button_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/comment.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/comment.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tb_munion_item_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tb_munion_item_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bg_addtag_activated.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bg_addtag_activated.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/switch_on_normal.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/switch_on_normal.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/username_ico.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/username_ico.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_grid_menu.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_grid_menu.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_dialog_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_single_tag_checked_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_single_tag_checked_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/user_checkbox_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/user_checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_wifi_disable.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bg_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_single_tag_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_single_tag_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/mail.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/mail.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bg_addtag_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bg_addtag_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_title_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_title_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_speech.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_speech.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/person.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/person.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_gray_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_gray_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_single_tag_normal_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_single_tag_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/chat.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/chat.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_defulat_white.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_defulat_white.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/notice.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/notice.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/state_green.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/state_green.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/progress_horizontal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar2.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar2.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/red_button.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/red_button.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/circle_calendar_select.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/circle_calendar_select.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_radius_tranlate.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_radius_tranlate.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/memo.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/memo.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_info_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_info_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_tag_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_tag_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/btn_work_plan.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/btn_work_plan.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background_disabled.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background_disabled.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_edittext_theme_bule.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_edittext_theme_bule.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/perm_group_location.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/perm_group_location.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar3.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar3.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bg_unselected.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bg_unselected.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/comment_bg_left.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/comment_bg_left.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_tag_checked_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_tag_checked_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/logo_lc.jpg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/logo_lc.jpg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/quit.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/quit.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_btn_bg_boeryun_gray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_btn_bg_boeryun_gray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tag_text_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tag_text_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/menu.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/menu.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tb_munion_icon.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tb_munion_icon.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/admin.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/admin.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/friendactivity_comment_detail_list_.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/friendactivity_comment_detail_list_.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/textview_style.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/textview_style.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/switch_off_normal.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/switch_off_normal.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/listviewandlogin.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/listviewandlogin.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bar.jpg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bar.jpg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_select_count_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_select_count_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar01.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar01.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_03_checked.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_03_checked.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/menu_chance.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/menu_chance.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tag_text_color.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tag_text_color.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/myborder.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/myborder.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_menu_item_backgroud.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_menu_item_backgroud.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_avatar_btn.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_avatar_btn.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/memo_mini.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/memo_mini.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/color_radiobutton.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/color_radiobutton.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/addimgbgshape.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/addimgbgshape.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/setting_button_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/setting_button_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/select_comment_right.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/select_comment_right.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/title_bar_set_btn_pressed.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/title_bar_set_btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_edittext_bg_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_edittext_bg_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/state_red.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/state_red.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/clients.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/clients.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/select_comment_left.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/select_comment_left.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tx.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tx.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_progress_dialog.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_text_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_text_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_item_layout.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_item_layout.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/logo_hn.jpg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/logo_hn.jpg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/spit.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/spit.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/red_button_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/red_button_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/calendar_mini.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/calendar_mini.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_orange.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_btn_bg_boeryun_press.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_btn_bg_boeryun_press.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/btn_contacts_new.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/btn_contacts_new.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/logo_by.jpg",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/logo_by.jpg"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_linear_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_linear_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_03.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_03.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_btn_lightgreen_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_btn_lightgreen_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/btn_work_plan_new.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/btn_work_plan_new.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_taking_btn.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_taking_btn.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/badge_ifaux.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/badge_ifaux.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/custom_tab_indicator.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/custom_tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background_transition.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background_transition.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/list_selector_background_longpress.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/list_selector_background_longpress.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tag.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tag.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shadow.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shadow.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_tag_text_color.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_tag_text_color.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bg_tag_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bg_tag_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/settings.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/settings.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/wenjianjia.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/wenjianjia.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/border_zmy.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/border_zmy.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/blue_button_down.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/blue_button_down.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_dialog_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/blue_button.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/blue_button.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/select_user.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/select_user.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_edit.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_edit.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_process_radio_button.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_process_radio_button.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tabmini.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tabmini.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/btn_contact_list.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/btn_contact_list.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/comment_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/comment_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_button_blue.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_button_blue.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/perm_group_calendar.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/perm_group_calendar.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bt_nobgd.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bt_nobgd.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/videos_by_google_banner.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/videos_by_google_banner.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/quit2.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/quit2.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/esc_pressed.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/esc_pressed.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_red.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/blue_button_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/blue_button_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/chart.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/chart.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_tap.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_text_nav.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_text_nav.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_header_button.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_header_button.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/comment_bg_right.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/comment_bg_right.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_rounded_rectangle.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_rounded_rectangle.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bigadd.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bigadd.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/pro_loading.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/pro_loading.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/state_yellow.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/state_yellow.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/calendar.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/calendar.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/divider.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/divider.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/addtag_text_color.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/addtag_text_color.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/layout_bg1.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/layout_bg1.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_list_item.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_list_item.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_btn_bg_boeryun_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_btn_bg_boeryun_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_focused.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_tap.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/perm_group_device_alarms.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/perm_group_device_alarms.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_item_listview.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_item_listview.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/menu_order.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/menu_order.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/red_button_down.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/red_button_down.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar03.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar03.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_avatar_add_btn.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_avatar_add_btn.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/addtag_text_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/addtag_text_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/progress_horizontal_orange.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/progress_horizontal_orange.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/menu_button_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/menu_button_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tab_bar1.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tab_bar1.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/login_bg.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/login_bg.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/badge_circle.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/badge_circle.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flag_01.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flag_01.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/invinewback.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/invinewback.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/ernesto/.android/build-cache/35acd4d41dfe071e43a0efdef8c4d0e5d1513694/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bt_calendar_next.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bt_calendar_next.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/title_bar_set_btn_normal.9.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/title_bar_set_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_button_gray.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_button_gray.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/editex_shadow.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/editex_shadow.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/qianbi.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/qianbi.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/upsubmit.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/upsubmit.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/tag2.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/tag2.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_normal.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_focused.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/sumit.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/sumit.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/listviewitemshape.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/listviewitemshape.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bg_tag_activated.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bg_tag_activated.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/logo_hori.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/logo_hori.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_tag_normal_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_tag_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/flowlayout_single_tag_text_color.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/flowlayout_single_tag_text_color.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/esc.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/esc.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_searchview_bg.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_searchview_bg.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/password_ico.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/password_ico.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/videos_by_google_icon.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/videos_by_google_icon.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bt_bgd.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bt_bgd.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/umeng_update_button_check_selector.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/umeng_update_button_check_selector.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/bt_calendar_last.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/bt_calendar_last.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/shape_btn_bg_pressed_yusheng.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/shape_btn_bg_pressed_yusheng.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/blue_button_selector_old.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/blue_button_selector_old.xml"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/avatar_dotline_add_bg.png",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/avatar_dotline_add_bg.png"
+    },
+    {
+        "merged": "/Users/ernesto/Downloads/xuesong_studio/app/build/intermediates/res/merged/debug/drawable/selector_header_half.xml",
+        "source": "/Users/ernesto/Downloads/xuesong_studio/app/src/main/res/drawable/selector_header_half.xml"
+    }
+]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_slt_sale_target"
+        style="@style/style_header_layout"
+        boeryun:titleText="销售目标"
+        boeryun:isVisbleSaveIco="true"
+        boeryun:isVisbleBackIco="true"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+            android:id="@+id/tv_user_slt_sale_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"
+            android:background="@drawable/selector_header_half"
+            android:hint="部门>员工"
+        android:padding="8dp"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/merge_listview_normal_style"/>
+    </LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bg_list"
+        android:padding="8dp"
+        android:gravity="center">
+        <ImageView 
+            android:id="@+id/iv_pre_slt_sale_target"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/arrow_left_header"/>
+        <TextView 
+            android:id="@+id/tv_year_sale_target"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/text_black"
+            android:textSize="16sp"
+            android:text="2015"/>
+        <ImageView 
+            android:id="@+id/iv_next_slt_sale_target"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/arrow_right_header"/>
+    </LinearLayout>
+</LinearLayout>

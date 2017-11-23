@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<!-- 传统式 ListView，灰色 细分割线-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.cedarhd.control.listview.PullToRefreshListView
+            android:id="@+id/lv_comman_normal_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            style="@style/style_listview_normal"
+            android:descendantFocusability="beforeDescendants"
+            android:visibility="gone" />
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/progress_comman_normal_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</merge>

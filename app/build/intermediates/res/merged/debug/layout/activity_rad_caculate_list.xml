@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_rad_caculate_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical">
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_rad_caculate_list"
+        style="@style/style_header_layout"
+        boeryun:isVisbleAddIco="true"
+        boeryun:isVisbleBackIco="true"
+        boeryun:isVisbleFilterIco="false"
+        boeryun:isVisbleSaveIco="false"
+        boeryun:titleText="预算列表" />
+
+    <View style="@style/style_line_horizontal" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.cedarhd.control.listview.PullToRefreshListView
+            android:id="@+id/lv_rad_caculate_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/style_listview"
+            android:visibility="gone" />
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/progress_rad_caculatelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+    </FrameLayout>
+
+</LinearLayout>

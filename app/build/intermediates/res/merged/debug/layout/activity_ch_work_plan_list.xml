@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_work_plan_list"
+        style="@style/style_header_layout"
+        boeryun:isVisbleAddIco="true"
+        boeryun:isVisbleBackIco="true"
+        boeryun:titleText="工作计划" />
+
+    <com.hb.views.PinnedSectionListView
+        android:id="@+id/pinned_section_lv_work_plan_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/line_splite"
+        android:dividerHeight="@dimen/height_line"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
+	<View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_select_user_workplan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_select_user"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/select_user" />
+
+            <TextView
+                android:id="@+id/tv_select_user_workplan"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_select_user"
+                android:gravity="center"
+                android:text="选择员工"
+                android:textColor="@color/content_list"
+                android:textSize="20dp" />
+        </RelativeLayout>
+	
+            <View style="@style/style_line_vertical"/>
+        <RelativeLayout
+            android:id="@+id/rl_select_date_workplan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_select_user1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ico_date" />
+
+            <TextView
+                android:id="@+id/tv_select_date_workplan"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_select_user1"
+                android:gravity="center"
+                android:text="2015-12-12"
+                android:textColor="@color/content_list"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
