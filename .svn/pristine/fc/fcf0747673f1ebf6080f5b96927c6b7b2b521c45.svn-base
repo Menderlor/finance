@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:padding="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_month"
+            style="@style/title_common"
+            android:text="月志" />
+
+        <ImageView
+            android:id="@+id/imageViewDone_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_time_month"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <!-- <ImageView style="@style/email_style_bullets1" /> -->
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="时    间：" />
+
+            <TextView
+                android:id="@+id/tv_time_month"
+                style="@style/email_style_text2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_employee_month"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="员    工：" />
+
+            <TextView
+                android:id="@+id/tv_employee_month"
+                style="@style/email_style_text2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_finish_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="已完成：" />
+
+            <EditText
+                    android:id="@+id/et_finish_month"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_unfinished_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="未完成：" />
+
+           
+            <EditText
+                    android:id="@+id/et_unfinished_month"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_plan_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="下月计划：" />
+
+           
+            <EditText
+                    android:id="@+id/et_plan_month"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_summary_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="工作总结：" />
+            <EditText
+                    android:id="@+id/et_summary_month"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+        </LinearLayout>
+
+
+      
+    </LinearLayout>
+      <LinearLayout
+            android:id="@+id/ll_work_log_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_speek_worglog_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/selector_taking_btn"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_keybord_worglog_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/chatting_keyboard_btn_normal" />
+
+            <Button
+                android:id="@+id/btn_speek_worglog_month"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/chatting_btn_bg"
+                android:text="点击说话" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

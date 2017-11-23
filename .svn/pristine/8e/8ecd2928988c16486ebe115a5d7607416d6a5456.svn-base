@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 最新版本应用地址-->
+	<string name="version_url">http://www.boeryun.com:8076/version.xml</string>
+	<string name="apk_url">http://www.boeryun.com:8076/ZL.Phone.apk</string>
+</resources>

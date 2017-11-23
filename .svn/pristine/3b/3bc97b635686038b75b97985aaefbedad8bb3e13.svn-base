@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_list">
+    
+	<RelativeLayout
+            android:id="@+id/rl_search_tasklist_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <com.changhui.control.BoeryunSearchView
+                android:id="@+id/searchview_tasklist_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:layout_toLeftOf="@+id/iv_calendar_mode_tasklist_fragment"/>
+            
+            <ImageView
+                android:id="@+id/iv_calendar_mode_tasklist_fragment"
+                 android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ico_date"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <FrameLayout style="@style/style_listview_root">
+
+            <com.changhui.control.listview.PullToRefreshListView
+                android:id="@+id/listView_tasklist_fragment"
+                style="@style/style_listview"
+                android:visibility="gone" />
+
+            <com.changhui.control.MyProgressBar
+                android:id="@+id/progress_tasklist_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+</LinearLayout>

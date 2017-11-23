@@ -1,0 +1,200 @@
+package com.changhui.helpers;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
+
+import com.changhui.constants.FilePathConfig;
+import com.changhui.utils.LogUtils;
+
+public class BitmapHelper {
+
+	/**
+	 * 压缩图片，等比例缩放
+	 * 
+	 * @param filePath
+	 *            图片路径
+	 * @param resId
+	 *            图片Id
+	 * @param weidth
+	 *            指定输出宽度
+	 * @param height
+	 *            指定输出高度
+	 * @return 压缩后的图片
+	 */
+	public static Bitmap decodeSampleBitmapFromFile(String filePath,
+			float weidth, float height) {
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inJustDecodeBounds = true;
+		BitmapFactory.decodeFile(filePath, options);
+		options.inSampleSize = calculateInSampleSize(options, weidth, height);
+		options.inJustDecodeBounds = false;
+		return BitmapFactory.decodeFile(filePath, options);
+	}
+
+	/**
+	 * 指定输出图片的缩放比例
+	 * 
+	 * @param options
+	 *            解码参数
+	 * @param reqWidth
+	 *            指定输出宽度
+	 * @param reqHeight
+	 *            指定输出高度
+	 * @return 压缩比例
+	 */
+	private static int calculateInSampleSize(BitmapFactory.Options options,
+			float reqWidth, float reqHeight) {
+		int imageHeight = options.outHeight;
+		int imageWeidht = options.outWidth;
+		int inSampleSize = 1; // 等比例，默认是1 ，2的幂
+		if (imageHeight > reqHeight || imageWeidht > reqWidth) {
+			// 计算压缩比例：分为宽高比例，取小
+			final int heightRatio = Math.round((float) imageHeight
+					/ (float) reqHeight);
+			final int widthRatio = Math.round((float) imageWeidht
+					/ (float) reqWidth);
+			inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
+		}
+		return inSampleSize;
+	}
+
+	/**
+	 * 对分辨率较大的图片进行缩放
+	 * 
+	 * @param filePath
+	 *            文件路径
+	 * @param width
+	 *            需要缩放到的宽度px
+	 * @param height
+	 *            需要缩放到的高度px
+	 * @return
+	 */
+	public static Bitmap zoomBitmap(String filePath, float width, float height) {
+		// 首先得到等比例缩放的图片(对图片进行采样)
+		Bitmap bitmap = decodeSampleBitmapFromFile(filePath, width, height);
+		if (bitmap == null) {
+			return bitmap;
+		}
+		// 得到图片实际宽高
+		int w = bitmap.getWidth();
+		int h = bitmap.getHeight();
+
+		Matrix matrix = new Matrix();
+
+		float scaleWidth = ((float) width / w);
+
+		float scaleHeight = ((float) height / h);
+
+		matrix.postScale(scaleWidth, scaleHeight);// 利用矩阵进行缩放不会造成内存溢出
+
+		Bitmap newbmp = Bitmap.createBitmap(bitmap, 0, 0, w, h, matrix, true);
+		return newbmp;
+	}
+
+	/**
+	 * 对分辨率较大的图片进行缩放
+	 * 
+	 * @param bitmap
+	 *            要压缩的图片
+	 * @param width
+	 *            需要缩放到的宽度px
+	 * @param height
+	 *            需要缩放到的高度px
+	 * @return
+	 */
+	public static Bitmap zoomBitmap(Bitmap bitmap, float width, float height) {
+		// 得到图片实际宽高
+		int w = bitmap.getWidth();
+		int h = bitmap.getHeight();
+		Matrix matrix = new Matrix();
+		float scaleWidth = ((float) width / w);
+		float scaleHeight = ((float) height / h);
+		matrix.postScale(scaleWidth, scaleHeight);// 利用矩阵进行缩放不会造成内存溢出
+		Bitmap newbmp = Bitmap.createBitmap(bitmap, 0, 0, w, h, matrix, true);
+		return newbmp;
+	}
+
+	/**
+	 * 生成缩略图
+	 * 
+	 * @param thumFilePath
+	 *            缩略图全路径
+	 * @param bitmap
+	 *            缩略图
+	 */
+	public static synchronized void createThumBitmap(String thumFilePath,
+			Bitmap bitmap) {
+		FileOutputStream fos;
+		try {
+			File file = new File(thumFilePath);
+			file.createNewFile();
+			fos = new FileOutputStream(file);
+			// 生成缩略图
+			bitmap.compress(Bitmap.CompressFormat.JPEG, 80, fos);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * 图片缩小
+	 * 
+	 * @param filePath
+	 *            需要压缩文件的绝对路径
+	 * @param bitmap
+	 * @return 返回缩略图路径
+	 */
+	public static String compressBitmap(String filePath) {
+		Bitmap bitmap = BitmapFactory.decodeFile(filePath);
+		LogUtils.i("compress", filePath);
+		int picWidth = bitmap.getWidth();
+		int picHeight = bitmap.getHeight();
+		LogUtils.i("kjx9", "picWidth --->" + picWidth + "*" + picHeight);
+
+		return filePath;
+	}
+
+	/***
+	 * 生成图片缩略图，并返回缩略图路径
+	 * 
+	 * @param filePath
+	 *            需要压缩文件的绝对路径
+	 * @param bitmap
+	 * @return 返回缩略图路径
+	 * @param width
+	 *            需要缩略的宽度px
+	 * @param height
+	 *            需要缩略的高度px
+	 * @return
+	 */
+	public static String createThumbBitmap(String filePath) {
+		Bitmap bitmap = BitmapFactory.decodeFile(filePath);
+		LogUtils.i("compress", filePath);
+		int picWidth = bitmap.getWidth();
+		int picHeight = bitmap.getHeight();
+		LogUtils.i("kjx9", "picWidth --->" + picWidth + "*" + picHeight);
+		// 如果图片需要压缩，则更改路径
+		if ((picWidth > 360) && (picHeight > 360)) {
+			// 采样图片（缩小）
+			Bitmap uploadPhoto = BitmapHelper.decodeSampleBitmapFromFile(
+					filePath, 360, 360);
+			int index = filePath.lastIndexOf("/");
+			String thubName = filePath.substring(index + 1);
+			// 更改路径:使用采样后的路径,使用同一配置路径
+			filePath = FilePathConfig.getThumbDirPath() + File.separator
+					+ "sf_" + thubName;
+			// 创建缩略图
+			BitmapHelper.createThumBitmap(filePath, uploadPhoto);
+			LogUtils.i("kjx9", "(picHeight > 300)" + "\n" + filePath);
+		}
+		return filePath;
+	}
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="3dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/absoluteLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <ImageView style="@style/email_style_bullets1" />
+
+            <TextView
+                android:id="@+id/id"
+                style="@style/email_style_text1"
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="动态：" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                style="@style/email_style_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/absoluteLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <ImageView style="@style/email_style_bullets1" />
+
+            <TextView
+                android:id="@+id/id2"
+                style="@style/email_style_text1"
+                android:layout_width="75dip"
+                android:layout_height="wrap_content"
+                android:text="员    工：" />
+
+            <TextView
+                android:id="@+id/textViewPersonnelName"
+                style="@style/email_style_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:drawable/edit_text"
+                android:scrollbarStyle="outsideOverlay" >
+
+                <EditText
+                    android:id="@+id/editTextContent"
+                    style="@style/EditText_Content_style1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:enabled="true" />
+            </ScrollView>
+            
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonDelete"
+                style="@style/button_style1"
+                android:layout_width="fill_parent"
+                android:layout_marginRight="5dip"
+                android:background="#555555"
+                android:text="删除"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                style="@style/button_style1"
+                android:layout_width="fill_parent"
+                android:layout_marginRight="5dip"
+                android:background="#ff8604"
+                android:text="保存"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

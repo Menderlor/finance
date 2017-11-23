@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shape_edittext_bg_yusheng">
+	<TextView 
+	    android:id="@+id/tv_caiji_ads_yusheng_menu"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:textColor="@color/gray"
+	    android:text="采集广告位"
+	    android:padding="8dp"
+	    android:gravity="center_vertical"
+        android:textSize="20sp"/>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/lightgray"/>
+	<TextView 
+	    android:id="@+id/tv_caiji_point_yusheng_menu"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:padding="8dp"
+	    android:textColor="@color/gray"
+	    android:gravity="center_vertical"
+	    android:text="采集道闸"
+        android:textSize="20sp"/>
+</LinearLayout>

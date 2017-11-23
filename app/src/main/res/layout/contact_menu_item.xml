@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl">
+
+
+    <TextView
+        android:id="@+id/tvContacts"
+        android:layout_below="@+id/ivListContacts"
+		style="@style/style_menu_grid_item_text"
+        android:text="联系" />
+
+    <ImageView
+        android:id="@+id/ivNewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivListContacts"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon6" />
+    
+    <TextView
+        android:id="@+id/tvNewContactCount"
+        style="@style/style_menu_badge_textview"
+        android:visibility="invisible"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

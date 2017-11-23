@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_cancel_setting_userinfo"
+            style="@style/style_header_button" 
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="用户信息" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/lightgray" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_avatar_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/little_gray"
+                android:clickable="true" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="用户信息"
+                        android:textColor="#999999"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_userinfo_setting_company"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="企业名"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_userinfo_setting_company"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="企业名"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_useinfo_setting_user"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:layout_weight="1"
+                        style="@style/task_style_edit_info"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="用户名"
+                        android:textSize="18sp" />
+
+                 <TextView
+                        android:id="@+id/tv_useinfo_setting_user"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="用户名"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

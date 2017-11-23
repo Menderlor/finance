@@ -1,0 +1,27 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout style="@style/style_header_layout" >
+        <ImageView
+            android:id="@+id/iv_back_comman"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_title_comman"
+            style="@style/title_common"
+            android:text="标题"/>
+        <ImageView
+            android:id="@+id/iv_filter_comman"
+            android:layout_toLeftOf="@+id/iv_add_comman"
+            style="@style/style_header_button"
+            android:src="@drawable/ico_filter"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/iv_add_comman"
+            style="@style/style_header_button"
+            android:src="@drawable/new_item" 
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</merge>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 最新版本应用地址-->
+    <!--<string name="version_url">http://www.boeryun.com:8016/version.xml</string>-->
+    <!--<string name="apk_url">http://www.boeryun.com:8016/ZL.Phone.apk</string>-->
+
+    <string name="version_url">https://testfms.cedarhd.com/version.xml</string>
+    <string name="apk_url">https://testfms.cedarhd.com/ZL.Phone.apk</string>
+</resources>

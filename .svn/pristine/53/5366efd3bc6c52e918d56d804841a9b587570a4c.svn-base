@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_slt_shopcar_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <!-- android:background="@color/zl_back" -->
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_slt_shopcarlist"
+        style="@style/style_header_layout"
+        boeryun:isVisbleBackIco="true"
+        boeryun:titleText="购物车" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <include layout="@layout/merge_listview_old_style" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_slt_shopcar_list"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/translate_half_black"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_checkall_slt_shopcar_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_checked_slt_shopcar_list"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/ico_unselect_shopcar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="left|center_vertical"
+                    android:text="全选"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/tv_total_slt_shopcar_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:gravity="left|center_vertical"
+                    android:text="￥0.00"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+			<TextView
+                android:id="@+id/tv_remove_slt_shopcar_slt_shopcar_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/translate_half_black"
+                android:gravity="center"
+                android:text="删 除"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tv_add_slt_shopcar_slt_shopcar_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#F15353"
+                android:gravity="center"
+                android:text="下 单"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

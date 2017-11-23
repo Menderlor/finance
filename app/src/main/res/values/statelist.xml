@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="statelist">
+        <item>启动</item>
+        <item>暂停</item>
+        <item>完成</item>
+        <item>搁置</item>
+        <item>提交</item>
+        <item>重启</item>
+    </string-array>
+</resources>

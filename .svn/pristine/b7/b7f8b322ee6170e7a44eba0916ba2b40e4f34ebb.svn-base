@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" 
+    android:gravity="center">
+ 	<LinearLayout 
+ 	    android:id="@+id/ll_calendar_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="55dp"
+        android:orientation="vertical"
+        android:gravity="center">
+ 	    <TextView
+	        android:id="@+id/tv_day_calendar_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center" />
+ 	    <TextView
+	        android:id="@+id/tv_lunar_calendar_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_info"
+	        android:textSize="10sp"
+	        android:gravity="center" />
+ 	    <ProgressBar
+            android:id="@+id/pbar_calendar_item"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:max="10"
+            android:indeterminate="false"
+ 			android:indeterminateOnly="false"
+ 			android:layout_marginLeft="10dp"
+ 			android:layout_marginRight="10dp"
+            android:progressDrawable="@drawable/progress_horizontal_orange" />
+ 	</LinearLayout>
+</LinearLayout>

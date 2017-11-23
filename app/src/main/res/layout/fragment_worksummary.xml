@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include layout="@layout/merge_comman_listview" />
+    </LinearLayout>
+	<View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:id="@+id/ll_filter_worksummary"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal" 
+        android:background="@color/bg_list"
+        android:gravity="center"
+        android:padding="6dp">
+		
+        <ImageView 
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ico_filter_blue"/>
+        <TextView
+            android:id="@+id/tv_filter_worksummary"
+            style="@style/style_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+        	android:background="@drawable/selector_header_half"
+        	android:textColor="@color/theme_new"
+            android:text="过滤"
+            />
+    </LinearLayout>
+</LinearLayout>

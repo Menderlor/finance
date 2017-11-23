@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_list">
+
+    <LinearLayout
+        android:id="@+id/ll_select_publisher_pop_filter_tab"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <ImageView
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="1"
+    		android:src="@drawable/tx"/>
+         <TextView
+        	android:id="@+id/tv_select_publisher_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="3"
+    		android:gravity="center_vertical"
+            android:hint="发布人.."
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    <View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:id="@+id/ll_select_executor_pop_filter_tab"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <ImageView
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="1"
+    		android:src="@drawable/tx"/>
+         <TextView
+             android:id="@+id/tv_select_executor_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="3"
+    		android:gravity="center_vertical"
+    		android:hint="执行人.."
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    <View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:id="@+id/ll_select_status_pop_filter_tab"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <ImageView
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="1"
+    		android:src="@drawable/tx"/>
+         <TextView
+             android:id="@+id/et_select_status_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="3"
+    		android:gravity="center_vertical"
+    		android:hint="任务状态.."
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    
+    <View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:id="@+id/ll_select_status_pop_filter_tab1"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <ImageView
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="1"
+    		android:src="@drawable/ico_project"/>
+         <TextView
+             android:id="@+id/et_select_project_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="3"
+    		android:gravity="center_vertical"
+    		android:hint="项目分类.."
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    
+    <View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:id="@+id/ll_select_status_pop_filter_tab2"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <ImageView
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="1"
+    		android:src="@drawable/clock"/>
+         <TextView
+            android:id="@+id/tv_select_assignTime_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="30dp"
+    		android:layout_weight="3"
+    		android:gravity="center_vertical"
+    		android:hint="执行时间.."
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    
+    <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray"/>
+    <LinearLayout  
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+    	android:orientation="horizontal">
+        <Button 
+            android:id="@+id/btn_cancel_pop_filter_tab_tabtasklist"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_button_blue"
+            android:text="重 置"/>
+        <Button 
+            android:id="@+id/btn_done_pop_filter_tab_tabtasklist"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector_button_blue"
+            android:text="确定"/>
+    </LinearLayout>
+</LinearLayout>
+

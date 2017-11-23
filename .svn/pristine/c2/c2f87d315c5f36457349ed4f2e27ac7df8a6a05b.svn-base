@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bjk_03"
+    android:padding="15dp"
+     >
+
+    <TextView
+        android:id="@+id/show_dialog2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textColor="#018BE6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_dialog2_name"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#FFAA25"
+        android:text="是部门的负责人吗？如果是，请输入部门名称。如果不是部门负责人请您直接邀请！"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText_dialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入部门！" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button_yq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/editText_dialog2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/yqicon_13"
+         />
+	
+</RelativeLayout>

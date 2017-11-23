@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+	
+	<RelativeLayout style="@style/style_header_layout">
+		<ImageView 
+		    android:layout_width="wrap_content"
+			android:padding="5dip" 
+			android:layout_marginLeft="5dip"
+			android:layout_centerVertical="true" 
+			android:layout_height="wrap_content"
+			android:src="@drawable/back" 
+			android:id="@+id/imageViewCancel" />
+	
+		<TextView
+		    android:id="@+id/title"
+		    style="@style/title_common"
+		    android:text="详情"/>
+		
+		<ImageView 
+           	android:layout_width="wrap_content"
+			android:padding="5dip" 
+			android:layout_marginRight="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/new_item"
+			android:id="@+id/imageViewNew" />
+
+	</RelativeLayout>
+	
+	<View  
+	    android:layout_height="2px" 
+		android:background="@color/lightgray"       
+		android:layout_width="fill_parent" />
+	
+	<LinearLayout 
+	    android:layout_marginTop="5dip"
+		android:layout_marginBottom="5dip" 
+		android:padding="5dp"
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+
+		<TextView 
+		    style="@style/notice_style_text1"
+			android:layout_marginBottom="5dip" 
+			android:text=""
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewTitle" />
+
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			
+			<TextView 
+			    style="@style/notice_style_text2"
+				android:layout_marginRight="10dip" 
+				android:text=""
+				android:layout_width="120dp" 
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewPublisherName" />
+
+			<TextView 
+			    style="@style/notice_style_text2" 
+			    android:text=""
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewTime" 
+				 />
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			
+			<TextView 
+			    android:layout_marginRight="10dip" 
+			    android:layout_height="wrap_content"
+				android:textColor="#999999" 
+				android:textSize="15sp" 
+				android:text=""
+				android:id="@+id/textViewUserId" 
+				android:layout_width="120dp" />
+				
+			<TextView 
+			    android:layout_height="wrap_content"
+				android:textColor="#999999" 
+				android:textSize="15sp" android:text=""
+				android:id="@+id/textViewTimeType" 
+				android:layout_width="wrap_content" />
+			
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			
+			<TextView 
+			    android:layout_marginRight="10dip" 
+			    android:layout_height="wrap_content"
+				android:textColor="#999999" 
+				android:textSize="15sp" 
+				android:text=""
+				android:id="@+id/textViewVacationType" 
+				android:layout_width="120dp" />
+				
+			<TextView 
+			    android:layout_height="wrap_content"
+				android:textColor="#999999" 
+				android:textSize="15sp" android:text=""
+				android:id="@+id/textViewDeadline" 
+				android:layout_width="wrap_content" />
+			<!-- 	android:layout_alignParentRight="true" -->
+			
+		</LinearLayout>
+
+		<RelativeLayout 
+		    android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			
+			<TextView 
+			    style="@style/notice_style_text2"
+				android:layout_marginRight="10dip" 
+				android:text=""
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewReceiverName" />
+			
+		</RelativeLayout>
+		
+		<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.cedarhd.control.HorizontalScrollViewAddImage
+                android:id="@+id/addImageView_attachFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" ></com.cedarhd.control.HorizontalScrollViewAddImage>
+            
+        </RelativeLayout>
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_weight="1" 
+		android:layout_width="fill_parent"
+		android:layout_height="0dp" 
+		android:background="#edebe9"
+		android:layout_margin="5dp">
+		
+		<ScrollView 
+		    android:id="@+id/scrollView"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:scrollbarStyle="outsideOverlay" 
+			android:background="@null">
+			
+			<TextView 
+			    android:layout_width="fill_parent" 
+			    style="@style/notice_style_text3"
+				android:layout_height="wrap_content" 
+				android:id="@+id/textViewContent" />
+			
+		</ScrollView>
+	</LinearLayout>
+
+</LinearLayout>  

@@ -1,0 +1,682 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<resources xmlns:adnroid="http://schemas.android.com/apk/res/android">
+
+    <style name="BaseTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#1999da</item>
+    </style>
+
+    <style name="title_style" parent="android:Theme">
+        <item name="android:windowTitleSize">50dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="styleNoFrameDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+    </style>
+
+    <style name="styleNoFrameDialog_bottom" parent="styleNoFrameDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="style_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowNoTitle">false</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置完全透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置屏幕变暗 -->
+    </style>
+
+    <!-- 普通弹框样式，背景变暗,有边框 -->
+    <style name="style_dialog_normal" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowNoTitle">false</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置完全透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置屏幕变暗 -->
+    </style>
+
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- popupwindow样式 -->
+    <style name="style_pop" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">true</item> <!-- 设置屏幕变暗 -->
+    </style>
+
+    <!-- 标题栏样式(旧版配色) -->
+    <style name="style_header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/nav_height</item>
+        <item name="android:background">@drawable/nav</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 标题栏文字样式 -->
+    <style name="title_common">
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- 通知标题样式 -->
+    <style name="textview_title">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!-- listviewlayout中文本的样式 -->
+    <style name="listviewlayout_text">
+        <item name="android:textColor">@color/listviewlayout_text_selector</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <!-- <item name="android:layout_width">0dp</item> -->
+        <!-- <item name="android:layout_height">wrap_content</item> -->
+        <!-- <item name="android:layout_weight">1</item> -->
+
+
+        <!-- <item name="android:textColor">#4c4c4c</item> -->
+        <!-- <item name="android:gravity">center_vertical</item> -->
+        <item name="android:textSize">12dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+
+    <style name="listviewlayout_text2">
+        <item name="android:textColor">@color/listviewlayout_text_selector</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+
+    <!-- 通知内容的样式 -->
+    <style name="notice_style_text1">
+        <item name="android:textColor">#444444</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="notice_style_text2">
+        <item name="android:textColor">#999999</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="notice_style_text3">
+        <item name="android:textColor">#777777</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 邮件内容的样式 -->
+    <style name="email_style_text1">
+        <item name="android:textColor">#444444</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+        <!-- <item name="android:gravity">center_vertical</item> -->
+        <item name="android:textSize">17sp</item>
+        <!-- <item name="android:layout_marginLeft">5dip</item> -->
+        <item name="android:layout_width">75dip</item>
+    </style>
+
+    <style name="email_style_text2">
+        <item name="android:textColor">#acacac</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <!-- <item name="android:gravity">center_vertical</item> -->
+        <item name="android:textSize">17sp</item>
+        <!-- <item name="android:layout_marginLeft">5dip</item> -->
+    </style>
+
+    <style name="email_style_bullets1">
+        <item name="android:layout_width">6dip</item>
+        <item name="android:layout_height">6dip</item>
+        <item name="android:src">@drawable/email_bullets_1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+
+    <!-- 邮件过滤框的样式 -->
+
+
+    <!-- 标题栏样式 -->
+    <style name="rl_title_common">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/nav_height</item>
+        <item name="android:background">@drawable/nav</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 详细界面按钮的样式 -->
+
+
+    <!-- 按钮的样式 -->
+    <style name="button_style1">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">35dip</item>
+    </style>
+
+    <style name="button_style2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">35dip</item>
+    </style>
+
+    <!-- 编辑框的样式 -->
+    <style name="EditText_Content_style1">
+        <item name="android:gravity">top</item>
+        <item name="android:minHeight">200dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SectionTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:padding">?sectionListView.sectionTextViewPadding</item>
+        <item name="android:textColor">?sectionListView.sectionTextViewTextColor</item>
+        <item name="android:textSize">?sectionListView.sectionTextViewTextSize</item>
+    </style>
+
+    <style name="SectionItemStyle">
+        <item name="android:padding">?sectionListView.sectionItemPadding</item>
+        <item name="android:background">?sectionListView.sectionItemBackground</item>
+    </style>
+
+    <style name="ListTextViewStyle" parent="@android:style/TextAppearance">
+        <item name="android:padding">?sectionListView.listTextViewPadding</item>
+        <item name="android:textColor">?sectionListView.listTextViewTextColor</item>
+        <item name="android:textSize">?sectionListView.listTextViewTextSize</item>
+    </style>
+
+    <style name="ListItemStyle">
+        <item name="android:padding">?sectionListView.listItemPadding</item>
+        <item name="android:background">?sectionListView.listItemBackground</item>
+    </style>
+
+    <style name="task_style_text_info">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- 通知，任务，联系等多个页面左边 TextView字体 -->
+    <style name="text_style_info">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="task_style_edit_info">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--  -->
+    <style name="task_style_ll_info">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="AnimationFade">
+
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
+
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AnimationFadeBottom">
+
+        <!-- PopupWindow底部弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in_1</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="AnimationFadeTop">
+
+        <!-- PopupWindow顶部弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out</item>
+    </style>
+
+    <style name="style_menu_badge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/badge_circle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_menu_badge_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ico_dot_read</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_menu_grid_item_rl">
+
+        <!-- 首页功能模块布局 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_header_half</item>
+    </style>
+
+    <style name="style_menu_grid_item_iv">
+
+        <!-- 首页功能模块图片 -->
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="style_menu_grid_item_text">
+
+        <!-- 首页功能模块字体 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_menu_grid_item</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="pop_filter_date">
+
+        <!-- 任务列表弹出对话框中日期选择模块 -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Translucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 详情页面左边 TextView字体 -->
+    <style name="style_text_info_yusheng">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 编辑框样式 -->
+    <style name="style_edit_info_yusheng">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/shape_edittext_bg_yusheng</item>
+    </style>
+
+    <!-- 详情页面字体颜色 -->
+    <style name="style_tv_info_yusheng">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 新版UI配色，以浅蓝色为主色调  2015-03-26 -->
+    <!-- 顶部标题栏样式 -->
+    <style name="style_header_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/nav_height</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 顶部返回按钮样式 -->
+    <style name="style_header_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">@drawable/selector_header_button</item>
+    </style>
+
+    <!-- 蓝底白字的按钮样式 -->
+    <style name="style_button_blue">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/selector_button_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 蓝底白字的按钮样式,小一号，用于显示状态 -->
+    <style name="style_button_blue_small" parent="@style/style_button_blue">
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/selector_button_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 绿底白字的按钮样式,小一号，用于显示状态 -->
+    <style name="style_button_green_small" parent="@style/style_button_blue">
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/shape_btn_lightgreen_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 顶部左右两边文字按钮样式 蓝底白字的按钮样式 -->
+    <style name="style_header_text_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/selector_button_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 列表页 item样式 -->
+    <style name="style_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/selector_list_item</item>
+    </style>
+
+    <!-- 列表页 标题文字 -->
+    <style name="style_list_title_text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!-- 列表页 雪松返回文字 -->
+    <style name="style_list_title_xuesong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <!-- 列表页 内容文字 -->
+    <style name="style_list_content_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/content_list</item>
+    </style>
+
+    <!-- 列表页 头像父布局 -->
+    <style name="style_list_avatar_root">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="style_listview_root">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bg_list</item>
+    </style>
+
+    <!-- 列表页  ListView 如通知列表，有间隔阴影效果的样式 -->
+    <style name="style_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:dividerHeight">6dp</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <!-- 列表页  ListView 样式,细分割线 -->
+    <style name="style_listview_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:dividerHeight">0.6dp</item>
+        <item name="android:divider">@color/line_splite</item>
+    </style>
+
+    <!-- 列表页 头像 -->
+    <style name="style_list_avatar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 详情页面通用字体 -->
+    <style name="style_text_info">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 左侧详情页面字体 -->
+    <style name="style_text_left_info">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 右侧详情页面字体 -->
+    <style name="style_text_right_info">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <!-- 普通详情页面字体 -->
+    <style name="style_text_normal_info">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <!-- 暖气计算器页面字体 -->
+    <style name="style_text_rad_room">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <!-- 内容字体样式 -->
+    <style name="style_text_content_info">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:lineSpacingMultiplier">1.12</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">150dp</item>
+    </style>
+
+    <!-- 横向分割线 -->
+    <style name="style_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_splite</item>
+    </style>
+
+    <!-- 横向分割线 -->
+    <style name="style_line_vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.6dp</item>
+        <item name="android:background">@color/line_splite</item>
+    </style>
+
+    <!-- 周任务视图图标 -->
+    <style name="style_week_task_ico">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+    </style>
+
+    <!-- 星期文字样式 -->
+    <style name="style_weekName">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_info</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="style_circle_calendar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/badge_circle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 销售详情页面数量样式 -->
+    <style name="style_summary_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/selector_header_half</item>
+    </style>
+
+    <!-- 销售详情页面加号样式 -->
+    <style name="style_summary_add">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:src">@drawable/add_green</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/selector_header_half</item>
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_ll_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_readonly_ll_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/bg_readonly</item>
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_text_left_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_text_right_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/theme_new</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_text_right_info_disable" parent="@style/style_changhui_text_right_info">
+        <!-- <item name="android:background">@color/bg_list</item> -->
+    </style>
+
+    <!-- 长汇详情页面LinearLayout布局 -->
+    <style name="style_changhui_img_upload">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

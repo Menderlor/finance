@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_task_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/ivCancel_taskinfo2"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_title_taskinfo2"
+            style="@style/title_common"
+            android:text="任务信息" />
+
+        <ImageView
+            android:id="@+id/ivSubmit_taskinfo2"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_addtask2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/sv_task"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_root_publish_discuss_task_info" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_content_notice_info"
+                        style="@style/task_style_ll_info" >
+
+                        <EditText
+                            android:id="@+id/etContent_taskinfo2"
+                            style="@style/style_text_content_info" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout
+                        style="@style/task_style_ll_info"
+                        android:visibility="gone" >
+
+                        <TextView
+                            style="@style/notice_style_text2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="结束时间" />
+
+                        <TextView
+                            android:id="@+id/tvEndTime_taskinfo2"
+                            style="@style/task_style_text_info"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="3"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+					
+                    
+                    <LinearLayout style="@style/task_style_ll_info" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="状态" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center_vertical"
+                            android:weightSum="3.4" >
+
+                            <TextView
+                                android:id="@+id/tv_state_taskinfo2"
+                                style="@style/style_text_right_info"
+                                android:text="启动"
+                                android:textColor="@color/theme_new" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.4"
+                                android:src="@drawable/arrow_right_blue" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout style="@style/task_style_ll_info" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="发布人" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_publiser_taskinfo2"
+                                style="@style/style_text_right_info"
+                                android:text="发布人"
+                                android:textColor="@color/text_info" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout style="@style/task_style_ll_info" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="执行人" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="right|center_vertical"
+                            android:padding="8dp" >
+
+                            <com.cedarhd.control.AvartarView
+                                android:id="@+id/Executor_taskinfo_new2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+
+                            <TextView
+                                android:id="@+id/tv_executor_taskinfo_new2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="选择执行人"
+                                android:text="姓名"
+                                android:textColor="@color/text_info" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout style="@style/task_style_ll_info" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="参与人" />
+
+                        <LinearLayout
+                            android:id="@+id/llImgParticipant_taskinfo2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="3" >
+
+                            <EditText
+                                android:id="@+id/et_Participant_taskinfo"
+                                style="@style/style_text_right_info"
+                                android:focusable="false"
+                                android:hint="+" />
+
+                            <ImageView
+                                android:id="@+id/iv_clear_paticipant_task_new"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/txt_search_clear"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!-- 相关客户 -->
+
+                    <LinearLayout
+                        style="@style/task_style_ll_info"
+                        android:visibility="gone" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="相关客户" />
+
+                        <EditText
+                            android:id="@+id/et_client_name_taskinfo"
+                            style="@style/style_text_right_info" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_classify_task_info"
+                        style="@style/task_style_ll_info" >
+
+                        <TextView
+                            android:id="@+id/iv_task_info_classify"
+                            style="@style/style_text_left_info"
+                            android:focusable="false"
+                            android:text="项目分类" />
+
+                        <TextView
+                            android:id="@+id/tv_task_info_classify"
+                            style="@style/style_text_right_info"
+                            android:focusable="false" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout style="@style/task_style_ll_info" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="执行时间" />
+
+                        <TextView
+                            android:id="@+id/tvStartTime_taskinfo2"
+                            style="@style/style_text_right_info" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_client"
+                        style="@style/task_style_ll_info"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/iv_task_info_client"
+                            style="@style/style_text_left_info"
+                            android:text="客户" />
+
+                        <TextView
+                            android:id="@+id/tv_task_info_client"
+                            style="@style/style_text_right_info" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    style="@style/style_line_horizontal"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_attachImg_taskinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop_attach"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+                    <View style="@style/style_line_horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp" >
+
+                        <com.cedarhd.control.HorizontalScrollViewAddImage
+                            android:id="@+id/addImg_taskinfo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_support_task_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                            android:id="@+id/ll_zs_taskinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp" 
+                        android:clickable="true"
+                        android:background="@drawable/selector_button_little_press">
+
+                        <ImageView
+                            android:id="@+id/iv_zs_taskinfo"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:clickable="false"
+                            android:src="@drawable/ico_zs_big" />
+                        <TextView
+                        	android:id="@+id/tv_zs_count_taskinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:text="0"
+                            android:clickable="false"
+                            android:textColor="@color/text_info"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_vertical" />
+
+                    <LinearLayout
+                            android:id="@+id/ll_support_taskinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/selector_button_little_press"
+                        android:padding="5dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_support_taskinfo"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:clickable="false"
+                            android:src="@drawable/ico_zan_big" />
+
+                        <TextView
+                            android:id="@+id/tv_support_count_taskinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:text="0"
+                            android:clickable="false"
+                            android:textColor="@color/text_info"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <View style="@style/style_line_vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_copy_taskinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/selector_button_little_press"
+                        android:padding="5dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_copy_taskinfo"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:clickable="false"
+                            android:src="@drawable/ico_share" />
+
+                        <TextView
+                            android:id="@+id/tv_copy_count_taskinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:text="转发"
+                            android:clickable="false"
+                            android:textColor="@color/text_info"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                    
+                    <View style="@style/style_line_vertical" />
+
+                    <LinearLayout
+                        
+                        android:id="@+id/ll_share_taskinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                            android:clickable="true"
+                        android:background="@drawable/selector_button_little_press"
+                        android:padding="5dp" >
+                        <ImageView
+                            android:id="@+id/iv_share_taskinfo"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:clickable="false"
+                            android:src="@drawable/ico_share" />
+
+                        <TextView
+                            android:id="@+id/tv_share_count_taskinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:text="分享"
+                            android:clickable="false"
+                            android:textColor="@color/text_info"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_hot_comment_task_info"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <!-- 热门评论 -->
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/theme_new" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="热门评论"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_root_comment_task_info"
+                    style="@style/task_style_ll_info"
+                    android:background="@null"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <!-- 评论内容显示区 -->
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/rl_root_publish_discuss_task_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:minHeight="45dp"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <EditText
+                android:id="@+id/et_task_discuss"
+                android:layout_width="220dp"
+                android:layout_height="38dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="8"
+                android:background="@drawable/shape_searchview_bg"
+                android:hint="我也说两句..."
+                android:paddingLeft="5dp"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_publish_discuss_task_info"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/style_button_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="发表"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

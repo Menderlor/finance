@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_search_root_loglist"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <com.changhui.control.BoeryunSearchView
+            android:id="@+id/searchview_loglist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <FrameLayout
+        style="@style/style_listview_root"
+        android:layout_weight="1" >
+
+        <com.changhui.control.listview.PullToRefreshListView
+            android:id="@+id/listView1"
+            style="@style/style_listview"
+            android:fadingEdge="none" />
+
+        <com.changhui.control.MyProgressBar
+            android:id="@+id/progress_worklist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_me_workloglist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:clickable="true"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_select_me_workloglist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="我的日志"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_workloglist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_select_user"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/select_user" />
+
+                <TextView
+                    android:id="@+id/tv_select_user_workloglist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_select_user"
+                    android:gravity="center"
+                    android:text="选择员工"
+                    android:textColor="@color/content_list"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

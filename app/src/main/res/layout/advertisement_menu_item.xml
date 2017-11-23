@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_menu_grid_item_rl" >
+    
+    <ImageView
+        android:id="@+id/ivAdvertisement"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon_more" />
+    <TextView
+        android:id="@+id/textViewChart2"
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivAdvertisement"
+        android:text="更多功能"/>
+    </RelativeLayout>

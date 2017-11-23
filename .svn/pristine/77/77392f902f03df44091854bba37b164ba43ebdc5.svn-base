@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新建产品 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main_sale_summary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <TextView
+            android:id="@+id/tv_back_sale_summary"
+            style="@style/title_common"
+            android:text=" 销售漏斗"
+            android:drawableLeft="@drawable/back" 
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/selector_header_half"/>
+        
+        <ImageView
+            android:id="@+id/iv_add_sale_summary"
+            android:layout_alignParentRight="true"
+            style="@style/style_header_button"
+            android:src="@drawable/new_item" />
+    </RelativeLayout>
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+					<!-- 销售漏斗 -->
+                    <LinearLayout
+                        android:id="@+id/ll_root_charts"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="55"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_root_infos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="45"
+                        android:paddingLeft="8dp"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+                
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/nav_height"
+                    android:background="@color/bg_list"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <!-- 销售机会 新建 -->
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/text_black"
+                        android:textSize="14sp"
+                        android:text="客户 "/>
+                    <TextView 
+                        android:id="@+id/tv_clientcount_sale_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/theme_new"
+                        android:textSize="14sp"
+                        android:layout_margin="5dp"
+                        android:text="0"/>
+                    
+                    <ImageView 
+                        android:id="@+id/iv_add_client_sale_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/selector_header_half"
+                        android:src="@drawable/add_green"/>
+                    
+                    <LinearLayout 
+                        android:id="@+id/ll_filter_sale_summary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal"
+                        android:clickable="true"
+                        android:background="@drawable/selector_header_half">
+                        <TextView android:id="@+id/tv_filter_sale_summary"
+                            android:layout_width="wrap_content"
+	                        android:layout_height="match_parent"
+	                        android:gravity="right|center_vertical"
+	                        android:textColor="@color/text_black"
+	                        android:textSize="14sp"
+	                        android:focusable="false"
+	                        android:paddingRight="20dp"
+	                        android:paddingLeft="20dp"
+	                        android:text="最近联系"/>
+                        <ImageView android:layout_width="20dp"
+                            android:layout_height="20dp"
+	                        android:focusable="false"
+                            android:src="@drawable/iconfont_unfold"/>
+                    </LinearLayout>
+                </LinearLayout>
+                
+                 <LinearLayout 
+                    android:id="@+id/ll_root_salechances"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                     <com.cedarhd.control.listview.LoadMoreListView
+                        android:id="@+id/lv_client_sale_sumary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        style="@style/style_listview"
+                        android:divider="@color/line_splite"
+                        android:dividerHeight="0.6dp"/>
+                 </LinearLayout>
+            </LinearLayout>
+
+</LinearLayout>

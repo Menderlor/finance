@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/style_list_item"
+        android:orientation="horizontal"
+        android:weightSum="1000" >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="48"
+            android:gravity="center" >
+            <!-- 已读未读小红点 -->
+            <ImageView
+                android:id="@+id/iv_dot_read_taglist"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ico_dot_read" />
+        </LinearLayout>
+
+        <RelativeLayout 
+            android:layout_weight="240"
+            android:gravity="center_vertical|left" 
+            style="@style/style_list_avatar_root" >
+
+            <com.cedarhd.control.AvartarView
+                android:id="@+id/control_avatar_taglist"
+                style="@style/style_list_avatar" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="640"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="签到："
+                style="@style/style_list_title_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_clock"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    android:id="@+id/tv_signIn_time"
+                    style="@style/style_list_content_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="111111" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/iv_postion"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/position" />
+
+                <TextView
+                    android:id="@+id/tv_signIn_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="地址"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="签退："
+                style="@style/style_list_title_text"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_clock1"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    android:id="@+id/tv_signOut_time"
+                    style="@style/style_list_content_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="111111" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"  >
+
+                <ImageView
+                    android:id="@+id/iv_postion1"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/position" />
+
+                <TextView
+                    android:id="@+id/tv_signOut_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="地址"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="72"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/notice_icon01" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

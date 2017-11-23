@@ -1,0 +1,30 @@
+package com.changhui.utils;
+
+import android.app.Activity;
+import android.content.Intent;
+
+/***
+ * kjx
+ * 
+ * @author K
+ * 
+ */
+public class ShareUtils {
+	/***
+	 * 使用系统工具进行分享
+	 * 
+	 * @param activity
+	 * @param content
+	 *            分享内容
+	 */
+	public static void share(Activity activity, String content) {
+		Intent share_intent = new Intent();
+		share_intent.setAction(Intent.ACTION_SEND);
+		share_intent.setType("text/plain");
+		share_intent.putExtra(Intent.EXTRA_SUBJECT, "f分享");
+		share_intent.putExtra(Intent.EXTRA_TEXT, content);
+		// 创建选择器（蓝牙，短信,微博，校内...）
+		share_intent = Intent.createChooser(share_intent, "分享");
+		activity.startActivity(share_intent);
+	}
+}

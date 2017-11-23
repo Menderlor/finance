@@ -1,0 +1,50 @@
+package com.cedarhd.models.changhui;
+
+public class VmContractCustomerInfo {
+    public int 客户;
+    public String 户名;
+    public String 客户名称;
+    public int 认购人类型;
+    public String 认购人类型名称;
+    public int 证件类别;
+    public String 证件类别名称;
+    public String 证件号;
+    public String 联系电话;
+    public String 通讯地址;
+    public int 客户经理;
+    public String 客户经理名称;
+    public int 所属分公司;
+    public String 所属分公司名称;
+    public int 部门经理;
+    public String 部门经理名称;
+    public int 分公司总经理;
+    public String 分公司总经理名称;
+    public int 副总经理;
+    public String 副总经理名称;
+    public int 理财师;
+    public String 理财师名称;
+    public String 俱乐部入会申请表;
+    public String 投资风险测评卡;
+    public int 认购类型;
+    public String 座机;
+    public String 手机;
+    public String 邮箱;
+    public String 预约金额大写;
+    // public String 预约到期日期;
+    public double 预期年化收益率;
+    public String 客户经理手机;
+    public String 客户经理邮箱;
+    public int 所属部门;
+    public String 所属部门名称;
+
+    public String 客户编号;
+    public int 风险测评类型;
+    public String 风险测评类型名称;
+    public String 联系地址;
+    public String 邮政编码;
+    public String 投资者承诺函;
+    public String 投资者风险调查;
+    public String 合格投资者资产证明;
+    public String 客户性质名称;
+    public int 客户性质;
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_slt_product_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/style_header_layout"
+        android:layout_height="55dp" >
+
+        <!-- 搜索文本TopBar -->
+
+        <ImageView
+            android:id="@+id/iv_back_slt_product_list"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <EditText
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@null" />
+
+        <EditText
+            android:id="@+id/et_search_slt_product_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@+id/ll_button_slt_product_list"
+            android:layout_toRightOf="@+id/iv_back_slt_product_list"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="输入型号名称" />
+
+        <LinearLayout
+            android:id="@+id/ll_button_slt_product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_clear_slt_product_list"
+                style="@style/style_header_button"
+                android:src="@drawable/ico_clear"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/tv_select_type_slt_productlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/flowlayout_single_tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="系列"
+            android:textColor="@drawable/flowlayout_single_tag_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_select_color_slt_productlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/flowlayout_single_tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="颜色"
+            android:textColor="@drawable/flowlayout_single_tag_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_select_jinshui_slt_productlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/flowlayout_single_tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="进水方式"
+            android:textColor="@drawable/flowlayout_single_tag_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_select_koujing_slt_productlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/flowlayout_single_tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="接口口径"
+            android:textColor="@drawable/flowlayout_single_tag_text_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include layout="@layout/merge_listview_old_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4" 
+            android:gravity="center"
+            android:background="@color/translate_black">
+            <TextView
+                android:id="@+id/tv_shopcar_slt_productlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="购物车"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/tv_count_shopcar_slt_productlist"
+		        android:layout_marginTop="-12dp"
+                android:textSize="18sp" />
+            <TextView
+		        android:id="@+id/tv_count_shopcar_slt_productlist"
+		        android:background="@drawable/ico_dot_read"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="-12dp"
+		        android:text="0"
+		        android:gravity="center"
+		        android:textColor="@color/white"
+		        android:textSize="10sp"
+		        android:layout_toRightOf="@id/tv_shopcar_slt_productlist"
+		        android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_order_shopcar_slt_productlist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:background="#F15353"
+            android:gravity="center"
+            android:text="我的订单"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

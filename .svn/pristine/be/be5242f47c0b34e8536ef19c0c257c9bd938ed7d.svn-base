@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <View
+        android:id="@+id/top_dict_ios_multi_picker"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <ScrollView
+        android:id="@+id/scrollview_dict_multi_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/top_dict_ios_multi_picker">
+
+        <RelativeLayout
+            android:id="@+id/rl_dict_multi_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_info_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="25dp"
+            android:paddingTop="10dp" >
+
+            <com.changhui.view.TagFlowLayout
+                android:id="@+id/tgflowlayout_multi_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollview_dict_multi_picker"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_info_bg"
+        android:padding="1dp" >
+
+        <Button
+            android:id="@+id/btn_sure_dict_multi_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_header_half"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="确 定"
+            android:textColor="@color/theme_text"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

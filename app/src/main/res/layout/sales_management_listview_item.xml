@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal" android:background="#FFFFFF"
+	android:descendantFocusability="blocksDescendants">
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_marginLeft="15dip" android:layout_weight="1"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_marginTop="10dip" android:textSize="25dip"
+			android:text="" android:layout_width="fill_parent" android:id="@+id/textViewItemName"
+			style="@style/textview_title" />
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:layout_marginRight="15dip">
+		<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content"
+			android:layout_gravity="center_vertical" android:layout_height="wrap_content"
+			android:src="@drawable/notice_icon01" />
+	</LinearLayout>
+
+</LinearLayout>  

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_in_stock_list"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="进销存" />
+
+        <ImageView
+            android:id="@+id/iv_new_in_stock_list"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/new_item" />
+    </RelativeLayout>
+
+    <FrameLayout 
+        android:id="@+id/root_in_stock_list"
+        style="@style/style_listview_root" >
+    </FrameLayout>
+
+</LinearLayout>

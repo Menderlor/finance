@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_add_contacts"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            style="@style/title_common"
+            android:text="新建联系记录" />
+        
+        <ImageView
+            android:id="@+id/iv_save_add_contacts"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        android:background="@color/lightgray" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/task_style_ll_info"
+                android:minHeight="100dp" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="联系内容" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_content_add_contacts"
+                        style="@style/style_text_right_info"
+                        android:hint="必填"
+                        android:minHeight="100dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="客户反馈" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_oppinion_add_contacts"
+                        style="@style/style_text_right_info" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="关联客户" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_client_add_contacts"
+                        style="@style/style_text_right_info"
+                        android:focusable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="关联销售机会" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_salechance_add_contacts"
+                        style="@style/style_text_right_info"
+                        android:inputType="number"
+                        android:focusable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="联系时间" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.cedarhd.control.BoeryunDateSelectView
+                        android:id="@+id/date_contact_time_add_contacts"
+                        style="@style/style_text_right_info"
+                        app:defaultValue="true"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="下次联系时间" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.cedarhd.control.BoeryunDateSelectView
+                        android:id="@+id/date_plan_time_add_contacts"
+                        style="@style/style_text_right_info"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="阶段" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.cedarhd.control.BoeryunDictSelectView
+                        android:id="@+id/dict_stage_add_contacts"
+                        style="@style/style_text_right_info"
+                        app:dictName="联系状态"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="联系形式" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.cedarhd.control.BoeryunDictSelectView
+                        android:id="@+id/dict_type_add_contacts"
+                        style="@style/style_text_right_info"
+                        app:dictName="联系形式"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="意向程度" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.cedarhd.control.BoeryunDictSelectView
+                        android:id="@+id/dict_intention_add_contacts"
+                        style="@style/style_text_right_info"
+                        app:dictName="销售机会_意向程度"/>
+                </LinearLayout>
+            </LinearLayout>
+            
+				
+            <View style="@style/style_line_horizontal"/>
+            
+            <View style="@style/style_line_horizontal" 
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout style="@style/task_style_ll_info" >
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="当前位置" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+                    <TextView
+                        android:id="@+id/tv_address_add_contacts"
+                        android:drawableLeft="@drawable/ico_location"
+                        android:hint="定位.."
+                        style="@style/style_text_right_info" />
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/style_line_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

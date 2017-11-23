@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp" 
+        android:background="#88444444"
+        android:paddingLeft="8dp" 
+        android:paddingTop="2dp" 
+        android:paddingRight="2dp">
+        <ImageView 
+            android:id="@+id/iv_logo_remind"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"/>
+        
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+       		 android:layout_height="match_parent"
+       		 android:gravity="center_vertical"
+       		 android:layout_toRightOf="@+id/iv_logo_remind"
+       		 android:textColor="@color/white"
+            android:text="波尔云" />
+        
+        <RelativeLayout 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/btn_quit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/eqz" />
+
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:background="#56777777" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/lv_remind_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fadingEdge="none" />
+            <com.changhui.control.MyProgressBar
+                android:id="@+id/pbar_remind_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

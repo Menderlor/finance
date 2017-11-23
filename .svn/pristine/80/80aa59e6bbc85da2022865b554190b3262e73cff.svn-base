@@ -1,0 +1,5 @@
+package com.changhui.models;
+
+public enum ListViewLoadType {
+	顶部视图, 底部视图
+}

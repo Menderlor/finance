@@ -1,0 +1,136 @@
+<resources>
+	<attr name="color_indicator" format="color|reference"></attr>
+    <attr name="sectionListView.sectionTextViewPadding" format="dimension" />
+    <attr name="sectionListView.sectionTextViewTextColor" format="color" />
+    <attr name="sectionListView.sectionTextViewTextSize" format="dimension" />
+    <attr name="sectionListView.sectionItemPadding" format="dimension" />
+    <attr name="sectionListView.sectionItemBackground" format="color|reference" />
+    <attr name="sectionListView.listTextViewPadding" format="dimension" />
+    <attr name="sectionListView.listTextViewTextColor" format="color" />
+    <attr name="sectionListView.listTextViewTextSize" format="dimension" />
+    <attr name="sectionListView.listItemPadding" format="dimension" />
+    <attr name="sectionListView.listItemBackground" format="color|reference" />
+    <attr name="borderRadius" format="dimension" />
+    <attr name="dictName" format="string"></attr>
+    <attr name="isVisbleBackIco" format="boolean"/>
+    <attr name="isVisbleFilterIco" format="boolean"/>
+    <attr name="isVisbleSaveIco" format="boolean"/>
+    <attr name="isVisbleAddIco" format="boolean"/>
+    <attr name="isVisbleRightText" format="boolean"/>
+    <attr name="titleText" format="string"/>
+    <attr name="titleRightText" format="string"/>
+    <attr name="filterImgSrc" format="reference"></attr>
+    <attr name="addImgSrc" format="reference"></attr>
+    <attr name="hintText" format="string"></attr>
+    
+    <!-- 是否使用搜索 -->
+    <attr name="isSearch" format="boolean"></attr>
+    
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference"></attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+
+    <!-- 圆角图形控件属性 -->
+    <declare-styleable name="RoundedImageView">
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <!-- 圆形进度 -->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    
+
+    <attr name="slideMenuStyle" format="reference" />
+
+    <declare-styleable name="SlideMenu_Layout">
+        <attr name="layout_role" format="enum">
+            <enum name="content" value="0" />
+            <enum name="primaryMenu" value="1" />
+            <enum name="secondaryMenu" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SlideMenu">
+        <attr name="primaryShadowWidth" format="dimension" />
+        <attr name="secondaryShadowWidth" format="dimension" />
+        <attr name="primaryShadowDrawable" format="reference" />
+        <attr name="secondaryShadowDrawable" format="reference" />
+        <attr name="edgeSlide" format="boolean" />
+        <attr name="edgeSlideWidth" format="dimension" />
+        <attr name="slideDirection" format="flags">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+        <attr name="interpolator" format="reference" />
+    </declare-styleable>
+    
+    <!-- 声明选择字典控件控件属性 -->
+    <declare-styleable name="BoeryunDictSelectView">
+        <attr name="dictName"/>
+    </declare-styleable>
+    
+    <!-- 声明选择字典控件控件属性 -->
+    <declare-styleable name="BoeryunDateSelectView">
+        <attr name="defaultValue" format="boolean"/>
+        <attr name="isShowDate" format="boolean"/>
+        <attr name="isShowTime" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+    </declare-styleable>
+    
+    <!-- 标题栏 控件属性 -->
+    <declare-styleable name="BoeryunHeaderView">
+        <attr name="isVisbleBackIco"/>
+        <attr name="isVisbleFilterIco"/>
+        <attr name="isVisbleSaveIco"/>
+        <attr name="isVisbleAddIco"/>
+        <attr name="isVisbleRightText"/>
+        <attr name="titleText"/>
+        <attr name="titleRightText"/>
+        <attr name="filterImgSrc"/>
+        <attr name="addImgSrc" />
+    </declare-styleable>
+    
+    <!-- 搜索框属性 -->
+    <declare-styleable name="BoeryunSearchView">
+        <attr name="hintText"></attr>
+    </declare-styleable>
+    
+    
+	<declare-styleable name="Indicator">
+		<attr name="color_indicator"></attr>
+	</declare-styleable>
+	
+	<!-- 组合下拉刷新控件 -->
+	<declare-styleable name="PullToRefreshAndLoadMoreListView">
+	    <attr name="isSearch"></attr>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:background="#0199FF" >
+
+        <ImageButton
+            android:id="@+id/details_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="钻石榜详情"
+            android:textColor="#ffffff"
+            style="@style/title_common" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/relat_photo"
+            android:layout_width="90dp"
+            android:layout_height="90dp" >
+
+            <com.cedarhd.control.AvartarView
+                android:id="@+id/details_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></com.cedarhd.control.AvartarView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/relat_photo"
+            android:text="李政新"
+            android:textColor="#565656"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/paiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/detail_name"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/detail_name"
+            android:text="排名:"
+            android:textColor="#565656"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/detail_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/detail_name"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/paiming"
+            android:text="1"
+            android:textColor="#52AFFD"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/rela_new_sss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@id/detail_name"
+            android:layout_toRightOf="@id/relat_photo" >
+
+            <ImageView
+                android:id="@+id/detail_diamond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondl" />
+
+            <TextView
+                android:id="@+id/detail_diamondl_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/detail_diamond"
+                android:text="102"
+                android:textColor="#52AFFD"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/rela_new_sss"
+            android:layout_alignLeft="@id/paiming"
+            android:layout_toRightOf="@id/rela_new_sss" >
+
+            <ImageView
+                android:id="@+id/detail_diamond_zan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ico_support2" />
+
+            <TextView
+                android:id="@+id/detail_zan_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/detail_diamond_zan"
+                android:text="102"
+                android:textColor="#52AFFD"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelyout_recoed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.cedarhd.control.listview.PullToRefreshListView
+            android:id="@+id/detadil_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#000000"
+            android:divider="#E0E0E0"
+            android:dividerHeight="1dp"
+            android:listSelector="#ffffff" />
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/progress_detailed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>

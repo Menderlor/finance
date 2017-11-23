@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_avatar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_settings"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="用户信息" />
+
+        <ImageView
+            android:id="@+id/imageViewDone"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        android:background="@color/lightgray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shadow"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="20dp"
+                    android:text="头像"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/lightgray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#FFdddddd" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="138dp"
+                android:layout_height="138dp" >
+
+                <com.changhui.control.RoundImageView
+                    android:id="@+id/imageViewCamera"
+                    android:layout_width="138dp"
+                    android:layout_height="138dp"
+                    android:maxHeight="50dp"
+                    android:maxWidth="50dp"
+                    android:src="@drawable/camera"
+                    imagecontrol:border_inside_color="#999999"
+                    imagecontrol:border_thickness="1dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_userinfo_setting_company"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="企业名"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_userinfo_setting_company"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:text="企业名"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_useinfo_setting_user"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="用户名"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_useinfo_setting_user"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:text="用户名"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:paddingBottom="10dip" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFFFFF">
+
+	<!-- 明细 -->
+	<ListView android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/listView1"
+		android:fadingEdge="none" 
+		android:divider="#ebebeb" android:dividerHeight="1px">
+	</ListView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<CheckBox android:text="启动" android:id="@+id/checkBoxQD"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="完成" android:id="@+id/checkBoxWC"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="暂停" android:id="@+id/checkBoxZT"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="搁置" android:id="@+id/checkBoxGZ"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+	</LinearLayout>
+
+</LinearLayout>  

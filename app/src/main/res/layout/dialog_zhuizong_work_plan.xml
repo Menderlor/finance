@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <LinearLayout style="@style/task_style_ll_info" >
+
+        <TextView
+            style="@style/text_style_info"
+            android:text="追踪形式" />
+
+        <TextView
+            android:id="@+id/tv_zhuizong_type_work_plan_info_dialog"
+            style="@style/task_style_edit_info"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+    <LinearLayout style="@style/task_style_ll_info" >
+
+        <TextView
+            style="@style/text_style_info"
+            android:text="追踪内容" />
+
+        <EditText
+            android:id="@+id/et_zhuizong_content_work_plan_info_dialog"
+            style="@style/task_style_edit_info"
+            android:layout_weight="3"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:minHeight="100dp" />
+    </LinearLayout>
+
+</LinearLayout>

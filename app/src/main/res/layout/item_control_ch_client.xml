@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_title_control_ch_client"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/text_info"
+                android:textSize="13sp"
+                android:text="字段名称" />
+
+            <TextView
+                android:id="@+id/tv_required_control_ch_client"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:text="*"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_statuts_control_ch_client"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_value_control_ch_client"
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" 
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/iv_message_control_ch_client"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_header_half"
+                android:src="@drawable/ico_message"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_call_control_ch_client"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_header_half"
+                android:src="@drawable/ico_phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_id_control_ch_client"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+</LinearLayout>

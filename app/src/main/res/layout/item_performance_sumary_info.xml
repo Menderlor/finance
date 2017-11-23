@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:gravity="center_vertical">
+    <TextView 
+        android:id="@+id/tv_id_performanc_item"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="1"/>
+	<TextView 
+	    android:id="@+id/tv_name_performanc_item"
+	    android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="@color/text_black"
+        android:textSize="14sp"
+        android:layout_marginLeft="25dp"
+        android:text="管理员"/>
+	<TextView
+	    android:id="@+id/tv_num_performanc_item"
+	     android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/text_black"
+        android:textSize="14sp"
+        android:gravity="right"
+        android:layout_marginRight="5dp"
+        android:text="9201"/>
+</LinearLayout>

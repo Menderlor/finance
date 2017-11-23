@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 附件名称 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/download_attchment_ico"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ico_doc" />
+
+    <RelativeLayout
+        android:id="@+id/rl_attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/download_attchment_ico"
+        android:layout_toLeftOf="@+id/btn_download_attach"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/download_attchment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件名"
+            android:textColor="@color/text_black"
+            android:textSize="16sp" />
+        <RelativeLayout 
+            android:id="@+id/rl_info_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/download_attchment_name">
+            <TextView
+                android:id="@+id/tv_status_download"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_info"
+                android:textSize="10sp"
+                android:layout_alignParentLeft="true"
+                android:text="未下载"/>
+            
+            <TextView
+                android:id="@+id/tv_size_download"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_info"
+                android:textSize="10sp"
+                android:layout_toLeftOf="@+id/tv_filetotal_download"
+                android:text=""/>
+            <TextView android:id="@+id/tv_filetotal_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_info"
+                android:textSize="10sp"
+                android:layout_alignParentRight="true"
+                android:text=""/>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/pbar_download_attach"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/rl_info_download"
+            android:progressDrawable="@drawable/progress_horizontal" 
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_download_attach"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        style="@style/style_button_blue"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:text="下载"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="通知" />
+
+        <ImageView
+            android:id="@+id/imageViewNew"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_add_menu" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_search_root_noticelist"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <com.changhui.control.BoeryunSearchView
+            android:id="@+id/searchview_noticelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/style_listview_root" >
+
+        <FrameLayout
+            style="@style/style_listview_root"
+            android:layout_above="@+id/ll_choose_layout_noticelist" >
+
+            <com.changhui.control.listview.PullToRefreshListView
+                android:id="@+id/listView1"
+                style="@style/style_listview"
+                android:visibility="gone" />
+
+            <com.changhui.control.MyProgressBar
+                android:id="@+id/progress_noticelist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_choose_layout_noticelist"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <View style="@style/style_line_horizontal" />
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_noticelist"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_select_user"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/select_user" />
+
+                <TextView
+                    android:id="@+id/tv_select_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_select_user"
+                    android:gravity="center"
+                    android:text="选择员工"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

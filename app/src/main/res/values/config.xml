@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 波尔云最新版本应用地址-->
+    <!--<string name="version_url">http://www.boeryun.com:8016/version.xml</string>-->
+    <!--<string name="apk_url">http://www.boeryun.com:8016/ZL.Phone.apk</string>-->
+
+    <!--雪松正式站地址-->
+    <!--<string name="version_url">https://fmsapp.cedarhd.com/version.xml</string>-->
+    <!--<string name="apk_url">https://fmsapp.cedarhd.com/ZL.Phone.apk</string>-->
+
+    <!--雪松测试站地址-->
+    <string name="version_url">https://testfmsapp.cedarhd.com/version.xml</string>
+    <string name="apk_url">https://testfmsapp.cedarhd.com/ZL.Phone.apk</string>
+</resources>

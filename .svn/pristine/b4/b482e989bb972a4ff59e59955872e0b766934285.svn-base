@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_rad_report_info"
+        style="@style/style_header_layout"
+        boeryun:isVisbleBackIco="true"
+        boeryun:isVisbleSaveIco="true"
+        boeryun:titleText="上报列表" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/tv_userInfo_rad_report_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="徐州经销商>城北建材店>小强"
+            android:textColor="@color/text_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_time_rad_report_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2015年8月15日"
+            android:textColor="@color/text_black"
+            android:textSize="14sp" />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        		android:padding="15dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+            		android:textColor="@color/text_black"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:text="进店人数"/>
+
+                <com.cedarhd.control.BoeryunSelectCountView
+            		android:id="@+id/select_countview_visite_rad_report_info"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1.5"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        		android:padding="15dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+            		android:textColor="@color/text_black"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:text="咨询人数"/>
+
+                <com.cedarhd.control.BoeryunSelectCountView
+            		android:id="@+id/select_countview_ask_rad_report_info"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1.5"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        		android:padding="15dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+            		android:textColor="@color/text_black"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:text="成交人数"/>
+
+                <com.cedarhd.control.BoeryunSelectCountView
+            		android:id="@+id/select_countview_deal_rad_report_info"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1.5"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

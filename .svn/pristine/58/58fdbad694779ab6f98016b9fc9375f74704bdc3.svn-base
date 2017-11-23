@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cedarhd"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="1.00">
+    <!-- 雪松CRM 2016-12-26-->
+
+    <!-- 默认安装 雪松波尔云 -->
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    <!-- 发送短信 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <!-- 连接互联网Internet权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!-- GPS定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+    -->
+
+    <!-- 新版去除了此权限声明，否则将有可能导致在Android 5.0设备上应用安装失败。 -->
+    <!--
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 解锁的权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    <!-- 点亮屏幕的权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- <uses-permission android:name="android.permission.INSTALL_PACKAGES" /> -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 集成系统全局对话框的权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 集成腾讯信鸽所必须的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 【可选】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name=".BoeryunApp"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:persistent="true">
+        <!--
+            <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="WSdWVWwB8V9dej5TpNUBIHoz" />
+        -->
+        <!--
+             <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="bxyuKfHuMmcPPClBP3xBGsoT" />
+        -->
+
+        <!--
+             <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Qo05xuFLqpClH6eoOtDiA9rF" />
+        -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="0e3yfYmX2ejKKbhuAC1sn4GH" />
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".InviteDownloadActivity02"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.MenuActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SpaceFragmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".MenuNewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TabMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SettingAvatarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SettingUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TagActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".NoticeListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.viewpagerindicator.samples.SampleTabsDefaultActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.viewpagerindicator.samples.SampleTabsStyled"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".NoticeNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.CustomerListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CustomerDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.SalesManagementListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.SalesChanceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CustomerNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SalesChanceDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <!-- <activity
+            android:name="com.changhui.ContactHistoryListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>-->
+        <activity
+            android:name=".ContactHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SignListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SignActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".User_SelectActivityNew"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".CheckBoxListViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".Common_Sort_SelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.ScheduleManagementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.ScheduleListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TagSalaryListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TagSalaryInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TagMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".AskForLeaveListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".AskForLeaveInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <!-- 默认横向显示 -->
+        <activity
+            android:name=".CreateVmDetailsFormActivity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CreateVmDetailsFormAddRowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CreateVmFormActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SmsActity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".InvitationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".Invitation_infoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".RecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".DiamondDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".AlarmActivity"
+            android:label="@string/title_activity_alarm"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <!-- <service android:name="com.changhui.services.NotificationService" /> -->
+        <!-- 动态提醒服务 -->
+
+        <service android:name=".services.DynamicRemindService" />
+        <service android:name=".services.PhoneService" />
+        <service android:name=".services.TaskAlarmService" />
+        <service android:name="com.cedarhd.helpers.DownloadIntentService" />
+        <!-- 百度定位Service -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
+
+        <activity
+            android:name=".OrderListActivity"
+            android:label="@string/title_activity_order"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskListActivityNew"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ErpOrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientConstactListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".DepartmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SelectDepartmnetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".DepartmentActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientConstactNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SaleChanceListActivity"
+            android:label="@string/title_activity_sale_chance"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SaleChanceInfoActivity"
+            android:label="@string/title_activity_sale_chance_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".AdvertisementActivity"
+            android:label="@string/title_activity_advertisement"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientConstactInfoActivity"
+            android:label="@string/title_activity_client_constact_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <!-- 手动添加 -->
+        <activity
+            android:name=".Approval_Opinion"
+            android:label="@string/title_activity_client_constact_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TestListActivity"
+            android:label="@string/title_activity_test_list"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TestInfoActivity"
+            android:label="@string/title_activity_test_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TestNewActivity"
+            android:label="@string/title_activity_test_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".MeasureListActivity"
+            android:label="@string/title_activity_measure_list"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SettingNoticeActivity"
+            android:label="@string/title_activity_measure_list"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".FindPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".NoticeActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".AskForLeaveMoreFormFragmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ApplyListFragmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ApplyInStockListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ApplyOutStockListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".NewFormWebviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.NoticeListActivitynew"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".FeedbackListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".FeedbackInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".FeedbackNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".WebviewNormalActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+        <!-- android:process=":remote": 新开一个进程 -->
+        <!-- 闹钟广播接收机 -->
+        <receiver
+            android:name=".receiver.AlarmReceiver"
+            android:process=":remote"></receiver>
+        <receiver
+            android:name=".receiver.TaskNotificaitionReceiver"
+            android:process=":remote"></receiver>
+
+        <activity
+            android:name=".AuditFormActivity"
+            android:label="@string/title_activity_audit_form"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CommunicationListActivity"
+            android:label="@string/title_activity_communication"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanyShareSpaceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ShareInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SuggestListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SuggestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ProfitCaculatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ProfitCaculatorInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SuggestNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientContactDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".DepartmentSpaceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".DepartmentSpaceNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkorderinfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkOrderXiaoQuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkOrderXiaoQuInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkOrderYesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.WorkOrderNoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".InviteDownloadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cedarhd.PlayerActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="com.cedarhd.DetailsActivity" />
+        <activity
+            android:name=".WorkLogWeekListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogWeekNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogWeekInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogMonthNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogMonthInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskContentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <activity
+            android:name=".DiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientConstactDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name="com.cedarhd.SignListFragmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".WorkLogListFragmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseTheme"></activity>
+        <activity
+            android:name=".DynamicNewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".WorkLogContentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientConstactContentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".SuggestContentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CompanySpaceInputDiscussActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <activity
+            android:name=".RemindDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Translucent"></activity>
+        <activity
+            android:name=".ClientInfoNewActivity"
+            android:label="@string/title_activity_client_new"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ClientNewActivity"
+            android:label="@string/title_activity_client_new"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CommunicationAddActivity"
+            android:label="@string/title_activity_communication_add"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskTabListActivity"
+            android:label="@string/title_activity_task_tab_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".DiamondListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".RemindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".GiveSuggestionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <!-- 【必须】 信鸽receiver广播接收 -->
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v2">
+            <intent-filter android:priority="0x7fffffff">
+
+                <!-- 【必须】 信鸽SDK的内部广播 -->
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <!-- 【必须】 系统广播：开屏和网络切换 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.XGMessagePushReceiver">
+            <intent-filter>
+
+                <!-- 设置优先级  -1000~1000 -->
+                <!-- XGPush receive msg -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- XGPush register/unregister etc. -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <!-- 【注意】 如果被打开的activity是启动模式为SingleTop，SingleTask或SingleInstance，请根据通知的异常自查列表第8点处理 -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User_SelectActivityNew_zmy"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".SelectPhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".WeekLogInfoActivity"
+            android:label="@string/title_activity_week_log_info"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseTheme"></activity>
+        <activity
+            android:name=".TaskListActivity_zmy"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".TaskCalenderActivity"
+            android:label="@string/title_activity_task_calender"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".CommunicationInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".CommunicatioNew_zmy_AddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProjectListActivity"
+            android:label="@string/title_activity_project_list"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProjectAddActivity"
+            android:label="@string/title_activity_project_add"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProjectInfoActivity"
+            android:label="@string/title_activity_project_info"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".AttachListActivity"
+            android:label="@string/title_activity_attach_list"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProductListActivity"
+            android:label="@string/title_activity_product_list"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProductAddActivity"
+            android:label="@string/title_activity_product_add"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity
+            android:name=".ProductSelectListActivity"
+            android:label="@string/title_activity_product_select_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".ShopOrderListActivity"
+            android:label="@string/title_activity_product_list"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".ImagePagerActivity"
+            android:label="@string/title_activity_imagepager"
+            android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+
+        <!-- 扫描二维码 条形码 -->
+        <activity
+            android:name=".CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+
+        <!-- 选择定位地址 -->
+        <activity
+            android:name=".LocationListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+        <!-- 销售漏斗图 -->
+        <activity
+            android:name=".crm.SaleFunnelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 销售业绩排行榜 -->
+        <activity
+            android:name=".crm.SalerSummaryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 销售机会统计详情 -->
+        <activity
+            android:name=".crm.SaleChanceSummaryInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 新建销售机会 -->
+        <activity
+            android:name=".crm.CRMAddSaleChanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 选择合同分类页面 -->
+        <activity
+            android:name=".crm.CRMSelectConpactCategoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- CRM 新建客户联系记录页面 -->
+        <activity
+            android:name=".crm.CrmAddClientContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- CRM 新建线索页面 -->
+        <activity
+            android:name=".crm.CRMAddXiansuoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- CRM 合同选择页面 -->
+        <activity
+            android:name=".crm.CRMSelectConpactListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- CRM 新建工作计划页面 -->
+        <activity
+            android:name=".crm.CRMAddWorkplanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- CRM 线索列表页面 -->
+        <activity
+            android:name=".crm.CRMClewListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- CRM 收款单列表页面 -->
+        <activity
+            android:name=".crm.CRMReceiptListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- CRM 报销单列表页面 -->
+        <activity
+            android:name=".crm.CRMExpenseListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 产品列表页面 -->
+        <activity
+            android:name=".rad.RadProductListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 购物车列表页面 -->
+        <activity
+            android:name=".rad.RadShopCarListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 订单列表页面 -->
+        <activity
+            android:name=".rad.RadShopOrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 产品详情页面 -->
+        <activity
+            android:name=".rad.RadProductInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 预算列表页面 -->
+        <activity
+            android:name=".slt.SltCaculateListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 房间列表页面 -->
+        <activity
+            android:name=".slt.RadRoomListActivity"
+            android:label="@string/title_activity_rad_room_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 房间详情页面 -->
+        <activity
+            android:name=".slt.RadRoomInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 上报列表页面 -->
+        <activity
+            android:name=".rad.RadReportListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 森拉特Rad 上报详情页面 -->
+        <activity
+            android:name=".rad.RadReportInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".SpeechMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 森拉特Rad 到货扫码页面 -->
+        <activity
+            android:name=".slt.SltScanCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 森拉特 产品列表页面 -->
+        <activity
+            android:name=".slt.SltProductTypeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 森拉特 产品详情页面 -->
+        <activity
+            android:name=".slt.SltProductInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 森拉订单列表页面 -->
+        <activity
+            android:name=".slt.SltShopOrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 森拉特购物车列表页面 -->
+        <activity
+            android:name=".slt.SltShopCarListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 森拉扫码历史记录 -->
+        <activity
+            android:name=".slt.SltScanRecordListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 待我审批订单列表 -->
+        <activity
+            android:name=".slt.SltApproveOrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 定制 销售目标列表 -->
+        <activity
+            android:name=".slt.SltSaleTargetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 长汇工作计划列表 -->
+        <activity
+            android:name=".changhui.ChWorkPlanListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 长汇工作计划列表 (新版样式)-->
+        <activity
+            android:name=".changhui.ChCustomWorkPlanListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 长汇工作计划列表 (新版样式)-->
+
+        <activity
+            android:name=".changhui.ChWorkPlanInfoActivity"
+            android:label="@string/title_activity_ch_work_plan_info"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 长汇产品列表 -->
+        <activity
+            android:name=".changhui.ChProductListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 长汇合同列表 -->
+        <activity
+            android:name=".changhui.ChContactListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 长汇合同详情 -->
+        <activity
+            android:name=".changhui.ChContactInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".ProfitInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".ProfitInfoNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <!-- 长汇产品详情页面 -->
+        <activity
+            android:name=".ProductInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <!-- 长汇预约列表 -->
+        <activity
+            android:name=".changhui.ChBespokeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 长汇预约列表 -->
+        <activity
+            android:name=".changhui.ChBespokeInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 长汇客户列表 -->
+        <activity
+            android:name=".changhui.ChClientListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 长汇客户详情 -->
+        <activity
+            android:name=".changhui.ChClientInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 长汇产品详情 -->
+        <activity
+            android:name=".changhui.ChProductInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 省市县选择器 -->
+        <activity
+            android:name=".SelectCityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".TaskAlarmRemindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 【必须】 信鸽service -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushService"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v2" />
+
+        <!-- 【必须】 通知service，此选项有助于提高抵达率 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.changhui.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+
+        <!-- 【必须】 请将YOUR_ACCESS_ID修改为APP的AccessId，“21”开头的10位数字，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100196289" />
+        <!-- 【必须】 请将YOUR_ACCESS_KEY修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="AGA2D82D13TX" />
+
+        <!-- 腾讯云数据统计 请将value改为MTA分配的appkey < -->
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="Aqc1101518744" />
+        <!-- 请将value改为app发布对应的渠道，不同的发布渠道使用不同的名字 < -->
+        <meta-data
+            android:name="InstallChannel"
+            android:value="play" />
+
+        <!-- 友盟自动更新 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56d4fadde0f55ab0e60007c5" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" />
+
+        <!-- 蒲公英自动更新 -->
+        <!-- <meta-data
+            android:name="PGYER_APPID"
+            android:value="91691fbb83f7f67dc153fae5e0757edb" >
+        </meta-data> -->
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService"></service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+    </application>
+
+    <!-- 配置单元测试 -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Tests for My App"
+        android:targetPackage="com.changhui" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+</manifest>

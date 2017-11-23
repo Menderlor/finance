@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_list">
+    <LinearLayout
+        android:id="@+id/ll_select_status_pop_filter_tab"
+        android:clickable="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:padding="10dp">
+         <TextView
+            android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:src="@drawable/ico_project"
+    		android:text="选择客户"/>
+         <TextView
+             android:id="@+id/tv_select_project_pop_filter_tab"
+            android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="3"
+    		android:padding="10dp"
+    		android:gravity="center_vertical"
+    		android:hint="选择客户"
+            style="@style/style_text_info"/>
+    </LinearLayout>
+    
+    <LinearLayout  
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+    	android:orientation="horizontal">
+        <Button 
+            android:id="@+id/btn_cancel_pop_filter_bespokelist"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_button_blue"
+            android:text="重 置"/>
+        <Button 
+            android:id="@+id/btn_done_pop_filter_bespokelist"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector_button_blue"
+            android:text="确定"/>
+    </LinearLayout>
+</LinearLayout>
+

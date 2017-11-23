@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etContent_dialog_speech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="top"
+            android:hint="输入.."
+            android:textColor="@color/text_info"
+            android:minHeight="160dp"
+            android:maxHeight="300dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_speek_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/selector_taking_btn"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_speek_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/chatting_btn_bg"
+            android:text="点击说话"
+            android:textColor="@color/gray" />
+        
+        <Button
+            android:id="@+id/btn_speech_over_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/chatting_btn_bg"
+            android:text="完成"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+</LinearLayout>

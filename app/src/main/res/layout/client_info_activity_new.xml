@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_client_info"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_clientInfo"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="客户详情" />
+
+        <ImageView
+            android:id="@+id/imageViewDone_clientInfo"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title_client_info"
+        android:background="@color/zl_back" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    style="@style/task_style_ll_info"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="客户ID" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_id"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="客户名称" />
+
+                    <EditText
+                        android:id="@+id/et_name_clientInfo"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="联系人" />
+
+                    <EditText
+                        android:id="@+id/et_contanctName_clientInfo"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    style="@style/task_style_ll_info"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="注册时间" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_registerTime"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:enabled="false" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="业务员" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_saleman"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="联系电话" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_phone"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_address_client_info"
+                    style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="联系地址" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_adress"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="最后联系" />
+
+                    <EditText
+                        android:id="@+id/et_clientInfo_lastContactDate"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/btnContactList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="联系记录"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnNewContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="新建联系"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_workplan_list_client_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="工作计划"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_workplan_new_client_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="新建计划"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_salechance_list_client_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="销售机会"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_salechance_new_client_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="新建机会"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_list_client_info"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/iv_contact_list_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_contact_list" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="联系记录"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_contact_add_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_contacts_new" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建联系"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_workplan_list_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="投诉建议"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_workplan_new_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan_new" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建投诉"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_salechance_list_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="销售机会"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_salechance_new_client_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_work_plan_new" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建机会"
+                android:textColor="@color/gray"
+                android:textSize="12dp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

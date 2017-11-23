@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl" >
+
+    <ImageView
+        android:id="@+id/ivNewProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/ivListProject"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon11" />
+    
+    <TextView
+        android:id="@+id/tvNewProjectCount"
+        style="@style/style_menu_badge_textview"
+       	android:visibility="invisible"/>
+
+    <TextView
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListProject"
+        android:text="项目" />
+</RelativeLayout>

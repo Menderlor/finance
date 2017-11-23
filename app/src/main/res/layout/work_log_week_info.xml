@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:padding="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_week"
+            style="@style/title_common"
+            android:text="周志" />
+
+        <ImageView
+            android:id="@+id/imageViewDone_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_time_week"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <!-- <ImageView style="@style/email_style_bullets1" /> -->
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="时    间：" />
+
+                <TextView
+                    android:id="@+id/tv_time_week"
+                    style="@style/email_style_text2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_employee_week"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="员    工：" />
+
+                <TextView
+                    android:id="@+id/tv_employee_week"
+                    style="@style/email_style_text2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_finish_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="已完成：" />
+
+                <EditText
+                    android:id="@+id/et_finish_week"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_unfinished_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="未完成：" />
+
+                <EditText
+                    android:id="@+id/et_unfinished_week"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_plan_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="下周计划：" />
+
+                <EditText
+                    android:id="@+id/et_plan_week"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:id="@+id/ll_summary_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dip"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp" >
+
+                <TextView
+                    style="@style/text_style_info"
+                    android:text="工作总结：" />
+
+                <EditText
+                    android:id="@+id/et_summary_week"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:enabled="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/lightgray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_work_log_week"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_speek_worglog_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/selector_taking_btn"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_keybord_worglog_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/chatting_keyboard_btn_normal" />
+
+            <Button
+                android:id="@+id/btn_speek_worglog_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/chatting_btn_bg"
+                android:text="点击说话" />
+        </LinearLayout>
+        <!-- 评论区域 -->
+        <LinearLayout
+            android:id="@+id/ll_discuss_log_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="40dp"
+                android:textColor="@color/theme_title"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/rl_discuss_content_info_log_week"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ListView
+                    android:id="@+id/lv_discuss_log_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:divider="@color/lightgray"
+                    android:dividerHeight="0.5dp"
+                    android:padding="8dp" >
+                </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_discuss_log_week"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_work_log_discuss_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="我也说两句" />
+
+                <Button
+                    android:id="@+id/btn_work_log_discuss_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@drawable/blue_button_selector"
+                    android:text="暂无评论"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <!-- 输入评论内容提交区域 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_publich_discuss_log_info_week"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_discuss_title_log_info_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_discuss_quit_log_info_week"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/quit" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="写评论"
+                        android:textColor="@color/zl_title"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_discuss_submit_log_info_week"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:clickable="true"
+                        android:src="@drawable/sumit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/rl_discuss_title_log_info_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <EditText
+                        android:id="@+id/et_discuss_content_log_info_week"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="top|left"
+                        android:hint="请输入评论内容... " />
+
+                    <Button
+                        android:id="@+id/btn_publich_discuss_log_info_week"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/et_discuss_content_log_info_week"
+                        android:background="@drawable/blue_button_selector"
+                        android:text=" 发表 "
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

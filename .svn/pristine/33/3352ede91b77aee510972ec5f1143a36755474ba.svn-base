@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_client_new"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rl_title_client_new"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_cancel_calculator"
+            style="@style/style_header_button"
+            android:onClick="back"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="收益计算器" />
+
+        <ImageView
+            android:id="@+id/iv_save_client_new"
+            style="@style/style_header_button"
+            android:onClick="save"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="产品名称："
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_profit_caculator_product_name"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_edittext_bg_yusheng"
+                android:gravity="center_vertical"
+                android:height="30dp"
+                android:padding="5dp"
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="投资金额（元）："
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_caculate_touzi_jine"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_edittext_bg_yusheng"
+                android:gravity="center_vertical"
+                android:height="30dp"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="投资期限（月）："
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_caculate_touzi_qixian"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_edittext_bg_yusheng"
+                android:gravity="center_vertical"
+                android:height="30dp"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="到账日期："
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_profit_calculator"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_edittext_bg_yusheng"
+                android:gravity="center_vertical"
+                android:height="30dp"
+                android:padding="5dp"
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_caculate_product_profit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_button_blue"
+            android:padding="8dp"
+            android:text="收益计算"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

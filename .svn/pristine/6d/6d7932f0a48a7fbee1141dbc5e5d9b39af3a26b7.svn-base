@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <!-- 日志详情页面 -->
+    <RelativeLayout
+        android:id="@+id/rl_header_log"
+        style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="日志" />
+
+        <ImageView
+            android:id="@+id/iv_save_worklog"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_root_publish_discuss_worklog"
+        android:layout_below="@+id/rl_header_log"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:scrollbarStyle="outsideOverlay" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_content"
+            android:orientation="vertical" >
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/absoluteLayout1"
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="时 间" />
+
+                <TextView
+                    android:id="@+id/textViewTime_log"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/absoluteLayout"
+                style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="员工" />
+
+                <TextView
+                    android:id="@+id/textViewPersonnelName_log"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+			<TextView style="@style/style_text_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+			    android:text="日志内容"/>
+            <LinearLayout
+                android:id="@+id/ll_content_notice_info"
+                style="@style/task_style_ll_info" >
+
+                <EditText
+                    android:id="@+id/editTextContent"
+                    style="@style/style_text_content_info"
+                    android:hint="" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <TextView style="@style/style_text_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+			    android:text="明日计划(生成明日执行的任务)"/>
+            <LinearLayout
+                android:id="@+id/ll_tomorrow_plan_notice_info"
+                style="@style/task_style_ll_info" >
+
+                <EditText
+                    android:id="@+id/et_tomorrow_plan_worklog"
+                    style="@style/style_text_content_info"
+                    android:hint="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_supportAndDiamond_layout_worklog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingTop="20dp"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ll_publish_zs_worklog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_info_bg"
+                    android:gravity="center"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_zs_worklog"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/ico_zs_big" />
+
+                    <TextView
+                        android:id="@+id/tv_zs_count_worklog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_info" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:background="@null" >
+                </View>
+
+                <LinearLayout
+                    android:id="@+id/ll_publish_support_worklog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_info_bg"
+                    android:gravity="center"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_worklog"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/ico_zan_big" />
+
+                    <TextView
+                        android:id="@+id/tv_support_count_worklog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_info" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_hot_comment_worklog"
+                style="@style/task_style_ll_info"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <!-- 热门评论 -->
+
+                <TextView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="热门评论"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_root_comment_worklog"
+                style="@style/task_style_ll_info"
+                android:background="@null"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- 评论内容显示区 -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/rl_root_publish_discuss_worklog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+		<ImageView
+               android:id="@+id/iv_talking_log_discuss"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:clickable="true"
+               android:src="@drawable/selector_taking_btn" />
+        <!-- 发表评论区域 -->
+
+        <EditText
+            android:id="@+id/et_work_log_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="8"
+            android:background="@drawable/shape_searchview_bg"
+            android:gravity="left|center_vertical"
+            android:hint="我也说两句"
+            android:paddingLeft="5dp"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_publish_discuss"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="发表"
+                style="@style/style_button_blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

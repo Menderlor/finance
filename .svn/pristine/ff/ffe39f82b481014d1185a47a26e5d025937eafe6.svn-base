@@ -1,0 +1,24 @@
+package com.changhui.imp;
+
+/***
+ * 上传文件监听接口
+ * 
+ * @author K
+ * 
+ */
+public interface IOnUploadMultipleFileListener {
+
+	void onStartUpload(int sum);
+
+	/***
+	 * 更新上传进度进度
+	 * 
+	 * @param 要上传的总数量
+	 * 
+	 * @param completeCount
+	 *            已上传文件个数
+	 */
+	void onProgressUpdate(int completeCount);
+
+	void onComplete(String attachIds);
+}

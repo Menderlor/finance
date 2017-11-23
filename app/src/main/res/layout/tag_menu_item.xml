@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	style="@style/style_menu_grid_item_rl">
+
+    <TextView
+        android:id="@+id/tvTagCount"
+        style="@style/style_menu_badge_textview"
+        android:text=""
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvTag"
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivTagList"
+        android:text="考勤" />
+
+    <ImageView
+        android:id="@+id/ivNewTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivTagList"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon4" />
+
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 通知新建、详情的新布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_notice_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_notice_info_title"
+            style="@style/title_common"
+            android:text="通知详情" />
+
+        <ImageView
+            android:id="@+id/imageViewDone"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_addnotice"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView_content_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/zl_back"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginTop_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_title_notice_info"
+                    style="@style/task_style_ll_info" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            style="@style/style_text_left_info"
+                            android:text="标题" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextTitle"
+                        style="@style/style_text_right_info"
+                        android:text="请输入标题"/>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_line_id"
+                    style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_publiser"
+                    style="@style/task_style_ll_info"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="发布人" />
+
+                    <EditText
+                        android:id="@+id/editTextPublisher"
+                        style="@style/style_text_right_info"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="11" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_personel_notic_info_new"
+                    style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_receiver_notice_info"
+                    style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="接收人" />
+
+                    <EditText
+                        android:id="@+id/editTextReceiverName"
+                        style="@style/style_text_right_info" 
+                        android:hint="长按选择接收人"/>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_publish_time_notic_info_new"
+                    style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_publish_time_notic_info_new"
+                    style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="时间" />
+
+                    <EditText
+                        android:id="@+id/showdateExpirationTime"
+                        style="@style/style_text_right_info" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_content_notice_info"
+                    style="@style/task_style_ll_info" >
+
+                    <EditText
+                        android:id="@+id/editTextContent"
+                        style="@style/style_text_content_info" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_speech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_keybord2_noticeinfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:src="@drawable/chatting_keyboard_btn_normal" />
+
+                    <Button
+                        android:id="@+id/btn_speek2_noticeinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/chatting_btn_bg"
+                        android:text="点击说话" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_attachImg_noticeinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_attach"
+                android:background="@color/white"
+                android:orientation="vertical" >
+                <View style="@style/style_line_horizontal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" 
+                    android:paddingTop="5dp"
+                	android:paddingBottom="5dp">
+                    <com.changhui.control.HorizontalScrollViewAddImage
+                        android:id="@+id/addImg_noticeinfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View style="@style/style_line_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_attchment_notice_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/little_gray"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="附件列表"
+                    android:textColor="#999999"
+                    android:textSize="13sp" />
+
+                <ListView
+                    android:id="@+id/lv_attchment_notice_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:divider="@color/lightgray"
+                    android:dividerHeight="0.5dp"
+                    android:padding="8dp" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

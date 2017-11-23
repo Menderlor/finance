@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.changhui.control.BoeryunHeaderView
+        android:id="@+id/header_ch_client_info"
+        style="@style/style_header_layout"
+        boeryun:isVisbleBackIco="true"
+        boeryun:isVisbleSaveIco="true"
+        boeryun:titleText="客户详情" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="注:带"
+            android:textColor="@color/text_info"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/style_changhui_red_stare"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="为必填项,带"
+            android:textColor="@color/text_info"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="2dp"
+            android:background="@color/deepskyblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="为签约客户字段,如若修改,请提交申请"
+            android:textColor="@color/text_info"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <com.changhui.view.Indicator
+        android:id="@+id/indicator_ch_client_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="35dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        boeryun:color_indicator="@color/theme_new" />
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="35dp" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="35dp" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:textSize="16sp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:textColor="#FF8c8c8d" -->
+    <!-- android:text="联系记录"/> -->
+    <!-- </LinearLayout> -->
+
+    <View style="@style/style_line_horizontal" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_ch_client_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

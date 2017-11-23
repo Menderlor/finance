@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 评论内容 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+    
+	<TextView 
+	    android:id="@+id/control_discuss_user_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#76A3C1"
+	    android:text="LADFNFAN"
+	    android:textSize="15sp"/>
+	
+	<TextView 
+	    android:id="@+id/control_discuss_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:text="LADFN"
+	    android:singleLine="false"
+	    android:textSize="15sp"/>
+</LinearLayout>

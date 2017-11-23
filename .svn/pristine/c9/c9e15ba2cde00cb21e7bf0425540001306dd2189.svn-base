@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="计划类型" />
+
+            <TextView
+                android:id="@+id/tv_plan_type_work_plan_dialog"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="选择客户" />
+
+            <TextView
+                android:id="@+id/tv_client_work_plan_dialog"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+        
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="地点" />
+
+            <EditText
+                android:id="@+id/et_adress_work_plan_dialog"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="计划内容" />
+
+            <EditText
+                android:id="@+id/et_content_work_plan_dialog"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" 
+                android:minHeight="80dp"
+                android:imeOptions="actionSend"
+         		android:inputType="text"/>
+        </LinearLayout>
+        
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+            <TextView
+                android:id="@+id/tv_save_work_plan_dialog"
+                style="@style/text_style_info"
+                android:background="@drawable/selector_header_half"
+                android:textColor="@color/theme_new"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textSize="16sp"
+                android:text="保存"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/department_pop"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+         android:textColor="#ffffff"
+        android:background="#cb000000"
+        android:text="新建部门" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/clerk_pop"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="#cb000000"
+        android:textColor="#ffffff"
+        android:text="邀请下属" />
+
+
+</LinearLayout>

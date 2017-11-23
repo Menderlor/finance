@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <!-- android:background="@color/zl_back" -->
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_client"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_client"
+            style="@style/title_common"
+            android:text="通讯录" />
+
+        <ImageView
+            android:id="@+id/iv_new_communication_list"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/new_item" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_search_root_noticelist"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="7dp" >
+
+        <com.cedarhd.control.BoeryunSearchView
+            android:id="@+id/searchview_communicationlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/progress_clientlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <com.cedarhd.control.listview.PullToRefreshListView
+            android:id="@+id/listView_Contactslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ebebeb"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

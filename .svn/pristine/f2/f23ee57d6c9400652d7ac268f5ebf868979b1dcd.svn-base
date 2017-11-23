@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="nav_height">45dp</dimen>
+	<dimen name="historyscore_tb">10dp</dimen>
+	
+	<!-- 新本蓝色UI主题 -->
+	<dimen name="marginTop_content">8dp</dimen> <!-- 内容区域距离顶部标题栏距离 -->
+	<dimen name="marginTop_attach">30dp</dimen> <!-- 附件区域距离顶部标题栏距离 -->
+	<dimen name="height_line">0.6dp</dimen> <!-- 分割线的高度 -->
+	
+	<dimen name="nav_line">0.56dp</dimen> <!-- 分割线的高度 -->
+</resources>

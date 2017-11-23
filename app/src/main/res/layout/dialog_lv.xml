@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout style="@style/style_header_layout" 
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_title_dialog"
+            style="@style/title_common"
+            android:textSize="22sp"
+            android:text="标题" />
+    </RelativeLayout>
+
+    <ListView 
+        android:id="@+id/lv_dialog"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:divider="@color/gray"
+	    android:dividerHeight="0.6dp">
+    </ListView>
+
+</LinearLayout>

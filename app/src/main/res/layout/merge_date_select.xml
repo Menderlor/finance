@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_today_salechance_summary_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ico_left_press"
+            android:gravity="center"
+            android:text="今日"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_week_salechance_summary_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ico_center_normal"
+            android:gravity="center"
+            android:text="本周"
+            android:textColor="@color/text_info"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_month_salechance_summary_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ico_center_normal"
+            android:gravity="center"
+            android:text="本月"
+            android:textColor="@color/text_info"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_quarter_salechance_summary_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ico_center_normal"
+            android:gravity="center"
+            android:text="本季"
+            android:textColor="@color/text_info"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_year_salechance_summary_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ico_right_normal"
+            android:gravity="center"
+            android:text="本年"
+            android:textColor="@color/text_info"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</merge>

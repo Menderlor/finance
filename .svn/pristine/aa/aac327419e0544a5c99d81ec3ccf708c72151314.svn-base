@@ -1,0 +1,7 @@
+package com.changhui.models;
+
+public class EmailRemind {
+
+	public String Inbox;
+
+}

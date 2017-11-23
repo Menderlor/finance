@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormDEF Type="请假单" RowCount="9" ColumnCount="5">
+  <MasterArea Name="表头" RowCount="9" ColumnCount="5">
+    <Text Text="请假单" FontSize="20" FontType="黑体" Grid.Row="0" 
+          Grid.Column="0" RowSpan="2" ColumnSpan="5"  HorizontalAlignment="Center" />
+    <Text Text="员工" Grid.Row="2" Grid.Column="0" />
+    <Data Style="ComboBox" DisplayMemberPath="名称" ValueMemberPath="编号" 
+          Grid.Row="2" Grid.Column="1" 
+          DefaultValue="[User]"
+          Dict="员工" ColumnSpan="4" Binding="申请人" />
+    <Text Text="请假类型" Grid.Row="3" Grid.Column="0" />
+    <Data Style="ComboBox" DisplayMemberPath="名称" ValueMemberPath="编号"
+          Grid.Row="3" Grid.Column="1" Dict="休假类型" ColumnSpan="4"
+          Binding="休假类型" DefaultValue="1"/>
+    <Text Text="开始时间" Grid.Row="4" Grid.Column="0" />
+    <Data  Style="DatePicker" Binding="开始时间" 
+          DefaultValue="[Now]"
+          Grid.Row="4" Grid.Column="1" ColumnSpan="4" />
+    <Text Text="期限" Grid.Row="5" Grid.Column="0" />
+    <Data Style="Int" Binding="请假期限" Grid.Row="5" 
+          Grid.Column="1" ColumnSpan="2" DefaultValue="1"/>
+    <Text Text="时间类型" Grid.Row="5" Grid.Column="3" />
+    <Data Style="ComboBox" DisplayMemberPath="名称" 
+          ValueMemberPath="编号" Grid.Row="5" Grid.Column="4" 
+          Dict="时间类型" Binding="时间类型" DefaultValue="1" />
+    <Text Text="请假原因" Grid.Row="6" Grid.Column="0" RowSpan="3" />
+    <Data Style="TextBox" Binding="请假原因" Grid.Row="6" 
+          Grid.Column="1" ColumnSpan="4" RowSpan="3"  />
+  </MasterArea>
+</FormDEF>

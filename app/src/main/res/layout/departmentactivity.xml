@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="选择部门"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_select_dept"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/line_splite"
+        android:dividerHeight="@dimen/height_line" 
+        android:listSelector="@color/theme_half_press">
+    </ListView>
+
+</LinearLayout>

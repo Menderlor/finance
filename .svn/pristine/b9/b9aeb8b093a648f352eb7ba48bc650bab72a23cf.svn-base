@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_list">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0099ff">
+        <ImageButton 
+            android:id="@+id/tasklist_zmy_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:src="@drawable/back"/>
+        <TextView 
+            android:id="@+id/tasklist_zmy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/title_common"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    
+	<RelativeLayout
+            android:id="@+id/rl_search_tasklist_fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <com.changhui.control.BoeryunSearchView
+                android:id="@+id/searchview_tasklist_fragment1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <FrameLayout style="@style/style_listview_root">
+
+            <com.changhui.control.listview.PullToRefreshListView
+                android:id="@+id/listView_tasklist_fragment1"
+                style="@style/style_listview"
+                android:visibility="gone" />
+
+            <com.changhui.control.MyProgressBar
+                android:id="@+id/progress_tasklist_fragment1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+</LinearLayout>

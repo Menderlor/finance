@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- 评论区域 -->
+
+    <LinearLayout
+        android:id="@+id/ll_discuss_companyspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp"
+            android:textColor="@color/theme_title" />
+
+        <LinearLayout
+            android:id="@+id/rl_discuss_companyspace"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/lv_discuss_companyspace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:divider="@color/lightgray"
+                android:dividerHeight="0.5dp"
+                android:padding="8dp" >
+            </ListView>
+        </LinearLayout>
+
+        <!-- 输入评论内容提交区域 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_publich_discuss_companyspace"
+            android:layout_width="match_parent"
+            android:layout_height="140dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_discuss_title_companyspace"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+                <ImageView
+                    android:id="@+id/iv_discuss_quit_companyspace"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:src="@drawable/quit" />
+
+                <TextView
+                    android:id="@+id/title_companyspace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="写评论"
+                    android:textColor="@color/zl_title"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_discuss_submit_companyspace"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dip"
+                    android:clickable="true"
+                    android:src="@drawable/sumit" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rl_discuss_title_companyspace"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <EditText
+                    android:id="@+id/et_discuss_content_companyspace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top|left"
+                    android:hint="请输入评论内容... " />
+            </RelativeLayout>
+
+            
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

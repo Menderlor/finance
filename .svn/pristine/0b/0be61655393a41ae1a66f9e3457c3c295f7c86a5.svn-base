@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+        <ImageView
+            android:id="@+id/ivCance_contact1"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle_constactNew1"
+            style="@style/title_common"
+            android:text="新建联系" />
+
+        <ImageView
+            android:id="@+id/ivDone_contact1"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_addconstact1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <View style="@style/style_line_horizontal" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_constact1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="客户" />
+
+                    <TextView
+                        android:id="@+id/tv_client_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="地址" />
+
+                    <EditText
+                        android:id="@+id/et_location_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="联系时间" />
+
+                    <TextView
+                        android:id="@+id/tv_ContactTime_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3"
+                        android:ems="10" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info">
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="下次联系时间" />
+                    <TextView
+                        android:id="@+id/tv_nextContactTime_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3"
+                        android:ems="10" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                    
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="联系方式" />
+
+                    <TextView
+                        android:id="@+id/tv_contact_type_newcontact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="意向程度" />
+
+                    <TextView
+                        android:id="@+id/tv_onpion_newcontact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+					
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="工作类型" />
+
+                    <TextView
+                        android:id="@+id/tv_work_type_newcontact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="是否完成" />
+
+                    <TextView
+                        android:id="@+id/tv_isComplete_newcontact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+					<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="联系记录" />
+
+                    <EditText
+                        android:id="@+id/et_content_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3"/>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="困难问题" />
+
+                    <EditText
+                        android:id="@+id/et_question_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="客户经理" />
+                    <TextView
+                        android:id="@+id/tv_saler_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="客户经理部门" />
+                    <TextView
+                        android:id="@+id/tv_dept_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="客户经理岗位" />
+                    <TextView
+                        android:id="@+id/tv_job_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="提交时间 " />
+                    <TextView
+                        android:id="@+id/tv_createtime_newconstact"
+                        style="@style/style_text_right_info"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_speech1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_keybord2_constact1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:src="@drawable/chatting_keyboard_btn_normal" />
+
+                    <Button
+                        android:id="@+id/btn_speek2_constact1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/chatting_btn_bg"
+                        android:text="点击说话" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.changhui.control.HorizontalScrollViewAddImage
+                android:id="@+id/addImg_constact_new1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+            </com.changhui.control.HorizontalScrollViewAddImage>
+
+            <!-- 评论区域 -->
+
+            <LinearLayout
+                android:id="@+id/ll_discuss_constact_new1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/theme_title"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/rl_discuss_content_constact_new1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ListView
+                        android:id="@+id/lv_discuss_constact_new1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:divider="@color/lightgray"
+                        android:dividerHeight="0.5dp"
+                        android:padding="8dp" >
+                    </ListView>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_discuss_constact_new1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical" >
+
+                    <Button
+                        android:id="@+id/btn_discuss_constact_new1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/blue_button_selector"
+                        android:text=" 评论 "
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <!-- 输入评论内容提交区域 -->
+
+                <RelativeLayout
+                    android:id="@+id/rl_publich_discuss_constact_info1"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_discuss_title_constact_info1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_discuss_quit_constact_info1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dip"
+                            android:src="@drawable/quit" />
+
+                        <TextView
+                            android:id="@+id/title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="写评论"
+                            android:textColor="@color/zl_title"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_discuss_submit_constact_info1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dip"
+                            android:clickable="true"
+                            android:src="@drawable/sumit" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_below="@+id/rl_discuss_title_constact_info1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <EditText
+                            android:id="@+id/et_discuss_content_constact_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="top|left"
+                            android:hint="请输入评论内容... " />
+
+                        <Button
+                            android:id="@+id/btn_publich_discuss_constact_info1"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/blue_button_selector"
+                            android:text=" 发表 "
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+package com.changhui.biz;
+
+import java.util.ArrayList;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.changhui.AttachListActivity;
+import com.changhui.R;
+import com.changhui.models.Attach;
+import com.changhui.utils.StrUtils;
+
+/** 处理附件的相关业务逻辑 */
+public class AttachBiz {
+	/** 打开附件下载页面 */
+	public static void startAttachActivity(Context context,
+			ArrayList<Attach> attachs) {
+		Intent intent = new Intent(context, AttachListActivity.class);
+		Bundle bundle = new Bundle();
+		bundle.putSerializable(AttachListActivity.ATTACH_LIST, attachs);
+		intent.putExtras(bundle);
+		context.startActivity(intent);
+	}
+
+	/** 打开附件下载页面 */
+	public static void startAttachActivity(Context context, Attach attach) {
+		ArrayList<Attach> attachs = new ArrayList<Attach>();
+		attachs.add(attach);
+		startAttachActivity(context, attachs);
+	}
+
+	/***
+	 * 根据文件后缀返回对应图片resId
+	 * 
+	 * @param suffix
+	 * @return
+	 */
+	public static int getImageResoureIdBySuffix(String suffix) {
+		int resId = R.drawable.ico_other;
+		suffix = StrUtils.pareseNull(suffix).replace(".", "");
+		if (suffix.equalsIgnoreCase("doc") || suffix.equalsIgnoreCase("docx")) {
+			resId = R.drawable.ico_doc;
+		} else if (suffix.equalsIgnoreCase("xls")
+				|| suffix.equalsIgnoreCase("xlsx")) {
+			resId = R.drawable.ico_excel;
+		} else if (suffix.equalsIgnoreCase("ppt")
+				|| suffix.equalsIgnoreCase("pptx")) {
+			resId = R.drawable.ico_ppt;
+		} else if (suffix.equalsIgnoreCase("txt")) {
+			resId = R.drawable.ico_txt;
+		} else if (suffix.equalsIgnoreCase("zip")
+				|| suffix.equalsIgnoreCase("rar")) {
+			resId = R.drawable.ico_zip;
+		} else {
+			resId = R.drawable.ico_other;
+		}
+		return resId;
+	}
+
+}

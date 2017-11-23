@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_salechance_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" 
+    	android:padding="8dp" >
+
+        <TextView
+            style="@style/style_text_normal_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text="北京波尔云"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            style="@style/style_text_normal_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            style="@style/style_text_normal_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="了解销售机会"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            style="@style/style_text_normal_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="刘晓英" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/add_green" />
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+</LinearLayout>
