@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_ch_work_plan_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.changhui.control.BoeryunHeaderView
+        android:id="@+id/header_work_plan_list"
+        style="@style/style_header_layout"
+        boeryun:isVisbleSaveIco="true"
+        boeryun:isVisbleBackIco="true"
+        boeryun:titleText="计划详情" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="计划类型" />
+
+            <TextView
+                android:id="@+id/tv_plan_type_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="选择客户" />
+
+            <TextView
+                android:id="@+id/tv_client_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="计划内容" />
+
+            <EditText
+                android:id="@+id/et_content_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="困难问题" />
+
+            <EditText
+                android:id="@+id/et_question_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="追踪形式" />
+
+            <TextView
+                android:id="@+id/tv_zhuizong_type_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+            <TextView
+                style="@style/text_style_info"
+                android:text="追踪内容" />
+
+            <EditText
+                android:id="@+id/et_zhuizong_content_work_plan_info"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3" 
+                android:minHeight="80dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

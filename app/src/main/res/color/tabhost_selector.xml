@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- 这是顺序执行的，如果状态是selected，则为android_focused图标，如果不是下一步，采用android_normal图标-->
+  <item android:drawable="@drawable/tabhost_focused"  android:color="@color/white"
+        android:state_selected="true" />
+  <item android:drawable="@drawable/tabhost_unfocus" android:color="@color/white"/>
+</selector>  
+

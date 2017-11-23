@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <com.changhui.control.BoeryunHeaderView
+        android:id="@+id/header_share_info"
+        style="@style/style_header_layout"
+        boeryun:isVisbleBackIco="true"
+        boeryun:titleText="分享详情" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.changhui.control.AvartarView
+                        android:id="@+id/vatar_share_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_user_share_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="发布人"
+                        android:textColor="@color/text_black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_title_share_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="标题"
+                        android:textColor="@color/text_black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_content_share_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="内容"
+                        android:textColor="@color/text_black"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <com.changhui.control.BoeryunNoScrollGridView
+                            android:id="@+id/gv_imgs_share_info"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:cacheColorHint="@null"
+                            android:columnWidth="75dp"
+                            android:gravity="center"
+                            android:horizontalSpacing="2.5dp"
+                            android:listSelector="@null"
+                            android:numColumns="3"
+                            android:verticalSpacing="2.5dp"/>
+
+                        <com.changhui.control.MultipleAttachView
+                            android:id="@+id/attch_company"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:numColumns="3" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_time_share_info"
+                        style="@style/style_text_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2015-10-11" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_hot_comment_share_info"
+                style="@style/task_style_ll_info"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:orientation="horizontal" >
+
+                <!-- 热门评论 -->
+
+                <TextView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="热门评论"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_root_comment_share_info"
+                style="@style/task_style_ll_info"
+                android:background="@null"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- 评论内容显示区 -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View style="@style/style_line_horizontal" />
+
+    <include
+        layout="@layout/merge_bottom_discuss"
+        android:minHeight="45dp" />
+
+</LinearLayout>

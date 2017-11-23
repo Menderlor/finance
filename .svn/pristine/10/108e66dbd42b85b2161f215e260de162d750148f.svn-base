@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_attach_list"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/tv_title_attach_list"
+            style="@style/title_common" 
+            android:text="附件列表"/>
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/style_listview_root" >
+        <LinearLayout
+            android:id="@+id/ll_root_attach_list"
+            style="@style/style_listview_root" >
+            <ListView
+                android:id="@+id/lv_attach_list"
+                android:divider="@color/lightgray"
+                android:dividerHeight="0.1dp"
+                style="@style/style_listview"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

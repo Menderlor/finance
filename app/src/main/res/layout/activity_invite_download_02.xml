@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+ 	<LinearLayout 
+ 	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"></LinearLayout>
+    <EditText
+        android:id="@+id/employee_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:hint="@string/employee_name"
+        android:textColor="#000000"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/describe_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/describe_01" 
+        android:textColor="#FFB6C1"
+        android:textSize="18sp"/>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"></LinearLayout>
+
+    <EditText
+        android:id="@+id/department_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/department_name"
+        android:textColor="#000000"
+        android:ems="10" />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"></LinearLayout>
+
+    <EditText
+        android:id="@+id/employee_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/employee_phoneNumber"
+        android:textColor="#000000"
+        android:ems="10" />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#32CD32"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/invite" />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/describe_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:textColor="#FFB6C1"
+        android:text="@string/describe_02"/>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="20dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/describe_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:textSize="18sp"
+         android:textColor="#FFB6C1"
+        android:text="@string/describe_03"/>
+    </LinearLayout>
+</LinearLayout>

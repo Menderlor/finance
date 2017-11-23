@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl">
+
+    <TextView
+        android:id="@+id/tvClient"
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListClients"
+        android:text="客户" />
+
+    <ImageView
+        android:id="@+id/ivNewClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivListClients"
+		style="@style/style_menu_grid_item_iv" 
+		android:src="@drawable/a_icon5"/>
+	
+     <TextView
+        android:id="@+id/tvClientCount"
+        style="@style/style_menu_badge_textview"
+        android:visibility="invisible" />
+</RelativeLayout>

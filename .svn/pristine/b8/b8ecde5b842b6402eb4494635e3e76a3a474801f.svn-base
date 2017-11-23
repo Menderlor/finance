@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_add_xiansuo"
+            style="@style/style_header_button"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            style="@style/title_common"
+            android:text="新建线索" />
+
+        <ImageView
+            android:id="@+id/iv_save_add_xiansuo"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_list" >
+
+        <LinearLayout
+            android:id="@+id/ll_root_add_xiansuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="来源" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.changhui.control.BoeryunDictSelectView 
+                        android:id="@+id/et_source_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        boeryun:dictName="线索来源"
+                        android:hint="*"
+                        android:focusable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="分类" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+                    <com.changhui.control.BoeryunDictSelectView 
+                        android:id="@+id/et_category_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        android:hint="*"
+                        boeryun:dictName="线索分类"/> 
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="意向产品" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.changhui.control.BoeryunDictSelectView
+                        android:id="@+id/et_product_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        boeryun:dictName="销售机会_意向产品"
+                        android:hint="*"
+                        android:focusable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="预计金额" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_total_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        android:inputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="预计采购时间" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <com.changhui.control.BoeryunDateSelectView
+                        android:id="@+id/et_timecaigou_add_xiansuo"
+                        style="@style/style_text_right_info"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <View
+                style="@style/style_line_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="公司名称" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_company_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        android:hint="*"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="联系人" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_contacts_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        android:hint="必填" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="联系电话" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_phone_add_xiansuo"
+                        style="@style/style_text_right_info"
+                        android:inputType="phone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="关键字" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_keyword_add_xiansuo"
+                        style="@style/style_text_right_info"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="地址" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_address_add_xiansuo"
+                        style="@style/style_text_right_info" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/task_style_ll_info" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:text="描述" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/et_info_add_xiansuo"
+                        style="@style/style_text_right_info"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_more_add_xiansuo"
+                style="@style/task_style_ll_info"
+                android:background="@drawable/selector_header_half" >
+
+                <TextView
+                    style="@style/style_text_left_info"
+                    android:gravity="center"
+                    android:text="显示更多联系方式" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_info_more_add_xiansuo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="微信" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/et_wechart_add_xiansuo"
+                            style="@style/style_text_right_info"
+                            android:inputType="number" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="QQ" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/et_qq_add_xiansuo"
+                            style="@style/style_text_right_info"
+                            android:inputType="number" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="旺旺" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/et_wangwang_add_xiansuo"
+                            style="@style/style_text_right_info" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="邮箱" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/et_email_add_xiansuo"
+                            style="@style/style_text_right_info"
+                            android:inputType="number" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="网址" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/et_url_add_xiansuo"
+                            style="@style/style_text_right_info"
+                            android:inputType="number" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

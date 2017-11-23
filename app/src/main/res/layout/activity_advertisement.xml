@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_ad"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+    <RelativeLayout style="@style/style_header_layout">
+        <ImageView
+            android:id="@+id/imageViewCancel_ad"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="联系我们"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        android:background="@color/lightgray" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <!-- 联网升级 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/shape_info_bg"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp" >
+
+                    <LinearLayout
+                        style="@style/task_style_ll_info"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_version_ad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="版本号：V 1.0"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/task_style_ll_info">
+
+                        <Button
+                            android:id="@+id/btn_update_ad"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+							android:text="联网升级"
+							android:background="@drawable/selector_button_blue"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_info_bg"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:maxLines="2"
+                    android:gravity="center"
+                        android:text="如需增加新的功能，请联系波尔云"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout 
+                    android:id="@+id/ll_tel_ad"
+                    android:clickable="true"
+                    style="@style/task_style_ll_info" 
+                    android:background="@drawable/selector_linear_bg">
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="电话" />
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:id="@+id/tv_tel_ad"
+                        android:clickable="true"
+                        android:layout_weight="3"
+                        android:text="4006-888-297" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/notice_icon01" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout 
+                    android:id="@+id/ll_url_ad"
+                    android:clickable="true"
+                    style="@style/task_style_ll_info" 
+                    android:background="@drawable/selector_linear_bg">
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:text="网址" />
+
+                    <TextView
+                        style="@style/text_style_info"
+                        android:id="@+id/tv_url_ad"
+                        android:layout_weight="3"
+                        android:text="http://www.boeryun.com" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/notice_icon01" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

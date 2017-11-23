@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 进度条加载样式，底色为黑色，加载为蓝色 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 背景  gradient是渐变,corners定义的是圆角 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="@color/translate_black" />
+        </shape>
+    </item>
+    <!-- 进度条 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <solid android:color="#00ffff" />
+                <gradient
+                    android:angle="90.0"
+                    android:startColor="#00ffff"
+                    android:centerColor="#00dfff"
+                    android:endColor="#00ffff" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

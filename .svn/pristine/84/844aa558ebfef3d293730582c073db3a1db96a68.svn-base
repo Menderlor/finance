@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_select_user_pop_contact_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/tx" />
+
+            <TextView
+                android:id="@+id/tv_select_user_pop_contact_filter"
+                style="@style/style_text_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_header_half"
+                android:hint="业务员.." />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_select_client_pop_contact_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/tx" />
+
+            <TextView
+                android:id="@+id/tv_select_client_pop_contact_filter"
+                style="@style/style_text_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_header_half"
+                android:hint="客户.." />
+        </LinearLayout>
+        
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_select_client_pop_contact_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/tx" />
+
+            <TextView
+                android:id="@+id/tv_select_dept_pop_contact_filter"
+                style="@style/style_text_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_header_half"
+                android:hint="所在部门.." />
+        </LinearLayout>
+        
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/tx" />
+
+            <TextView
+                
+                android:id="@+id/tv_select_job_pop_contact_filter"
+                style="@style/style_text_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_header_half"
+                android:hint="所在岗位.." />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+        
+        <LinearLayout
+            android:id="@+id/ll_select_status_pop_contact_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="时间选择"
+                android:textColor="@color/text_info" />
+
+            <TextView
+                android:id="@+id/tv_select_startTime_pop_contact_filter"
+                style="@style/style_edit_info_yusheng"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:gravity="center_vertical"
+                android:hint="结束时间"
+                android:minHeight="30dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/text_info" />
+
+            <TextView
+                android:id="@+id/tv_select_endTime_pop_contact_filter"
+                style="@style/style_edit_info_yusheng"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:gravity="center_vertical"
+                android:hint="结束时间"
+                android:minHeight="30dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="25dp" >
+
+            <Button
+                android:id="@+id/btn_cancel_pop_contact_filter"
+                style="@style/pop_filter_date"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_button_blue"
+                android:text="重 置"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_done_pop_contact_filter"
+                style="@style/pop_filter_date"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_button_blue"
+                android:text="确定"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_bottom_pop_contact_filter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/translate_half_black" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/style_listview_root">
+        <com.changhui.control.listview.PullToRefreshAndLoadMoreListView
+            android:id="@+id/lv_comman_loadlist"
+            style="@style/style_listview"/>
+    </RelativeLayout>
+</merge>

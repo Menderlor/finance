@@ -1,0 +1,55 @@
+package com.cedarhd;
+
+import android.app.Activity;
+import android.app.Application;
+
+import com.cedarhd.utils.LogUtils;
+
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * 用于管理Activity
+ */
+public class ExistApplication extends Application {
+
+	private List<Activity> mActivities = new LinkedList<Activity>();
+	private static ExistApplication instance;
+
+	private ExistApplication() {
+	}
+
+	// 单例模式中获取唯一的MyApplication实例
+	public static ExistApplication getInstance() {
+		if (null == instance) {
+			instance = new ExistApplication();
+		}
+		return instance;
+
+	}
+
+	/*** 添加Activity到容器中 */
+	public void addActivity(Activity activity) {
+		mActivities.add(activity);
+	}
+
+	/***
+	 * 安全地退出进程中打开的所有activity
+	 * 
+	 * @param killProcess
+	 *            是否杀死进程，false仅仅是关闭所有页面，true 表示杀死进程
+	 */
+	public void exit(boolean killProcess) {
+		for (int i = 0; i < mActivities.size(); i++) {
+			Activity activity = mActivities.get(i);
+			if (activity != null) {
+				LogUtils.i("exist", "" + activity.getLocalClassName());
+				activity.finish();
+			}
+		}
+
+		if (killProcess) {
+			System.exit(0);
+		}
+	}
+}

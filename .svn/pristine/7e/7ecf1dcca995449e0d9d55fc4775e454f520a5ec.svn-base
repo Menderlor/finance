@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="10dip" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:background="#FFFFFF" android:descendantFocusability="blocksDescendants">
+
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<ImageView android:layout_centerVertical="true"
+			android:layout_marginRight="7dip" android:id="@+id/imageViewTitle"
+			android:layout_width="wrap_content" android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content" android:src="@drawable/notice_icon_say01" />
+		
+		<TextView android:layout_height="wrap_content"
+			android:textSize="20sp" android:text="" android:layout_width="wrap_content"
+			android:id="@+id/textViewTitle" style="@style/textview_title"
+			android:layout_centerVertical="true" android:layout_toRightOf="@+id/imageViewTitle"/>
+
+		<TextView android:id="@+id/textViewId" android:layout_width="wrap_content"
+			android:layout_gravity="center_vertical" android:layout_height="wrap_content"
+			android:textSize="15sp" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_marginTop="5dip" android:layout_marginLeft="17dip" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_marginRight="20dip"
+			android:layout_height="wrap_content" android:textColor="#999999"
+			android:textSize="15sp" android:text="" android:id="@+id/textViewPublisherName"
+			android:layout_width="wrap_content" />
+
+		<TextView android:layout_marginRight="20dip"
+			android:layout_height="wrap_content" android:textColor="#999999"
+			android:textSize="15sp" android:text="" android:id="@+id/textViewExecutorName"
+			android:layout_toRightOf="@+id/textViewPublisherName"
+			android:layout_width="wrap_content" />
+
+		<TextView android:layout_height="wrap_content"
+			android:textColor="#999999" android:textSize="15sp" android:text=""
+			android:id="@+id/textViewStatusName" android:layout_width="wrap_content"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_marginLeft="17dip" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="50dip">
+
+		<ImageView android:layout_centerVertical="true"
+			android:layout_marginRight="5dip" android:id="@+id/imageViewContent"
+			android:layout_width="wrap_content" android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content" android:src="@drawable/notice_icon_star01" />
+
+		<TextView android:layout_marginRight="45dip"
+			android:layout_centerVertical="true" android:gravity="center_vertical"
+			android:layout_height="fill_parent" android:layout_marginBottom="10dip"
+			android:textColor="#999999" android:textSize="15sp" android:text=""
+			android:id="@+id/textViewContent" android:layout_width="fill_parent"
+			android:layout_toRightOf="@+id/imageViewContent" />
+
+	</RelativeLayout>
+
+
+</LinearLayout>  

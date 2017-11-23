@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_cummunication_add"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="新建联系人" />
+        
+        <ImageView
+            android:id="@+id/iv_save_cummunication_add"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        android:background="@color/lightgray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:id="@+id/ll_register_company"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="姓名"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_name_cummunication_add"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:hint="姓名【必填】"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_register_user"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="手机"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_mobilephone_cummunication_add"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:hint="手机号【必填】"
+                android:inputType="phone"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_register_pwd"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="座机"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_phone_cummunication_add"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:hint="座机号码"
+                android:inputType="phone"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_register_phone"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="邮箱"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_email_cummunication_add"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:hint="邮箱地址"
+				android:inputType="textEmailAddress"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        
+        <View style="@style/style_line_horizontal" />
+        
+        <LinearLayout
+            android:id="@+id/ll_register_contacts"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:layout_weight="1"
+                android:text="地址"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_address_cummunication_add"
+                style="@style/style_text_right_info"
+                android:layout_weight="3"
+                android:hint="联系地址"
+                android:textSize="18sp" />
+        </LinearLayout><View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_call_cummunication_add"
+            style="@style/task_style_ll_info"
+            android:layout_height="70dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/style_edit_info_yusheng"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="拨 号"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

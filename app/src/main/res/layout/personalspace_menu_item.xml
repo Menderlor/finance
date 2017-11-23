@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl" >
+
+    <ImageView
+        android:id="@+id/ivNewpersonalspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/ivListpersonalspace"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/kongjian" />
+    
+    <TextView
+        android:id="@+id/tvNewpersonalspaceCount"
+        style="@style/style_menu_badge_textview"
+        android:visibility="gone"/>
+
+    <TextView
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListpersonalspace"
+        android:text="部门空间" />
+</RelativeLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp" >
+
+        <TextView
+            android:id="@+id/tv_state_weektasklist"
+            android:layout_width="2.5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ico_state" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_taskinfo_title_weektask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/style_list_item"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_weekday_weektask"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ico_week1" />
+
+                <TextView
+                    android:id="@+id/tv_weekday_weektask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015-04-8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_content_weektasklist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/title_list"
+                    android:textSize="16sp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="6dp"
+                    android:text="内容" />
+				<LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="6dp">
+				    <TextView
+				        android:id="@+id/tv_publisher_weektasklist"
+				        style="@style/style_list_content_text"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="发布人：" />
+
+				    <TextView 
+				        android:id="@+id/tv_executor_weektasklist"
+				        android:layout_width="0dp" 
+                    	style="@style/style_list_content_text"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="执行人："/>
+				</LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp" >
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/iv_publish_comment_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ico_comment" />
+
+                        <TextView
+                            android:id="@+id/tv_comment_count_weektask"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/iv_publish_comment_weektask"
+                            android:textColor="@color/content_list"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/iv_support_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ico_support_normal" />
+
+                        <TextView
+                            android:id="@+id/tv_zan_count_weektask"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/iv_support_weektask"
+                            android:textColor="@color/content_list"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                    
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" >
+						<!-- 发钻石功能 -->
+                        <ImageView
+                            android:id="@+id/iv_zs_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_zs" />
+
+                        <TextView
+                            android:id="@+id/tv_zs_count_weektask"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/iv_zs_weektask"
+                            android:textColor="@color/content_list"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_executor_weektask"
+                        style="@style/style_week_task_ico"
+                        android:layout_weight="1"
+                        android:src="@drawable/ico_share" />
+                    <ImageView
+                        android:id="@+id/iv_complete_weektask"
+                        style="@style/style_week_task_ico"
+                        android:layout_weight="1"
+                        android:src="@drawable/ico_checked" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_taskinfo_layout_weektask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:minHeight="50dp"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                style="@style/style_list_item"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_weekday_layout_weektask"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ico_week1" />
+
+                    <TextView
+                        android:id="@+id/tv_weekday_layout_weektask"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2015-04-8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_content_layout_weektasklist"
+                        style="@style/style_list_content_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="6dp"
+                        android:text="内容"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_project_layout_weektasklist"
+                        style="@style/style_list_content_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="6dp"
+                        android:text="项目" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="20dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_project_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_project" />
+
+                        <ImageView
+                            android:id="@+id/iv_alarm_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_alarm" />
+
+                        <ImageView
+                            android:id="@+id/iv_share_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_share" />
+
+                        <ImageView
+                            android:id="@+id/iv_paticipant_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_participant" />
+
+                        <ImageView
+                            android:id="@+id/iv_edit_weektask"
+                            style="@style/style_week_task_ico"
+                            android:layout_weight="1"
+                            android:src="@drawable/ico_pen" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 附件名称 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/control_attchment_ico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ico_doc" />
+
+    <RelativeLayout
+        android:id="@+id/rl_attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/control_attchment_ico"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/control_attchment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件名"
+            android:textColor="@color/text_black"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/pbar_attchment_item"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/control_attchment_name"
+            android:progressDrawable="@drawable/progress_horizontal_orange" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_download_info_attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_attach"
+        android:gravity="right"
+        android:text="未下载"
+        android:textColor="@color/text_info"
+        android:textSize="12sp" />
+
+</RelativeLayout>

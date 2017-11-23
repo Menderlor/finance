@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray" >
+    <View 
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <RelativeLayout 
+        android:id="@+id/rl_title_signure"
+        style="@style/style_header_layout">
+        <ImageView
+            android:id="@+id/iv_clear_signure"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="手写签字"/>
+        <ImageView
+            android:id="@+id/iv_save_signure"
+            android:layout_alignParentRight="true"
+            style="@style/style_header_button"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title_signure"
+        android:background="@color/white" />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="12sp" 
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/text_info"
+        android:gravity="center"
+        android:text="摇一摇擦除签名"/>
+</RelativeLayout>

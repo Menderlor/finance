@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewCustomerName_item"
+            style="@style/textview_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="客户名称"
+            android:textColor="@color/theme_title"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="联系人:"
+                android:textColor="@color/text_info" />
+
+            <TextView
+                android:id="@+id/textViewContactName_item"
+                style="@style/textview_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="联系人"
+                android:textColor="@color/theme_title"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="电    话:"
+                android:textColor="@color/text_info" />
+
+            <TextView
+                android:id="@+id/textViewPhone_item"
+                style="@style/textview_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="电话号码"
+                android:textColor="@color/text_info"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="地    址:"
+                android:textColor="@color/text_info" />
+
+            <TextView
+                android:id="@+id/textViewAddress_item"
+                style="@style/textview_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="联系人地址"
+                android:textColor="@color/text_info"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_customer_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/notice_icon01" />
+    </LinearLayout>
+
+</LinearLayout>

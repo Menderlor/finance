@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl" >
+
+    <ImageView
+        android:id="@+id/ivNewCommunication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/ivListCommunications"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/contacts_icon_menu_item" />
+    
+    <TextView
+        android:id="@+id/tvNewCommunicationCount"
+        style="@style/style_menu_badge_textview"
+       	android:visibility="invisible"/>
+
+    <TextView
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListCommunications"
+        android:text="通讯录" />
+</RelativeLayout>

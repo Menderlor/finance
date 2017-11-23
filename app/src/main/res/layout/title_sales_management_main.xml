@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView android:layout_width="wrap_content"
+		android:padding="5dip" android:layout_marginLeft="5dip"
+		android:layout_centerVertical="true" android:layout_height="wrap_content"
+		android:src="@drawable/back" android:id="@+id/imageViewCancel" />
+<!-- 	<ImageView android:layout_width="wrap_content"
+		android:padding="5dip" android:layout_marginLeft="5dip"
+		android:layout_centerVertical="true" android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/imageViewCancel" android:src="@drawable/task_icon01"
+		android:id="@+id/imageViewNew" /> -->
+
+	<TextView android:layout_width="wrap_content"
+		style="@style/title_common"
+		android:layout_centerInParent="true" android:layout_height="wrap_content"
+		android:text="销售管理" android:id="@+id/textViewTitle_T" />
+
+<!-- 	<ImageView android:layout_width="wrap_content"
+		android:padding="5dip" android:layout_marginRight="5dip"
+		android:layout_centerVertical="true" android:layout_height="wrap_content"
+		android:src="@drawable/task_icon02" android:layout_toLeftOf="@+id/imageViewHome"
+		android:id="@+id/imageViewSearch" /> -->
+
+</RelativeLayout>
+

@@ -1,0 +1,350 @@
+package com.cedarhd.changhui;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.Gravity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
+import android.widget.PopupWindow;
+import android.widget.TextView;
+
+import com.cedarhd.R;
+import com.cedarhd.base.BaseActivity;
+import com.cedarhd.base.BoeryunViewHolder;
+import com.cedarhd.base.CommanCrmAdapter;
+import com.cedarhd.biz.ClientBiz;
+import com.cedarhd.constants.enums.Enum理财产品预约状态;
+import com.cedarhd.control.BoeryunHeaderView;
+import com.cedarhd.control.BoeryunHeaderView.OnButtonClickListener;
+import com.cedarhd.control.BoeryunSearchView.OnButtonSearchClickListener;
+import com.cedarhd.control.listview.ListViewLoader;
+import com.cedarhd.control.listview.PullToRefreshAndLoadMoreListView;
+import com.cedarhd.helpers.Global;
+import com.cedarhd.models.Client;
+import com.cedarhd.models.Dict;
+import com.cedarhd.models.QueryDemand;
+import com.cedarhd.models.changhui.QmOrder;
+import com.cedarhd.models.changhui.理财产品购买合同;
+import com.cedarhd.models.changhui.理财产品预约;
+import com.cedarhd.utils.ActivityUtils;
+import com.cedarhd.utils.DoubleUtils;
+import com.cedarhd.utils.JsonUtils;
+import com.cedarhd.utils.LogUtils;
+import com.cedarhd.utils.okhttp.StringRequest;
+import com.cedarhd.utils.okhttp.StringResponseCallBack;
+import com.squareup.okhttp.Request;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+/**
+ * 长汇理财产品预约列表
+ */
+public class ChBespokeListActivity extends BaseActivity {
+
+    private Context mContext;
+    private int mClientIdPop;// 选中客户编号
+
+    private BoeryunHeaderView headerView;
+    private PullToRefreshAndLoadMoreListView lv;
+    private TextView tvClientPop;
+    public static ChBespokeListActivity activity;
+
+    private QmOrder mQmProduct;
+    private QueryDemand mQueryDemand;
+    private List<理财产品预约> mList;
+    private CommanCrmAdapter<理财产品预约> mAdapter;
+    private ListViewLoader<理财产品预约> mListViewLoader;
+
+    private View popupView;
+    private PopupWindow popupWindowFilter;
+
+    public static boolean resume;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ch_bespoke_list);
+        initViews();
+        initData();
+        setOnEvent();
+        initPopupWindow();
+        activity = ChBespokeListActivity.this;
+        ActivityUtils.addActivity(ChBespokeListActivity.this);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if (resume) {
+            reLoadData();
+            resume = false;
+        }
+    }
+
+    private void initViews() {
+        headerView = (BoeryunHeaderView) findViewById(R.id.header_ch_bespoke_list);
+        lv = (PullToRefreshAndLoadMoreListView) findViewById(R.id.lv_pull_to_refresh);
+        lv.setHintText("点击选择客户");
+    }
+
+    private void initData() {
+        mContext = this;
+        mList = new ArrayList<理财产品预约>();
+        mAdapter = getAdapter();
+        mQmProduct = new QmOrder();
+        mQmProduct.PageSize = 20;
+        mQmProduct.Offset = 0;
+        mQmProduct.NoPager = false;
+        mQueryDemand = new QueryDemand("编号");
+        mListViewLoader = new ListViewLoader<理财产品预约>(mContext,
+                "Wealth/GetOrderList", lv, mAdapter, mQmProduct, mQueryDemand,
+                理财产品预约.class);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case ClientBiz.SELECT_CLIENT_CODE:
+                    Client client = ClientBiz
+                            .onActivityGetClient(requestCode, data);
+                    if (client != null && client.Id != 0) {
+                        tvClientPop.setText(client.getCustomerName());
+                        mClientIdPop = client.Id;
+                    }
+                    break;
+            }
+
+        }
+    }
+
+    private void setOnEvent() {
+
+        lv.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                int pos = position - lv.getHeaderViewsCount();
+                if (pos < 0 || pos >= mList.size()) {
+                    return;
+                }
+                HashMap<String, List<Dict>> dictionarys = mAdapter
+                        .getmDictionarys();
+                Intent intent = new Intent(mContext,
+                        ChBespokeInfoActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable(ChBespokeInfoActivity.CLEW,
+                        mList.get(pos));
+                bundle.putSerializable(ChBespokeInfoActivity.DICTIONARYS,
+                        dictionarys);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+
+        lv.mSearchView
+                .setmOnButtonSearchClickListener(new OnButtonSearchClickListener() {
+                    @Override
+                    public void OnClick() {
+                        showFilterPop(lv.mSearchView);
+                    }
+                });
+
+        headerView.setOnButtonClickListener(new OnButtonClickListener() {
+            @Override
+            public void onClickSaveOrAdd() {
+                showFilterPop(headerView.ivSave);
+            }
+
+            @Override
+            public void onClickFilter() {
+
+            }
+
+            @Override
+            public void onClickBack() {
+                finish();
+            }
+        });
+    }
+
+    private void reLoadData() {
+        mQmProduct.Offset = 0;
+        mListViewLoader.clearData();
+        mListViewLoader.startRefresh();
+    }
+
+    private void showFilterPop(View v) {
+        int pos[] = new int[2];
+        // 获取在当前窗口内的绝对坐标
+        v.getLocationOnScreen(pos);
+        int height = v.getHeight() + pos[1];
+        popupWindowFilter.showAtLocation(v, Gravity.TOP, 0, height);
+    }
+
+    private void initPopupWindow() {
+        popupView = getLayoutInflater().inflate(
+                R.layout.pop_filter_bespokelist, null);
+        popupWindowFilter = new PopupWindow(popupView,
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, true);
+
+        popupWindowFilter.setAnimationStyle(R.style.AnimationFade);
+        popupWindowFilter.update();
+        // 点击空白处 对话框消失
+        popupWindowFilter.setTouchable(true);
+        popupWindowFilter.setOutsideTouchable(true);
+        popupWindowFilter.setBackgroundDrawable(new BitmapDrawable(
+                getResources(), (Bitmap) null));
+        tvClientPop = (TextView) popupView
+                .findViewById(R.id.tv_select_project_pop_filter_tab);
+        Button btnSure = (Button) popupView
+                .findViewById(R.id.btn_done_pop_filter_bespokelist);
+        Button btnCancel = (Button) popupView
+                .findViewById(R.id.btn_cancel_pop_filter_bespokelist);
+
+        tvClientPop.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//				ClientBiz.selectClient(mContext);
+                Intent intent = new Intent(mContext, ChClientListActivity.class);
+                intent.putExtra(ChClientListActivity.EXTRA_SELECT_CLIENT, true);
+                startActivityForResult(intent, ClientBiz.SELECT_CLIENT_CODE);
+            }
+        });
+
+        btnSure.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                popupWindowFilter.dismiss();
+                mQmProduct.ClientId = mClientIdPop;
+                reLoadData();
+            }
+        });
+
+        btnCancel.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                popupWindowFilter.dismiss();
+                mClientIdPop = 0;
+                tvClientPop.setText("");
+                mQmProduct.ClientId = mClientIdPop;
+                reLoadData();
+            }
+        });
+    }
+
+    private CommanCrmAdapter<理财产品预约> getAdapter() {
+        return new CommanCrmAdapter<理财产品预约>(mList, mContext,
+                R.layout.item_ch_bespoke) {
+
+            @Override
+            public void convert(int position, 理财产品预约 item,
+                                BoeryunViewHolder viewHolder) {
+                LogUtils.i("position",
+                        position + "----" + lv.getHeaderViewsCount());
+                final int pos = position;
+                if (pos < 0 || pos >= mList.size()) {
+                    return;
+                }
+                viewHolder.setTextValue(R.id.tv_user_ch_bespoke_item,
+                        mAdapter.getDictName("客户经理,理财师", item.客户经理));
+                viewHolder.setTextValue(R.id.tv_total_ch_bespoke_item,
+                        DoubleUtils.formatFloatNumber(item.预约金额));
+                viewHolder.setTextValue(R.id.tv_client_ch_bespoke_item,
+                        mAdapter.getDictName("客户", item.客户) + "");
+                viewHolder.setTextValue(R.id.tv_product_ch_bespoke_item,
+                        mAdapter.getDictName("理财产品", item.理财产品) + "");
+                if (!TextUtils.isEmpty(item.预约结果)) {
+                    viewHolder.setTextValue(R.id.tv_status_client_ch_bespoke_item, item.预约结果);
+                } else {
+                    viewHolder.setTextValue(R.id.tv_status_client_ch_bespoke_item,
+                            Enum理财产品预约状态.getStatusNameById(item.状态) + "");
+                }
+
+                TextView tvAddContract = viewHolder
+                        .getView(R.id.tv_add_contract_ch_bespoke_item);
+
+                tvAddContract.setVisibility(View.GONE);
+
+                if (item.状态 == Enum理财产品预约状态.预约成功.getValue()) {
+                    tvAddContract.setVisibility(View.VISIBLE);
+                    tvAddContract.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            getContactInfo(mList.get(pos).编号);
+                        }
+                    });
+                } else {
+                    tvAddContract.setVisibility(View.GONE);
+                }
+
+                // tvCount.setText(StrUtils.pareseNull(item.发行规模));
+                // tvContact.setText(StrUtils.pareseNull(item.联系人));
+                // tvPhone.setText(StrUtils.pareseNull(item.联系电话));
+                // tvTime.setText(DateDeserializer.getFormatTime(item.创建时间));
+            }
+        };
+    }
+
+
+    /**
+     * 获取合同信息
+     *
+     * @param reservationId
+     */
+    private void getContactInfo(int reservationId) {
+        String url = Global.BASE_URL + "Wealth/GetNewContractByReservationId/" + reservationId;
+
+        StringRequest.getAsyn(url, new StringResponseCallBack() {
+            @Override
+            public void onResponse(String response) {
+                理财产品购买合同 contact = JsonUtils.ConvertJsonObject(response, 理财产品购买合同.class);
+                if (contact != null) {
+                    HashMap<String, List<Dict>> dictionarys = mAdapter
+                            .getmDictionarys();
+                    Intent intent = new Intent(mContext,
+                            ChContactInfoActivity.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putSerializable(
+                            ChContactInfoActivity.EXTRA_CONTACT,
+                            contact);
+                    bundle.putSerializable(
+                            ChContactInfoActivity.EXTRA_DICTIONARYS,
+                            dictionarys);
+                    intent.putExtras(bundle);
+                    ChContactInfoActivity.mIsBespoke = true;
+                    startActivity(intent);
+                }
+            }
+
+            @Override
+            public void onFailure(Request request, Exception ex) {
+                LogUtils.i(TAG, request.toString());
+            }
+
+            @Override
+            public void onResponseCodeErro(String result) {
+                String message = JsonUtils.pareseMessage(result);
+                showShortToast(message);
+            }
+        });
+    }
+
+}

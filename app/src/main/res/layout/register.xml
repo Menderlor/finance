@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/imageViewCancel_register"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="注册新用户" />
+        
+        <ImageView
+            android:id="@+id/btn_register"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        android:background="@color/lightgray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_register"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_register_company"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:text="企业名"
+                android:textSize="18sp" 
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/et_register_company"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3"
+                android:hint="企业名称(必填)"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_register_user"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:text="用户名"
+                android:textSize="18sp" 
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/et_register_user"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3"
+                android:hint="企业负责人(必填)"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+
+        
+
+        <LinearLayout
+            android:id="@+id/ll_register_phone"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:text="手机号"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_register_phone"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3"
+                android:hint="负责人手机号(必填)"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+        
+        <LinearLayout
+            android:id="@+id/ll_register_pwd"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:text="密    码"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_register_pwd"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3"
+                android:hint="输入密码(必填)"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:id="@+id/ll_register_contacts"
+            style="@style/task_style_ll_info"
+            android:layout_height="50dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:text="联系人"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_register_confirm_password"
+                style="@style/task_style_edit_info"
+                android:layout_weight="3"
+                android:hint="再次确认密码(必填)"
+                android:textSize="18sp" />
+        </LinearLayout>
+		
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" />
+    </LinearLayout>
+
+</LinearLayout>

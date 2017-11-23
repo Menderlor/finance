@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_select_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/hello_world"
+            android:padding="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            style="@style/title_common"
+            android:text="选择点位" />
+
+        <ImageView
+            android:id="@+id/iv_submit_select_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <ListView 
+            android:id="@+id/lv_select_point"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+            android:layout_above="@+id/ll_search_point"/>
+	
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray" 
+            android:layout_above="@+id/ll_search_point"/>
+
+        <LinearLayout
+            android:id="@+id/ll_search_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+            <CheckBox
+                android:id="@+id/cb_all_select_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/user_checkbox_selector"
+                android:text="全选"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:id="@+id/et_content_select_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:hint="搜索"
+                    android:textColor="@color/black" >
+                </EditText>
+                <ImageView
+                    android:id="@+id/iv_search_select_point"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:background="@android:drawable/ic_search_category_default"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

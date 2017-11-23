@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sitestatus">
+        <item>完好</item>
+        <item>扬起</item>
+        <item>拆框</item>
+         <item>坏损</item>
+        </string-array>
+</resources>

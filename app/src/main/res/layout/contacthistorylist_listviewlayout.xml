@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zl_back"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/style_list_item"
+        android:orientation="horizontal"
+        android:weightSum="1000" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="48"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_read_contact"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:src="@drawable/ico_dot_read" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_list_avatar_root"
+            android:layout_weight="240"
+            android:gravity="left|center_vertical" >
+
+            <com.cedarhd.control.AvartarView
+                android:id="@+id/control_avatar"
+                style="@style/style_list_avatar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="640"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/new_test"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_clientname_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="Test"
+                    android:textColor="@color/title_list"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_disscuss_count_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textColor="@color/red"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_contactName_contact"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/ivListClients"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/a_icon5" />
+
+                <TextView
+                    android:id="@+id/tv_contactName_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/ivListClients"
+                    android:text="联系人"
+                    android:textColor="@color/theme_title"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_status_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="联系方式："
+                 style="@style/style_list_content_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_content_contact"
+                style="@style/style_list_content_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="内容"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_clock"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    android:id="@+id/tv_contactTime_contact"
+                    style="@style/style_list_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_clock"
+                    android:text="联系时间"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="72"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_ico_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/notice_icon01" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_ch_bespoke_info"
+        style="@style/style_header_layout"
+        boeryun:isVisbleAddIco="true"
+        boeryun:isVisbleBackIco="true"
+        boeryun:isVisbleFilterIco="false"
+        boeryun:isVisbleSaveIco="true"
+        boeryun:titleText="预约详情" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_list"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="客户信息"
+                android:textColor="@color/color_nav_title_pressed"
+                android:textSize="16sp" />
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="客户名称" />
+
+                <TextView
+                    android:id="@+id/tv_client_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="客户编号" />
+
+                <TextView
+                    android:id="@+id/tv_client_id_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="客户风险等级" />
+
+                <TextView
+                    android:id="@+id/tv_client_level_denger_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="证件类型" />
+
+                <com.cedarhd.control.BoeryunDictSelectView
+                    android:id="@+id/tv_card_type_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    boeryun:dictName="客户_证件类别" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="证件号" />
+
+                <EditText
+                    android:id="@+id/et_card_no_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_rengou_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="客户类型" />
+
+                <TextView
+                    android:id="@+id/tv_rengou_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="手机" />
+
+                <EditText
+                    android:id="@+id/tv_phone_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_zuoji_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="座机" />
+
+                <EditText
+                    android:id="@+id/et_zuoji_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_email_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="邮箱" />
+
+                <TextView
+                    android:id="@+id/et_email_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="联系地址" />
+
+                <TextView
+                    android:id="@+id/tv_client_address_denger_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+
+
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="邮政编码" />
+
+                <TextView
+                    android:id="@+id/tv_client_postcode_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="理财经理" />
+
+                <TextView
+                    android:id="@+id/tv_client_mannager_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_dept_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="所属团队" />
+
+                <TextView
+                    android:id="@+id/tv_dept_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_company_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="所属区域" />
+
+                <TextView
+                    android:id="@+id/tv_company_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_list"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="投资信息"
+                android:textColor="@color/color_nav_title_pressed"
+                android:textSize="16sp" />
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="基金产品" />
+
+                <TextView
+                    android:id="@+id/tv_product_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="预约金额(元)" />
+
+                <EditText
+                    android:id="@+id/tv_bespoke_total_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_total_big_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="预约金额大写" />
+
+                <TextView
+                    android:id="@+id/tv_total_big_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="投资期限(月)" />
+
+                <EditText
+                    android:id="@+id/tv_deadline_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="产品分类" />
+
+                <EditText
+                    android:id="@+id/et_category_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_nianhuashouyi_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="业绩比较基准" />
+                <!-- 预期年化收益率 -->
+
+                <EditText
+                    android:id="@+id/et_nianhuashouyi_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <!-- 2012-12-22新添加字段 -->
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout style="@style/style_changhui_ll_info">
+
+                <TextView style="@style/style_changhui_red_stare" />
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:text="预约打款时间" />
+
+                <com.cedarhd.control.BoeryunDateSelectView
+                    android:id="@+id/tv_pay_time_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info"
+                    boeryun:defaultValue="true"
+                    boeryun:isShowDate="false"
+                    boeryun:isShowTime="true" />
+            </LinearLayout>
+
+            <View style="@style/style_line_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/ll_deadline_ch_bespoke_info"
+                style="@style/style_changhui_readonly_ll_info">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="预约到期日期" />
+
+                <TextView
+                    android:id="@+id/tv_outtime_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_kehujinglishouji_ch_bespoke_info"
+                style="@style/style_changhui_ll_info"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="客户经理手机" />
+
+                <EditText
+                    android:id="@+id/et_kehujinglishouji_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_kehujingliyouxiang_ch_bespoke_info"
+                style="@style/style_changhui_ll_info"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/style_changhui_text_left_info"
+                    android:layout_marginLeft="15dp"
+                    android:text="客户经理邮箱" />
+
+                <EditText
+                    android:id="@+id/et_kehujingli_email_ch_bespoke_info"
+                    style="@style/style_changhui_text_right_info" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_attach_bespoke_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View style="@style/style_line_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_list"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="附件信息"
+                    android:textColor="@color/color_nav_title_pressed"
+                    android:textSize="16sp" />
+
+
+                <View
+                    style="@style/style_line_horizontal"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/style_changhui_ll_info">
+
+                        <TextView style="@style/style_changhui_red_stare" />
+
+                        <TextView
+                            style="@style/style_changhui_text_left_info"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="投资者承诺函" />
+
+                        <TextView
+                            style="@style/style_button_blue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:text="上传"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <com.cedarhd.control.HorizontalScrollViewAddImage
+                        android:id="@+id/addImageView_chengnuo_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <com.cedarhd.control.MultipleAttachView
+                        android:id="@+id/multipleattachview_chengnuo_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numColumns="5" />
+
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/style_changhui_ll_info">
+
+                        <TextView style="@style/style_changhui_red_stare" />
+
+                        <TextView
+                            style="@style/style_changhui_text_left_info"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="投资风险调查" />
+
+                        <TextView
+                            style="@style/style_button_blue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:text="上传"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <com.cedarhd.control.HorizontalScrollViewAddImage
+                        android:id="@+id/addImageView_diaocha_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <com.cedarhd.control.MultipleAttachView
+                        android:id="@+id/multipleattachview_diaocha_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numColumns="5" />
+
+                </LinearLayout>
+
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/style_changhui_ll_info">
+
+                        <TextView style="@style/style_changhui_red_stare" />
+
+                        <TextView
+                            style="@style/style_changhui_text_left_info"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="合格投资者资产证明" />
+
+                        <TextView
+                            style="@style/style_button_blue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:text="上传"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <com.cedarhd.control.HorizontalScrollViewAddImage
+                        android:id="@+id/addImageView_zhengming_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <com.cedarhd.control.MultipleAttachView
+                        android:id="@+id/multipleattachview_zhengming_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numColumns="5" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_changhui_ll_info"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_submit_ch_bespoke_info"
+                    style="@style/style_button_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提 交"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

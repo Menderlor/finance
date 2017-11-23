@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="45dp"
+    android:background="@drawable/shape_select_count_bg"
+    android:padding="1dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_sub_select_control"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bg_selcct_count"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="—"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    
+    <EditText
+        android:id="@+id/et_count_select_control"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/gray"
+        android:textSize="22sp"
+        android:inputType="number" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_add_select_control"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bg_selcct_count"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</LinearLayout>

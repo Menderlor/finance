@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/banner"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                style="@style/style_header_layout"
+                android:background="@null" >
+
+                <TextView
+                    android:id="@+id/tv_title_menu"
+                    style="@style/title_common"
+                    android:text="波尔云"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_add_menu"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/selector_header_button"
+                    android:src="@drawable/ic_add_menu" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vpager_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:visibility="gone" />
+                <!-- 首页展示图片 改为viewPager -->
+
+                <ImageView
+                    android:id="@+id/iv_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ico_main_logo"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_warn_net_menu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/warn"
+            android:clickable="true"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_warn_menu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:clickable="false"
+                android:src="@drawable/ico_warn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/iv_warn_menu"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:text="网络连接不可用"
+                android:textColor="@color/little_gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <com.cedarhd.control.BoeryunNoScrollGridView
+                        android:id="@+id/gv_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_nav_splite_line"
+                        android:cacheColorHint="@android:color/transparent"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="4"
+                        android:verticalSpacing="@dimen/nav_line" 
+                        android:horizontalSpacing="@dimen/nav_line"/>
+
+                    <LinearLayout
+                        style="@style/style_line_horizontal"
+                        android:layout_height="@dimen/nav_line"
+                        android:background="@color/color_nav_splite_line" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:paddingBottom="5dp"
+        android:paddingRight="12dp"
+        android:visibility="gone" >
+
+        <!-- 语音输入 -->
+
+        <ImageView
+            android:id="@+id/iv_voice_menu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/selector_speech" />
+    </LinearLayout>
+
+</FrameLayout>

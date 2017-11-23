@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zl_back"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/zl_back"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_community"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="美基元上刊任务"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_post"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="应上刊：30个"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_posted"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="已上刊：5个"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_endtime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="任务截止时间为：2014年10月15日 13:00"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_receivetime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="接收时间：2014年10月12日 13:00"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+    
+
+
+</LinearLayout>

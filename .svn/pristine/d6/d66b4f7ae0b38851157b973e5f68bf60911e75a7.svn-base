@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout">
+	<ImageView 
+	    android:layout_width="wrap_content"
+		android:padding="5dip" 
+		android:layout_marginLeft="5dip"
+		android:layout_centerVertical="true" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/back" 
+		android:id="@+id/imageViewCancel" />
+	
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/title_common"
+            android:text="报销申请"/>
+        
+       <ImageView 
+           	android:layout_width="wrap_content"
+			android:padding="5dip" 
+			android:layout_marginRight="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/check"
+			android:id="@+id/imageViewNew" />
+       
+    </RelativeLayout>
+    
+	<View  
+	    android:layout_height="4px" 
+	    android:background="@color/lightgray"       
+       	android:layout_width="fill_parent" />
+		
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+       
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginTop="10dp"
+	        android:orientation="vertical" >
+
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="员工ID" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_user"
+	                android:layout_width="0dp"
+	                android:enabled="false"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10" >
+	                
+	            </EditText>
+
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="员工姓名" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_employee"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10" >
+	                
+	            </EditText>
+
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="请假类型" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_vacationtype"
+	                android:layout_width="0dp"
+	                android:editable="false"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10" >
+
+	            </EditText>
+
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:width="60dp"
+	                android:layout_gravity="right|center"
+	                android:gravity="center"
+	                android:text="开始时间" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_timetype"
+	                android:layout_width="0dp"
+	                android:editable="false"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10" >
+
+	            </EditText>
+
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="期限" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_askforleavedeadline"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:ems="10" >
+
+	            </EditText>
+
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="150dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="报销事项" />
+
+	            <EditText
+	                android:id="@+id/editText_askforleave_askforleavecause"
+	                android:layout_width="0dp"
+	                android:layout_height="150dp"
+	                android:layout_weight="1"
+	                android:gravity="top"
+	                android:ems="10" 
+	                />
+				<requestFocus />
+	        </LinearLayout>
+	        
+	        
+	        
+	        <LinearLayout
+	            android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="100dp" >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|center"
+	                android:width="60dp"
+	                android:gravity="center"
+	                android:text="拍照" />
+	            
+	            <com.changhui.control.HorizontalScrollViewAddImage
+	                android:id="@+id/AddImage_askforleave_attachfilename"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content" >
+	            </com.changhui.control.HorizontalScrollViewAddImage>
+
+	        </LinearLayout>
+	        
+			<Button
+			    android:id="@+id/buttonTag_askforleave_commit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="20dp"
+			    android:layout_gravity="center_horizontal|center"
+			    android:background="@drawable/blue_button_selector"
+			    android:text="            保   存          "
+			    android:gravity="center"
+			    android:textColor="@color/white"
+			    android:textSize="16sp" />
+			
+			<TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="60dp"
+	                android:gravity="center"
+	                 />
+	    </LinearLayout>
+	    
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_add_client_fragment"
+    android:background="@color/bg_list" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="名称" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_name_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:hint="必填"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="联系人" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_contact_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:hint="必填"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="关键字" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_keyword_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="电话" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_phone_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:inputType="phone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="行业" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_industry_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:focusable="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="微信" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_wechart_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="QQ" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_qq_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="旺旺" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_wangwang_add_newclient"
+                    style="@style/style_text_right_info" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="邮箱" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_email_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="网址" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_url_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="省市县" />
+
+            <LinearLayout
+                android:id="@+id/ll_select_city_add_newclient"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" 
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+                <!-- 省市县选择 -->
+                <TextView
+                    android:id="@+id/tv_province_add_newclient"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/style_text_info"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/shape_edittext_bg_yusheng"
+					android:hint="选择省"/>
+                
+                <TextView
+                    android:id="@+id/tv_city_add_newclient"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/style_text_info"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/shape_edittext_bg_yusheng"
+					android:hint="选择市"/>
+                
+                <TextView
+                    android:id="@+id/tv_country_add_newclient"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/style_text_info"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/shape_edittext_bg_yusheng"
+					android:hint="选择县"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal"/>
+
+         <View style="@style/style_line_horizontal"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="意向产品" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_product_add_newclient"
+                    style="@style/style_text_right_info" 
+                    android:focusable="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout style="@style/task_style_ll_info" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="报价" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_price_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+
+        <LinearLayout
+            style="@style/task_style_ll_info"
+            android:minHeight="100dp" >
+
+            <TextView
+                style="@style/style_text_left_info"
+                android:text="商机" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_content_add_newclient"
+                    style="@style/style_text_right_info"
+                    android:minHeight="100dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_horizontal" />
+    </LinearLayout>
+
+</ScrollView>

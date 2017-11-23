@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_cancel_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_common"
+            android:text="通知设置" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/lightgray" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="vertical">
+            
+            <LinearLayout
+                    android:id="@+id/ll_avatar_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/little_gray"
+                    android:clickable="true" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="新消息提醒"
+                            android:textColor="#999999"
+                            android:textSize="13sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_avatar_setting"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_t_setting"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="新通知提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_notice_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_notice_setting"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:clickable="true" 
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_notice_setting"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:background="@drawable/selector_linear_bg"
+                        android:clickable="true"
+                        android:text="新邮件提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_email_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_check_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新任务提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_task_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_check_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新日志提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_log_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_off_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_check_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新客户提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_client_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_order_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新订单提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_order_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+                
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_approval_setting"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_approval_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新申请提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_approval_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/tv_check_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新联系记录提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_contact_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" 
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_check_ad"
+                    style="@style/task_style_ll_info"
+                    android:layout_height="50dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/selector_linear_bg"
+                    android:clickable="true" 
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_check_ad"
+                        style="@style/task_style_edit_info"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:text="新销售机会提醒"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_salechance_remind_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/switch_on_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

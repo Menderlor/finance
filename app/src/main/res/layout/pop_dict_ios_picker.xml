@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:gravity="bottom" >
+
+    <View 
+        android:id="@+id/top_dict_ios_picker"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    
+   <RelativeLayout
+        android:id="@+id/rl_dict_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/top_dict_ios_picker"
+        android:background="@drawable/shape_info_bg">
+        <ListView
+            android:id="@+id/lv_dict_ios_picker"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:dividerHeight="@dimen/height_line"
+            android:divider="@color/line_splite"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rl_dict_picker"
+        android:background="@drawable/shape_info_bg"
+        android:padding="1dp">
+        <Button
+            android:id="@+id/btn_cancle_dict_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/theme_text"
+        	android:textSize="22sp"          
+        	android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/selector_header_half"
+            android:text="取 消" />
+    </RelativeLayout>
+</RelativeLayout>

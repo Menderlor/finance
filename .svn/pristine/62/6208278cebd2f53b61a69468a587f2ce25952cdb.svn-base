@@ -1,0 +1,10 @@
+package com.changhui.models.changhui;
+
+import com.changhui.models.crm.QmBase;
+
+public class QmOrder extends QmBase {
+	// / <summary>
+	// / 客户编号
+	// / </summary>
+	public int ClientId;
+}

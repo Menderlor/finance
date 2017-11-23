@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:id="@+id/container1" android:orientation="vertical">
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:id="@+id/container2" android:orientation="vertical">
+
+		<ListView android:id="@+id/lv" android:layout_width="fill_parent"
+			android:layout_height="100dip" android:layout_weight="1"
+			android:cacheColorHint="#00000000">
+		</ListView>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_vertical"
+			android:padding="5dip" android:orientation="horizontal">
+
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:gravity="center">
+			<Button android:id="@+id/buttonSelect" android:text="确定"
+				android:paddingLeft="15dip" android:layout_height="wrap_content"
+				android:layout_width="70dip" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:gravity="center">
+
+				<Button android:id="@+id/selectall" android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:text="全选" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:gravity="center">
+
+				<Button android:id="@+id/inverseselect" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="反选" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:gravity="center">
+
+				<Button android:id="@+id/cancel" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="取消已选" />
+			</LinearLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

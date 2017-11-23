@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/theme_new" >
+
+        <ImageButton
+            android:id="@+id/download_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="邀请下载"
+            android:textColor="#FFFFFF"
+            style="@style/title_common" />
+
+        <Button
+            android:id="@+id/All_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:text="邀请"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" 
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/contacts_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ss_06"
+        android:hint=" 搜索"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#F3F3F3"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="最近联系人"
+        android:textColor="#ABABAB"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/contactsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:cacheColorHint="#00000000"
+            android:background="#ffffff"/>
+
+        <com.cedarhd.control.MyProgressBar
+            android:id="@+id/pbar_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" ></com.cedarhd.control.MyProgressBar>
+    </FrameLayout>
+
+</LinearLayout>

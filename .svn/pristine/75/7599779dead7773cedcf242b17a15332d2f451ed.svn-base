@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	style="@style/style_menu_grid_item_rl" >
+    <TextView
+        android:id="@+id/tvNotice"
+        style="@style/style_menu_grid_item_text"
+		android:layout_below="@+id/ivListNotice"
+        android:text="通知"/>
+    <ImageView
+        android:id="@+id/ivNewNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivListNotice"
+		style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon1" />
+	
+    <TextView
+        android:id="@+id/tvNewNoticeCount_menu_item"
+        style="@style/style_menu_badge_textview"
+       	android:visibility="invisible"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.cedarhd.control.BoeryunHeaderView
+            android:id="@+id/header_ch_bespoke_list"
+            style="@style/style_header_layout"
+            boeryun:addImgSrc="@drawable/ic_filter"
+            boeryun:isVisbleAddIco="false"
+            boeryun:isVisbleBackIco="true"
+            boeryun:titleText="预约列表" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:text="雪松金融"
+            android:textColor="@color/text_black"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/merge_listview_pull_to_refresh_and_loadmore" />
+
+</LinearLayout>

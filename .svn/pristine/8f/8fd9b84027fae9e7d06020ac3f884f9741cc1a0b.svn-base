@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_menu_grid_item_rl" >
+
+    <ImageView
+        android:id="@+id/ivNewSalechance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivListSalechance"
+        style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/a_icon9" />
+    <TextView
+        android:id="@+id/tvNewSalechanceCount"
+        style="@style/style_menu_badge_textview"
+		android:visibility="invisible"/>
+    <TextView
+        style="@style/style_menu_grid_item_text"
+        android:layout_below="@+id/ivListSalechance"
+        android:text="销售机会" />
+
+</RelativeLayout>

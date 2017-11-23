@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/tv_color_charts_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+	<TextView 
+        android:id="@+id/tv_name_charts_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_black"
+        android:text="了解销售机会"/>
+	<TextView 
+        android:id="@+id/tv_num_charts_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/text_black"
+        android:text="120"/>
+</LinearLayout>

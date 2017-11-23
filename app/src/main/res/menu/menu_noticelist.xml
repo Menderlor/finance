@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_New"
+          android:title="新建"
+          android:visible="true" android:icon="@drawable/menu_new" />
+    <item android:id="@+id/item_Search"
+          android:title="查询"
+          android:visible="true" android:icon="@drawable/menu_search" />
+    <item android:id="@+id/item_Refresh"
+          android:title="刷新"
+          android:visible="true" android:icon="@drawable/menu_refresh" />
+    <item android:id="@+id/item_Cancel"
+          android:title="返回"
+          android:visible="true" android:icon="@drawable/menu_back" />
+</menu>
+

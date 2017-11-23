@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/ivCancel_noticeinfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:padding="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_title_noticeinfo1"
+            style="@style/title_common"
+            android:text="新建通知" />
+
+        <ImageView
+            android:id="@+id/ivSubmit_noticeinfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_notice_info"
+        style="@style/task_style_ll_info" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_info"
+                android:text="标题" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextTitle1"
+            style="@style/task_style_edit_info"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:drawable/edit_text"
+            android:scrollbarStyle="outsideOverlay" >
+
+            <EditText
+                android:id="@+id/editTextContent1"
+                style="@style/EditText_Content_style1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null" />
+        </ScrollView>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/ll_speech1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/iv_keybord2_noticeinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/chatting_keyboard_btn_normal" />
+
+            <Button
+                android:id="@+id/btn_speek2_noticeinfo1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="3"
+                android:background="@drawable/chatting_btn_bg"
+                android:text="点击说话" />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/editTextReceiverName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_person" />
+    </LinearLayout>
+
+    <com.cedarhd.control.HorizontalScrollViewAddImage
+        android:id="@+id/addImg_noticeinfo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" ></com.cedarhd.control.HorizontalScrollViewAddImage>
+
+</LinearLayout>

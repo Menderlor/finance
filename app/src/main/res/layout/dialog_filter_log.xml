@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical" >
+
+    
+
+    <View style="@style/style_line_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/ll_select_status_pop_filter_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/tv_time_log_filter"
+            style="@style/style_text_info"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:hint="时间范围" />
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:minHeight="30dp"
+            android:src="@drawable/tx" />
+        <TextView
+            android:id="@+id/tv_select_user_log_filter"
+            style="@style/style_text_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:hint="选择员工" />
+    </LinearLayout>
+    <View style="@style/style_line_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <Button
+            android:id="@+id/btn_cancel_log_filter"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_button_blue"
+            android:text="重 置"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_done_log_filter"
+            style="@style/pop_filter_date"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector_button_blue"
+            android:text="确定"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

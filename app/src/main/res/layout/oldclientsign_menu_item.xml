@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	style="@style/style_menu_grid_item_rl" >
+    <TextView
+        android:id="@+id/tvNewOldClientSignCount_menu_item"
+        style="@style/style_menu_badge_textview"
+        android:visibility="gone"
+       />
+
+    <TextView
+        android:id="@+id/tvOldClientSign"
+        style="@style/style_menu_grid_item_text"
+		android:layout_below="@+id/ivListOldClientSign"
+        android:text="老客户签到"/>
+
+    <ImageView
+        android:id="@+id/ivNewOldClientSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivListOldClientSign"
+		style="@style/style_menu_grid_item_iv"
+        android:src="@drawable/tousu" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.changhui.control.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slidemenu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slideMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        slidemenu:layout_role="content">
+
+        <TextView
+            android:id="@+id/tv_content_calendar_task"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="12dp"
+            android:textColor="@color/text_black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_check_calendar_task"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:src="@drawable/ico_check_gray" />
+    </LinearLayout>
+	
+    <TextView
+        android:id="@+id/tv_delete_calendar_task"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        slidemenu:layout_role="secondaryMenu"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="删 除"
+        android:gravity="center" />
+</com.changhui.control.SlideMenu>

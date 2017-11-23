@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="10dip"
+	android:paddingBottom="10dip" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFFFFF">
+
+	<LinearLayout android:gravity="center_horizontal"
+		android:layout_marginBottom="5dip" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<Button style="@style/button_style2" android:text="新建"
+			android:textColor="@color/white" android:layout_width="100dip"
+			android:background="#ff8604" android:id="@+id/buttonNew"
+			android:layout_marginLeft="5dip" android:layout_marginRight="5dip" />
+
+		<Button style="@style/button_style2" android:text="查询"
+			android:textColor="@color/white" android:background="#1999da"
+			android:layout_width="100dip" android:id="@+id/buttonSearch"
+			android:layout_marginRight="5dip" />
+
+	</LinearLayout>
+
+	<!-- 明细 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:paddingLeft="5dip" android:background="#ebebeb"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<TextView android:gravity="center_vertical" android:textSize="15sp"
+			android:layout_marginLeft="5dip" android:layout_height="30dp"
+			android:layout_width="35dip" android:textColor="#181818"
+			android:text="编号" />
+
+		<TextView android:gravity="center_vertical" android:textSize="15sp"
+			android:layout_marginLeft="5dip" android:layout_height="30dp"
+			android:layout_width="90dip" android:textColor="#181818"
+			android:text="标题" />
+
+		<TextView android:gravity="center_vertical" android:textSize="15sp"
+			android:layout_marginLeft="5dip" android:layout_height="30dp"
+			android:layout_width="60dip" android:textColor="#181818"
+			android:text="发送人" />
+
+		<TextView android:gravity="center_vertical" android:textSize="15sp"
+			android:layout_marginLeft="5dip" android:layout_height="30dp"
+			android:layout_width="60dip" android:textColor="#181818"
+			android:text="执行人" />
+
+		<TextView android:gravity="center_vertical" android:textSize="15sp"
+			android:layout_marginLeft="5dip" android:layout_height="30dp"
+			android:layout_width="35dip" android:textColor="#181818"
+			android:text="状态" />
+
+	</LinearLayout>
+	<ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:divider="@null"
+		android:layout_weight="1" android:cacheColorHint="#00000000"
+		android:fadingEdge="none" android:listSelector="#00000000">
+	</ListView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<CheckBox android:text="启动" android:id="@+id/checkBoxQD"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="完成" android:id="@+id/checkBoxWC"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="暂停" android:id="@+id/checkBoxZT"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+		<CheckBox android:text="搁置" android:id="@+id/checkBoxGZ"
+			android:textColor="#4c4c4c" android:textSize="15sp" android:checked="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+	</LinearLayout>
+
+</LinearLayout>  

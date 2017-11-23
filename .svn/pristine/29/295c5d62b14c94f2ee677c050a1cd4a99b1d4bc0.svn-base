@@ -1,0 +1,5 @@
+package com.changhui.models;
+
+public enum LoadDataType {
+	本地, 服务器
+}

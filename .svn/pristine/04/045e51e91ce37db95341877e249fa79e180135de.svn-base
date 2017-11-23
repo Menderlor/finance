@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F5F5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/remind_title_relative"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0099ff" >
+
+        <ImageButton
+            android:id="@+id/remind_title_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="提醒设置"
+            android:textColor="#ffffff"
+            style="@style/title_common"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="消息提醒"
+            android:textColor="#C3C3C3"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+
+    <RelativeLayout
+        android:id="@+id/notice_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/notice_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="通知提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/notice_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+     <RelativeLayout
+        android:id="@+id/task_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/task_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="任务提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/task_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+    <RelativeLayout
+        android:id="@+id/log_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/log_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="日志提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/log_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+     <RelativeLayout
+        android:id="@+id/clent_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/clent_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="客户提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/clent_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" 
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/order_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" 
+        android:visibility="gone">
+        <TextView 
+            android:id="@+id/order_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="订单提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/order_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+     <RelativeLayout
+        android:id="@+id/apply_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/apply_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="申请提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/apply_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" />
+     <RelativeLayout
+        android:id="@+id/contact_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" >
+        <TextView 
+            android:id="@+id/contact_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="联系记录提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/contact_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E8E8E8" 
+        android:visibility="gone"/>
+     <RelativeLayout
+        android:id="@+id/sale_tixing"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" 
+        android:visibility="gone">
+        <TextView 
+            android:id="@+id/sale_text_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="销售机会提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/sale_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/istrue"/>
+    </RelativeLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:background="#E8E8E8" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="闹钟提醒"
+            android:textColor="#C3C3C3"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="45dp" 
+        android:visibility="gone">
+        <TextView 
+            android:id="@+id/task_alarm_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="定时任务提醒"
+            android:textColor="#545454"
+            android:layout_centerVertical="true"/>
+        <ImageView 
+            android:id="@+id/task_alarm_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/isfalse"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

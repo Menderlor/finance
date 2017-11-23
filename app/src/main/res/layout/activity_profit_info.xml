@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:boeryun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.cedarhd.control.BoeryunHeaderView
+        android:id="@+id/header_profit_info"
+        style="@style/style_header_layout"
+        boeryun:isVisbleBackIco="true"
+        boeryun:titleText="查看收益" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/little_gray"/>
+    
+    <ListView 
+        android:id="@+id/lv_profit_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/little_gray"
+        android:dividerHeight="0.1dp"
+        >
+        
+    </ListView>
+    
+</LinearLayout>

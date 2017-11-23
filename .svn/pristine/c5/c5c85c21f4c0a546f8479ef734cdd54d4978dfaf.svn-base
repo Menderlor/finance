@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新建产品 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/zl_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_header_layout" >
+
+        <ImageView
+            android:id="@+id/iv_back_product_add"
+            style="@style/style_header_button"
+            android:src="@drawable/back" />
+
+        <TextView
+            style="@style/title_common"
+            android:text="新建产品" />
+
+        <ImageView
+            android:id="@+id/iv_save_product_add"
+            style="@style/style_header_button"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView_content_share"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:scrollbarStyle="outsideOverlay" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout style="@style/task_style_ll_info" >
+
+                    <TextView
+                        style="@style/style_text_left_info"
+                        android:text="名称" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:weightSum="3.4" >
+
+                        <EditText
+                            android:id="@+id/et_name_product_new"
+                            style="@style/style_text_right_info"
+                            android:hint="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View style="@style/style_line_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_classify_task_info"
+                    style="@style/task_style_ll_info" >
+
+                    <TextView
+                        android:id="@+id/iv_task_info_classify"
+                        style="@style/style_text_left_info"
+                        android:focusable="false"
+                        android:text="单价" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:weightSum="3.4" >
+
+                        <EditText
+                            android:id="@+id/et_price_product_new"
+                            style="@style/style_text_right_info" 
+                            android:inputType="number"/>
+                    </LinearLayout>
+                </LinearLayout>
+                
+                <ImageView
+                    android:id="@+id/iv_photo_product_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minHeight="120dp"
+                    android:minWidth="120dp"
+                    android:clickable="true"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/img_item" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:id="@+id/ll_checked_rad_shopcar_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_checked_rad_shopcar_item"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:clickable="false"
+            android:src="@drawable/ico_unselect_shopcar" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/style_list_avatar_root"
+        android:layout_weight="25"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_rad_shopcar_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_rad_product" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="65"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_name_rad_shopcar_item"
+            style="@style/style_list_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+		<TextView
+            android:id="@+id/tv_categray_rad_shopcar_item"
+            style="@style/style_text_info"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/tv_name_rad_shopcar_item"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_price_rad_shopcar_item"
+            style="@style/style_list_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_categray_rad_shopcar_item"
+            android:maxLines="2"
+            android:textSize="16sp" />
+
+        <com.changhui.control.BoeryunSelectCountView
+            android:id="@+id/select_countview_rad_shopcar_item"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_price_rad_shopcar_item" />
+    </RelativeLayout>
+
+</LinearLayout>

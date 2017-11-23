@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:id="@+id/iv_pic_avatar"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/tx"
+            app:siShape="@drawable/shape_rounded_rectangle"
+            android:layout_below="@+id/iv_dot_avatar"
+            app:siSquare="true" />
+        <!-- 已读未读小红点 -->
+        <ImageView
+            android:id="@+id/iv_dot_avatar"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="-7dp"
+			android:layout_toRightOf="@+id/iv_pic_avatar"
+            android:src="@drawable/ico_dot_read" 
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/iv_layer_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/avatar_layer"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_name_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="@color/title_list"
+        android:textSize="14sp" />
+
+</LinearLayout>

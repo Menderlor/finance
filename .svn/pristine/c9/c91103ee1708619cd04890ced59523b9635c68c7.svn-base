@@ -1,0 +1,10 @@
+package com.changhui.models.changhui;
+
+import com.changhui.models.crm.QmBase;
+
+public class QmProduct extends QmBase {
+	public String Name;
+	public String AbbrName;
+	public double Scale;
+	public String Status;
+}

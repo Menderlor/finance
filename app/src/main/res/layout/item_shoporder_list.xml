@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="45dp"
+	    android:orientation="horizontal"
+	    android:padding="8dp">
+	    <TextView 
+	        android:id="@+id/tv_id_order_item"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:textColor="@color/text_black"
+	        android:gravity="center_vertical"
+	        android:text="订单号"/>
+	    <TextView  
+	        android:id="@+id/tv_time_order_item"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="4"
+	        android:textSize="12sp"
+	        android:paddingRight="5dp"
+	        android:textColor="@color/text_info"
+	        android:gravity="center_vertical|right"
+	        android:text="下单时间：2015-07-20 14:34"/>
+	    
+	    <ImageView 
+	        android:id="@+id/iv_delete_order_item"
+	        android:layout_width="0dp"
+	        android:layout_height="20dp"
+	        android:layout_weight="1"
+	    android:layout_gravity="center"
+	        android:src="@drawable/ico_delete"/>
+	</LinearLayout>
+	<View style="@style/style_line_horizontal"/>
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="8dp">
+
+        <com.cedarhd.control.listview.BoeryunNoScrollListView
+	        android:id="@+id/lv_product_order_item"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:dividerHeight="0.1dp"
+	        android:divider="@color/line_splite"/>
+	</LinearLayout>
+	<View style="@style/style_line_horizontal"/>
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="13dp"
+	    android:paddingBottom="13dp"
+	    android:paddingRight="16dp">
+	    <TextView
+	        android:id="@+id/tv_total_order_item"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/order_total"
+	        android:textSize="16sp"
+	        android:textColor="@color/text_black"
+	        android:gravity="right"/>
+	</LinearLayout>
+</LinearLayout>

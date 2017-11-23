@@ -1,0 +1,64 @@
+package com.cedarhd.constants;
+
+import android.os.Environment;
+
+import java.io.File;
+
+public class FilePathConfig {
+	/**
+	 * sdk卡根目录
+	 */
+	private static final String rootPath = Environment
+			.getExternalStorageDirectory().getAbsolutePath()
+			+ File.separator
+			+ "changhui/0";
+
+	/***
+	 * 校验文件路径是否存在
+	 * 
+	 * @param path
+	 */
+	private static void checkExists(String path) {
+		File file = new File(path);
+		if (!file.exists()) {
+			file.mkdirs();
+		}
+	}
+
+	/**
+	 * 获取波尔云缩略图文件夹路径
+	 * 
+	 * @return
+	 */
+	public static String getThumbDirPath() {
+		String thumbPath = rootPath + File.separator + "thumb";
+		checkExists(thumbPath);
+		return thumbPath;
+	}
+
+	/**
+	 * 获取系统头像文件夹路径
+	 * 
+	 * @return
+	 */
+	public static String getAvatarDirPath() {
+		String dirPath = rootPath + File.separator + "avatar";
+		checkExists(dirPath);
+		return dirPath;
+	}
+
+	/**
+	 * 获取波尔云缓存文件夹路径
+	 * 
+	 * @return 缓存文件夹路径
+	 */
+	public static String getCacheDirPath() {
+		String thumbPath = rootPath + File.separator + "cache";
+		checkExists(thumbPath);
+		return thumbPath;
+	}
+
+	public static String getLocalSerilizeFileName() {
+		return "local_user.ser";
+	}
+}

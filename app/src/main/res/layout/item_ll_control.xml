@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/tv_name_control"
+            style="@style/text_style_info"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="字段名称" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_value_control"
+                style="@style/task_style_edit_info"
+                android:layout_weight="1"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" />
+            <ImageView
+                android:id="@+id/iv_message_control"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_header_half"
+                android:src="@drawable/ico_message"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_call_control"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_header_half"
+                android:src="@drawable/ico_phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_id_control"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/style_line_horizontal" />
+
+</RelativeLayout>

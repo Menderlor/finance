@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.changhui.control.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slidemenu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slideMenu_companysapacelist_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4" >
+
+            <RelativeLayout
+                style="@style/style_list_avatar_root"
+                android:layout_weight="1.0" >
+
+                <com.changhui.control.AvartarView
+                    android:id="@+id/avatar_companyspacelist1"
+                    style="@style/style_list_avatar"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_dept_companyspacelist_item"
+                    style="@style/style_list_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/avatar_companyspacelist1"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="3.0"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_title_share_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="标题"
+                    android:textColor="@color/text_black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <com.changhui.control.CollapsibleTextView
+                    android:id="@+id/textViewContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/text_black"
+                    android:textSize="14sp" >
+                </com.changhui.control.CollapsibleTextView>
+
+                <com.changhui.control.BoeryunNoScrollGridView
+                    android:id="@+id/gv_company_list_item"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:cacheColorHint="@null"
+                    android:columnWidth="75dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="2.5dp"
+                    android:listSelector="@null"
+                    android:numColumns="3"
+                    android:verticalSpacing="2.5dp" />
+                
+                <com.changhui.control.MultipleAttachView 
+                    android:id="@+id/attch_company"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:numColumns="3"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/rela_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_attach_conpanylist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="25dp"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/iv_attach"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ico_attach" />
+
+                        <TextView
+                            android:id="@+id/tv_count_attach"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_toRightOf="@+id/iv_attach"
+                            android:gravity="center_vertical"
+                            android:text="0"
+                            android:textColor="@color/red"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textViewTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/rl_attach_conpanylist"
+                        android:gravity="center_vertical"
+                        android:text="2015-3-20 19:30:24"
+                        android:textColor="@color/text_info"
+                        android:textSize="12sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/rela_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toLeftOf="@+id/iv_attachment"
+                        android:layout_toRightOf="@id/textViewTime"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/zan"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_zan" />
+
+                        <ImageView
+                            android:id="@+id/pinglun"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignBottom="@id/zan"
+                            android:layout_toRightOf="@id/zan"
+                            android:src="@drawable/ic_comment" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_attachment"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/coment_pressed2" />
+
+                    <TextView
+                        android:id="@+id/tv_companyspace_comment_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/gray"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/zl_back"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <ListView
+                        android:id="@+id/list_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+                        android:cacheColorHint="#00000000"
+                        android:visibility="gone" >
+                    </ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_space_delete"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        slidemenu:layout_role="secondaryMenu"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_delete_companysapacelist_item"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="删 除"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</com.changhui.control.SlideMenu>
